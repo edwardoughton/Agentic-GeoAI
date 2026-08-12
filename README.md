@@ -19,6 +19,6 @@ What you will learn
 Notebooks
 =========
 
-Weekly lesson notebooks will be added to this repository as the semester progresses. They are excluded from version control (see `.gitignore`) since they are distributed fresh each week.
+Weekly lesson notebooks will be added to this repository as the semester progresses. 
 
 
