@@ -21,9 +21,4 @@ Notebooks
 
 Weekly lesson notebooks will be added to this repository as the semester progresses. They are excluded from version control (see `.gitignore`) since they are distributed fresh each week.
 
-Funding acknowledgement
-=======================
-
-The preparation of these open-source GeoAI materials has been gratefully 
-supported by research funding from NASA Cooperative Agreement 80NSSC25M0077.
 
