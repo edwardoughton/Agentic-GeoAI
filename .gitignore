@@ -212,5 +212,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-/data/naip_cache/
-
+# Course materials kept locally (not tracked in git)
+/syllabus/
+/assignments/
+/data/
+/individual_project/
+/literature/
