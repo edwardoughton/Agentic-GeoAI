@@ -1,55 +1,24 @@
-# Geospatial Artificial Intelligence (GeoAI) 
+# Agentic GeoAI
 
-Welcome to this GGS590 Geospatial Artificial Intelligence (GeoAI) class. 
+Welcome to **GGS 662: Agentic GeoAI**, a George Mason University course introducing the use of contemporary agentic artificial intelligence (AI) tools to automate the design, implementation, testing, debugging, refactoring, validation, and documentation of geospatial projects. By the end of the course, students will be able to develop and deploy autonomous AI agents that can design, execute, evaluate, and iteratively improve traditional GIS routines and workflows.
 
-The class focuses on AI as a practical and applied tool for solving geospatial problems through code-based methods. Building on foundational programming and spatial computing skills, the course emphasizes how AI-assisted workflows can improve on traditional GIS analysis, rather than replace it. Students will explore how contemporary AI-tooling can be used to write, debug, refactor, test, and document geospatial code, enabling more efficient and flexible spatial analysis and automation. Throughout the course, students will use these techniques to address complex geographic questions involving spatial data analysis. Particular attention is given to evaluating the correctness and reliability of AI-assisted solutions, including the design of testing and validation strategies for GIS codebases to ensure workflows behave as intended and produce reproducible results. The course also encourages critical reflection on the limitations associated with AI tool usage in geospatial domains. By the end of the course, students will be prepared to responsibly integrate AI into geospatial workflows and to make informed methodological choices when investigating complex spatial problems.
+The course builds on foundational programming and spatial computing skills, emphasizing how AI-assisted workflows can automate traditional GIS analysis via AI agents. Students will explore how contemporary AI tooling can be used to write, debug, refactor, test, validate, and document geospatial code, enabling more efficient and flexible spatial analysis and automation. Particular attention is given to evaluating the correctness and reliability of AI-automated solutions, including the design of testing and validation strategies for GIS codebases, to ensure workflows behave as intended and produce reproducible results. The course also encourages critical reflection on the limitations of AI tool usage in geospatial domains.
 
-Funding acknowledgement
-=======================
+Class meets **Mondays, 4:30pm – 7:10pm**, in **Exploratory Hall, Room 2310**.
 
-The preparation of these open-source GeoAI materials has been gratefully 
-supported by research funding from NASA Cooperative Agreement 80NSSC25M0077.
+What you will learn
+====================
+
+- Design autonomous agents that plan, reason, and act for spatial analysis.
+- Integrate LLMs with geospatial tools, APIs, and data.
+- Understand key concepts including ReAct (Reasoning and Acting) and MCP (Model Context Protocol).
+- Build end-to-end spatial workflows across multiple data sources.
+- Validate, test, and document agent outputs for spatial correctness.
+- Apply responsible AI practices to ensure transparency, fairness, and reproducibility.
 
 Notebooks
 =========
 
-Week 1 notebook link can be found here:
+Weekly lesson notebooks will be added to this repository as the semester progresses. They are excluded from version control (see `.gitignore`) since they are distributed fresh each week.
 
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/01_01_GeoAI_intro.ipynb
-
-Week 2 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/02_01_ggs590_geoai_problem_formulation.ipynb
-
-Week 3 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/03_01_ggs590_geoai.ipynb
-
-Week 4 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/04_01_ggs590_geoai.ipynb
-
-Week 5 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/05_01_ggs590_geoai.ipynb
-
-Week 6 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/06_01_ggs590_geoai.ipynb
-
-Week 7 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/07_01_ggs590_geoai.ipynb
-
-Week 8 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/08_01_ggs590_geoai.ipynb
-
-Week 9 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/09_01_ggs590_geoai.ipynb
-
-Week 10 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/10_01_ggs590_geoai.ipynb
 
