@@ -198,6 +198,12 @@ cython_debug/
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
+
+# Weekly lesson notebooks (added fresh each semester, not tracked in git)
+[0-9][0-9]_*.ipynb
+
+# Archived notebooks from previous semesters
+archive/
 .cursorignore
 .cursorindexingignore
 
@@ -206,5 +212,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-/data/naip_cache/
-
+# Course materials kept locally (not tracked in git)
+/syllabus/
+/assignments/
+/data/
+/individual_project/
+/literature/
