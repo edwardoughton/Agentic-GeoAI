@@ -15,41 +15,4 @@ Notebooks
 
 Week 1 notebook link can be found here:
 
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/01_01_GeoAI_intro.ipynb
-
-Week 2 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/02_01_ggs590_geoai_problem_formulation.ipynb
-
-Week 3 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/03_01_ggs590_geoai.ipynb
-
-Week 4 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/04_01_ggs590_geoai.ipynb
-
-Week 5 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/05_01_ggs590_geoai.ipynb
-
-Week 6 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/06_01_ggs590_geoai.ipynb
-
-Week 7 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/07_01_ggs590_geoai.ipynb
-
-Week 8 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/08_01_ggs590_geoai.ipynb
-
-Week 9 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/09_01_ggs590_geoai.ipynb
-
-Week 10 notebook link can be found here:
-
-https://colab.research.google.com/github/edwardoughton/GeoAI/blob/main/10_01_ggs590_geoai.ipynb
-
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/01_01_ggs662_agentic_geoai_intro.ipynb
