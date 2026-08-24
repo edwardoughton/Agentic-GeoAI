@@ -19,6 +19,7 @@ What you will learn
 Notebooks
 =========
 
-Weekly lesson notebooks will be added to this repository as the semester progresses. 
+Week 1 notebook link can be found here:
 
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/01_01_ggs662_agentic_geoai_intro.ipynb
 
