@@ -19,7 +19,29 @@ What you will learn
 Notebooks
 =========
 
+Start here: local setup, Git, GitHub, command line and Python environments:
+
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/02_01_ggs662_local_setup.ipynb
+
 Week 1 notebook link can be found here:
 
 https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/01_01_ggs662_agentic_geoai_intro.ipynb
+
+Week 2 notebook link can be found here:
+
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/02_02_ggs662_agentic_geoai_problem_formulation.ipynb
+
+Week 2 local environment
+========================
+
+From PowerShell in the repository root:
+
+```powershell
+python -m venv .venv-week2
+.\.venv-week2\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements-week2.txt
+```
+
+In VS Code, open the Week 2 notebook and select the `.venv-week2` Python kernel.
 
