@@ -21,7 +21,7 @@ Notebooks
 
 Start here: local setup, Git, GitHub, command line and Python environments:
 
-https://github.com/edwardoughton/GeoAI/blob/main/00_01_ggs662_local_setup.ipynb
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/02_01_ggs662_local_setup.ipynb
 
 Week 1 notebook link can be found here:
 
@@ -29,7 +29,7 @@ https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/0
 
 Week 2 notebook link can be found here:
 
-https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/02_01_ggs662_agentic_geoai_problem_formulation.ipynb
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/02_02_ggs662_agentic_geoai_problem_formulation.ipynb
 
 Week 2 local environment
 ========================

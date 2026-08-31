@@ -221,7 +221,7 @@ __marimo__/
 
 # Course materials kept locally (not tracked in git)
 /syllabus/
-/assignments/
+# /assignments/
 /data/
 /individual_project/
 /literature/
