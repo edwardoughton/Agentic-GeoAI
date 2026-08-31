@@ -138,6 +138,9 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.venv-week2/
+.venv-agentic-geoai/
+/week2_datacenter_task/
 env/
 venv/
 ENV/
@@ -201,6 +204,10 @@ cython_debug/
 
 # Weekly lesson notebooks (added fresh each semester, not tracked in git)
 [0-9][0-9]_*.ipynb
+!00_01_ggs662_local_setup.ipynb
+!02_01_ggs662_agentic_geoai_problem_formulation.ipynb
+!02_01_ggs662_local_setup.ipynb
+!02_02_ggs662_agentic_geoai_problem_formulation.ipynb
 
 # Archived notebooks from previous semesters
 archive/
