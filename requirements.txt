@@ -1,0 +1,8 @@
+# Week 2 notebook runtime and data analysis
+pandas>=2.2,<3.1
+matplotlib>=3.9,<4
+contextily>=1.6,<2
+
+# Local Jupyter/VS Code notebook support
+ipykernel>=6.29,<8
+jupyterlab>=4.2,<5
