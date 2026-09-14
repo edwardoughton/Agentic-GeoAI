@@ -33,8 +33,8 @@ https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/0
 
 Week 3 notebook links can be found here:
 
-https://github.com/edwardoughton/Agentic-GeoAI/blob/main/03_01_ggs662_route_planning_data_acquisition.ipynb
-https://github.com/edwardoughton/Agentic-GeoAI/blob/main/03_02_ggs662_agentic_application_route_planning.ipynb 
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/03_01_ggs662_route_planning_data_acquisition.ipynb
+https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/03_02_ggs662_agentic_application_route_planning.ipynb 
 
 Week 2 local environment
 ========================
