@@ -202,13 +202,6 @@ cython_debug/
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
 
-# Weekly lesson notebooks (added fresh each semester, not tracked in git)
-[0-9][0-9]_*.ipynb
-!00_01_ggs662_local_setup.ipynb
-!02_01_ggs662_agentic_geoai_problem_formulation.ipynb
-!02_01_ggs662_local_setup.ipynb
-!02_02_ggs662_agentic_geoai_problem_formulation.ipynb
-!03_01_ggs662_agentic_application_mombasa_taveta.ipynb
 
 # Archived notebooks from previous semesters
 archive/
