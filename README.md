@@ -31,6 +31,7 @@ Week 2 notebook link can be found here:
 
 https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/02_02_ggs662_agentic_geoai_problem_formulation.ipynb
 
+
 Week 2 local environment
 ========================
 
