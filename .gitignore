@@ -208,7 +208,7 @@ cython_debug/
 !02_01_ggs662_agentic_geoai_problem_formulation.ipynb
 !02_01_ggs662_local_setup.ipynb
 !02_02_ggs662_agentic_geoai_problem_formulation.ipynb
-!03_01_ggs662_agents_react.ipynb
+!03_01_ggs662_agentic_application_mombasa_taveta.ipynb
 
 # Archived notebooks from previous semesters
 archive/
@@ -223,6 +223,6 @@ __marimo__/
 # Course materials kept locally (not tracked in git)
 /syllabus/
 # /assignments/
-/data/
+# /data/
 /individual_project/
 /literature/
