@@ -48,6 +48,18 @@ https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/0
 
 https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/main/05_02_multi_agent_geoai_lab.ipynb
 
+Week 6 notebooks (recommended reading order):
+
+[06_00_agentic_systems_foundations.ipynb](https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/master/06_00_agentic_systems_foundations.ipynb): ReAct, RAG, embeddings, APIs, tools, MCP, orchestration, guardrails, evaluation and cost control. Read this first.
+
+[06_01_single_research_agent_github_voice.ipynb](https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/master/06_01_single_research_agent_github_voice.ipynb)
+
+[06_02_remote_agent_management.ipynb](https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/master/06_02_remote_agent_management.ipynb): pair your phone with a local ChatGPT/Codex or Claude Code agent, verify local execution, and supervise research remotely.
+
+[06_03_github_pages_actions_literature_watch.ipynb](https://colab.research.google.com/github/edwardoughton/Agentic-GeoAI/blob/master/06_03_github_pages_actions_literature_watch.ipynb): GitHub Pages, scheduled Actions, and a bounded weekly literature watch with an accumulated review-period report. Starter files are in `week6/literature_watch/`.
+
+The practical labs use VS Code and a phone; no notebook kernel is required. The foundations notebook includes one optional standard-library Python illustration.
+
 Local setup: Windows and macOS
 ==============================
 

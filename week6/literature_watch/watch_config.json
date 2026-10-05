@@ -1,0 +1,12 @@
+{
+  "project_title": "Illustrative inland-waterway monitoring paper",
+  "submission_date": "2026-07-05",
+  "project_brief": "CLASSROOM EXAMPLE, not a claim about an actual submitted paper. We propose a reproducible seasonal indicator of inland grain movements and test historical disruption alerts. Related work on inland monitoring, barge measurement and disruption detection could affect our framing, baselines or validation.",
+  "arxiv_query": "all:\"inland waterway\" OR all:\"barge\"",
+  "overlap_days": 14,
+  "max_pages": 2,
+  "page_size": 25,
+  "max_model_records": 8,
+  "max_output_tokens": 1600,
+  "model": ""
+}
