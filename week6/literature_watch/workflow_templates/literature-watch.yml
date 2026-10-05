@@ -1,0 +1,72 @@
+name: Weekly literature watch
+on:
+  schedule:
+    - cron: '17 13 * * 1'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'fixture (offline), live (metadata), or agent (paid API triage)'
+        required: true
+        default: fixture
+        type: choice
+        options: [fixture, live, agent]
+permissions:
+  contents: read
+concurrency:
+  group: literature-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run collector and optional agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WATCH_MODE: ${{ github.event_name == 'schedule' && vars.WATCH_MODE || inputs.mode }}
+        run: |
+          python watch.py --mode "${WATCH_MODE:-live}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: literature-watch-${{ github.run_id }}
+          path: |
+            reports/
+            docs/
+            state/
+            runs/
+          retention-days: 90
+
+      - name: Commit durable state and reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state reports runs docs
+          if ! git diff --cached --quiet; then
+            git commit -m "Update bounded literature watch"
+            git push
+          fi
+      - name: Upload optional Pages site
+        if: vars.PUBLISH_PAGES == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+  pages:
+    if: vars.PUBLISH_PAGES == 'true'
+    needs: watch
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy selected static reports
+        id: deployment
+        uses: actions/deploy-pages@v4
