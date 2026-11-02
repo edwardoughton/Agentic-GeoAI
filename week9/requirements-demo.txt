@@ -1,0 +1,6 @@
+ultralytics>=8.3,<9
+jupyterlab>=4,<5
+matplotlib>=3.8,<4
+Pillow>=10
+PyYAML>=6
+ipykernel>=6

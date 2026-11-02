@@ -1,0 +1,6 @@
+path: "C:/Users/eoughton/Desktop/Github/Agentic-GeoAI/week9/data/demo100"
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: tower
