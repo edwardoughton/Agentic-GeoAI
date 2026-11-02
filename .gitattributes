@@ -1,0 +1,2 @@
+# Dataset checksums require the original LF bytes on every platform.
+week9/data/demo100/labels/**/*.txt text eol=lf
