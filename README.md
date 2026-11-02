@@ -66,6 +66,10 @@ Week 7 notebooks:
 - [07_02_agentic_land_cover_classification.ipynb](07_02_agentic_land_cover_classification.ipynb): a self-contained case study building on GGS416 pixel classification. Understand the inputs and labels, build and check a baseline, then hand method improvement to a coding agent. Running the notebook downloads the Landsat training data and documentation into `week7/landcover/data/` and reuses them on later runs. Downloaded data stay local and are ignored by Git; no separate runner or test files are required.
 - [07_03_writing_latex_in_vscode.ipynb](07_03_writing_latex_in_vscode.ipynb): a short introduction to editing the supplied `paper_template` in VS Code and compiling it with `pdflatex`. Covers setup, basic syntax, citations and common errors; no notebook kernel is needed.
 
+Week 9 notebook:
+
+- [09_tower_detection_agentic_demo.ipynb](week9/notebooks/09_tower_detection_agentic_demo.ipynb): train an electricity tower detector from aerial imagery, measure a baseline, then delegate model improvement to a coding agent using fixed validation data. Includes an optional augmentation extension and a final held-out test. Run locally in VS Code; follow the [Week 9 setup instructions](week9/README.md) for dependencies and the bundled dataset (50 training / 10 validation / 50 test images).
+
 Local setup: Windows and macOS
 ==============================
 
