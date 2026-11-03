@@ -1,0 +1,17 @@
+{
+  "run_id": "exp05_sgd_e45_img640_20261103_072626_839500",
+  "checkpoint": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp05_sgd_e45_img640_20261103_072626_839500\\train\\weights\\best.pt",
+  "imgsz": 640,
+  "adapter": "plain_yolo",
+  "inference": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false,
+    "device": "cpu_or_cuda_auto"
+  },
+  "preprocessing": {
+    "fit_on_training_only": true,
+    "notes": "Uses dataset and split fixed by data/demo100/manifest.json with no extra learned preprocessing."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "exp06_finetune_from_exp05_20261103_073614_770900",
+  "status": "ok",
+  "model": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp05_sgd_e45_img640_20261103_072626_839500\\train\\weights\\best.pt",
+  "epochs": 20,
+  "imgsz": 640,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": 0.9484101750839401,
+  "recall": 0.5,
+  "mAP50": 0.5809713603259423,
+  "mAP50_95": 0.26976350773278945,
+  "seconds": 62.15267419995507,
+  "checkpoint": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp06_finetune_from_exp05_20261103_073614_770900\\train\\weights\\best.pt",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp06_finetune_from_exp05_20261103_073614_770900\\config.json",
+  "error": ""
+}

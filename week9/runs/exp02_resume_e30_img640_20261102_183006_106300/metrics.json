@@ -1,0 +1,17 @@
+{
+  "run_id": "exp02_resume_e30_img640_20261102_183006_106300",
+  "status": "failed",
+  "model": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\baseline_20261102_155320_890400\\train\\weights\\best.pt",
+  "epochs": 30,
+  "imgsz": 640,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": "",
+  "recall": "",
+  "mAP50": "",
+  "mAP50_95": "",
+  "seconds": 4.6289078000118025,
+  "checkpoint": "",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp02_resume_e30_img640_20261102_183006_106300\\config.json",
+  "error": "[WinError 5] Access is denied"
+}
