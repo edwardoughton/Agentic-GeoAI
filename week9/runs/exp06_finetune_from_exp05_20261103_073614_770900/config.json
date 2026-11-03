@@ -1,0 +1,22 @@
+{
+  "model": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp05_sgd_e45_img640_20261103_072626_839500\\train\\weights\\best.pt",
+  "epochs": 20,
+  "imgsz": 640,
+  "batch": 4,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "evaluation": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false
+  },
+  "options": {
+    "patience": 8,
+    "plots": true,
+    "mosaic": 0.0,
+    "cache": false,
+    "lr0": 0.002,
+    "lrf": 0.1
+  }
+}

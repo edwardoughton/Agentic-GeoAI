@@ -1,7 +1,7 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-runs/
-experiments/
+#runs/
+#experiments/
 *.pt
 .env
