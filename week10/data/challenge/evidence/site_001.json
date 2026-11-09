@@ -1,0 +1,153 @@
+{
+  "id": "site_001",
+  "imagery": {
+    "path": "images/site_001.jpg",
+    "date": "2025-10-13T00:00:00+00:00",
+    "resolution_m": "0.3",
+    "source_id": "m_3008438_nw_16_030_20251013",
+    "latitude": "30.443461",
+    "longitude": "-84.325828"
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "antenna"
+    },
+    "snapshot": null,
+    "url": "https://www.openstreetmap.org/node/10914579618"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          592.2120361328125,
+          421.98370361328125,
+          696.075439453125,
+          510.51141357421875
+        ],
+        "confidence": 0.41598355770111084
+      },
+      {
+        "xyxy": [
+          554.8521728515625,
+          425.14056396484375,
+          658.5380859375,
+          517.3296508789062
+        ],
+        "confidence": 0.23784776031970978
+      },
+      {
+        "xyxy": [
+          518.8328857421875,
+          430.90167236328125,
+          620.3026123046875,
+          523.8789672851562
+        ],
+        "confidence": 0.12485603988170624
+      }
+    ],
+    "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1254864",
+        "unique_id": "2654029",
+        "status_code": "C",
+        "constructed_date": "02/08/2007",
+        "dismantled_date": "",
+        "action_date": "01/23/2026",
+        "city": "Tallahasee",
+        "state": "FL",
+        "county_fips": "12073",
+        "height_structure_m": "42.7",
+        "overall_height_agl_m": "42.7",
+        "structure_type_code": "TOWER",
+        "address": "2373 W Tennessee St (9JK0377B)",
+        "latitude": 30.44461111111111,
+        "longitude": -84.32386111111111,
+        "coordinate_type_code": "T",
+        "organization_owner": "T-Mobile USA Tower LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2654029",
+        "distance_m": 227.8,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1241048",
+        "unique_id": "2639834",
+        "status_code": "C",
+        "constructed_date": "05/21/2004",
+        "dismantled_date": "",
+        "action_date": "01/22/2026",
+        "city": "Tallahassee",
+        "state": "FL",
+        "county_fips": "12073",
+        "height_structure_m": "45.7",
+        "overall_height_agl_m": "46.9",
+        "structure_type_code": "TOWER",
+        "address": "2145 W. Pensacola Street",
+        "latitude": 30.439888888888888,
+        "longitude": -84.32047222222222,
+        "coordinate_type_code": "T",
+        "organization_owner": "STC Two LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2639834",
+        "distance_m": 649.1,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1312615",
+        "unique_id": "2712399",
+        "status_code": "C",
+        "constructed_date": "01/13/2021",
+        "dismantled_date": "",
+        "action_date": "08/09/2024",
+        "city": "Tallahassee",
+        "state": "FL",
+        "county_fips": "12073",
+        "height_structure_m": "9.9",
+        "overall_height_agl_m": "11.1",
+        "structure_type_code": "UPOLE",
+        "address": "2825 Municipal Way",
+        "latitude": 30.43975,
+        "longitude": -84.33458333333333,
+        "coordinate_type_code": "T",
+        "organization_owner": "ALLTEL Corporation",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2712399",
+        "distance_m": 935.3,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1026901",
+        "unique_id": "127542",
+        "status_code": "C",
+        "constructed_date": "12/20/2007",
+        "dismantled_date": "",
+        "action_date": "06/10/2024",
+        "city": "Tallahassee",
+        "state": "FL",
+        "county_fips": "12073",
+        "height_structure_m": "52.7",
+        "overall_height_agl_m": "54.9",
+        "structure_type_code": "MTOWER",
+        "address": "706 Mabry Street (97157)",
+        "latitude": 30.435388888888887,
+        "longitude": -84.32875,
+        "coordinate_type_code": "T",
+        "organization_owner": "American Towers LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=127542",
+        "distance_m": 940.3,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

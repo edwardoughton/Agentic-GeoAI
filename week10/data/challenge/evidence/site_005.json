@@ -1,0 +1,29 @@
+{
+  "id": "site_005",
+  "imagery": {
+    "path": "images/site_005.jpg",
+    "date": "2024-07-01T00:00:00+00:00",
+    "resolution_m": "0.6",
+    "source_id": "m_4108005_NW_18_60_20240701",
+    "latitude": "41.988671179440225",
+    "longitude": "-80.44031314952872"
+  },
+  "osm": {
+    "tags": {},
+    "snapshot": null,
+    "url": ""
+  },
+  "detector": {
+    "available": true,
+    "detections": [],
+    "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

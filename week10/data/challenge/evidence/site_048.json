@@ -1,0 +1,105 @@
+{
+  "id": "site_048",
+  "imagery": {
+    "path": "images/site_048.jpg",
+    "date": "2022-01-04T16:00:00Z",
+    "resolution_m": 0.6,
+    "source_id": "hi_m_1915516_sw_05_060_20220104_20220909",
+    "latitude": 19.783651,
+    "longitude": -155.092961
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "height": "18.288",
+      "man_made": "mast",
+      "tower:construction": "monopole",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/14107286109"
+  },
+  "detector": {
+    "available": true,
+    "detections": [],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1250917",
+        "unique_id": "2650081",
+        "status_code": "G",
+        "constructed_date": "",
+        "dismantled_date": "",
+        "action_date": "11/11/2005",
+        "city": "Papaiko",
+        "state": "HI",
+        "county_fips": "15001",
+        "height_structure_m": "85.0",
+        "overall_height_agl_m": "85.0",
+        "structure_type_code": "2TA2",
+        "address": "Papaiko Sugar Mill",
+        "latitude": 19.78086111111111,
+        "longitude": -155.0875,
+        "coordinate_type_code": "A",
+        "organization_owner": "",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2650081",
+        "distance_m": 650.2,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": null
+      },
+      {
+        "registration": "1006758",
+        "unique_id": "111857",
+        "status_code": "C",
+        "constructed_date": "01/01/1980",
+        "dismantled_date": "",
+        "action_date": "01/18/1997",
+        "city": "PAPAIKO",
+        "state": "HI",
+        "county_fips": "15001",
+        "height_structure_m": "114.0",
+        "overall_height_agl_m": "115.0",
+        "structure_type_code": "TOWER",
+        "address": "PAPAIKO SUGAR MILL",
+        "latitude": 19.780833333333334,
+        "longitude": -155.0875,
+        "coordinate_type_code": "T",
+        "organization_owner": "NEW WEST BROADCASTING CORP",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=111857",
+        "distance_m": 651.7,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1250917",
+        "unique_id": "2650081",
+        "status_code": "G",
+        "constructed_date": "",
+        "dismantled_date": "",
+        "action_date": "11/11/2005",
+        "city": "Papaiko",
+        "state": "HI",
+        "county_fips": "15001",
+        "height_structure_m": "85.0",
+        "overall_height_agl_m": "85.0",
+        "structure_type_code": "2TA2",
+        "address": "Papaiko Sugar Mill",
+        "latitude": 19.780277777777776,
+        "longitude": -155.08777777777777,
+        "coordinate_type_code": "T",
+        "organization_owner": "",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2650081",
+        "distance_m": 659.4,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": null
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

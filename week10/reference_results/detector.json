@@ -1,0 +1,561 @@
+{
+  "kind": "computed fixed baseline, not an agent run",
+  "predictions": [
+    {
+      "id": "site_001",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_001:detector"
+      ],
+      "reason": "Cached detector maximum score 0.416; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_002",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_002:detector"
+      ],
+      "reason": "Cached detector maximum score 0.148; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_003",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_003:detector"
+      ],
+      "reason": "Cached detector maximum score 0.721; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_004",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_004:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_005",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_005:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_006",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_006:detector"
+      ],
+      "reason": "Cached detector maximum score 0.829; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_007",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_007:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_008",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_008:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_009",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_009:detector"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "detector"
+    },
+    {
+      "id": "site_010",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_010:detector"
+      ],
+      "reason": "Cached detector maximum score 0.810; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_011",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_011:detector"
+      ],
+      "reason": "Cached detector maximum score 0.774; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_012",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_012:detector"
+      ],
+      "reason": "Cached detector maximum score 0.662; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_013",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_013:detector"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "detector"
+    },
+    {
+      "id": "site_014",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_014:detector"
+      ],
+      "reason": "Cached detector maximum score 0.673; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_015",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_015:detector"
+      ],
+      "reason": "Cached detector maximum score 0.750; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_016",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_016:detector"
+      ],
+      "reason": "Cached detector maximum score 0.851; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_017",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_017:detector"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "detector"
+    },
+    {
+      "id": "site_018",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_018:detector"
+      ],
+      "reason": "Cached detector maximum score 0.812; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_019",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_019:detector"
+      ],
+      "reason": "Cached detector maximum score 0.439; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_020",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_020:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_021",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_021:detector"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "detector"
+    },
+    {
+      "id": "site_022",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_022:detector"
+      ],
+      "reason": "Cached detector maximum score 0.316; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_023",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_023:detector"
+      ],
+      "reason": "Cached detector maximum score 0.549; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_024",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_024:detector"
+      ],
+      "reason": "Cached detector maximum score 0.750; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_025",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_025:detector"
+      ],
+      "reason": "Cached detector maximum score 0.848; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_026",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_026:detector"
+      ],
+      "reason": "Cached detector maximum score 0.784; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_027",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_027:detector"
+      ],
+      "reason": "Cached detector maximum score 0.709; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_028",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_028:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_029",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_029:detector"
+      ],
+      "reason": "Cached detector maximum score 0.675; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_030",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_030:detector"
+      ],
+      "reason": "Cached detector maximum score 0.316; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_031",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_031:detector"
+      ],
+      "reason": "Cached detector maximum score 0.517; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_032",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_032:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_033",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_033:detector"
+      ],
+      "reason": "Cached detector maximum score 0.186; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_034",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_034:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_035",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_035:detector"
+      ],
+      "reason": "Cached detector maximum score 0.558; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_036",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_036:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_037",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_037:detector"
+      ],
+      "reason": "Cached detector maximum score 0.500; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_038",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_038:detector"
+      ],
+      "reason": "Cached detector maximum score 0.752; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_039",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_039:detector"
+      ],
+      "reason": "Cached detector maximum score 0.518; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_040",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_040:detector"
+      ],
+      "reason": "Cached detector maximum score 0.832; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_041",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_041:detector"
+      ],
+      "reason": "Cached detector maximum score 0.116; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_042",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_042:detector"
+      ],
+      "reason": "Cached detector maximum score 0.289; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_043",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_043:detector"
+      ],
+      "reason": "Cached detector maximum score 0.787; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_044",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_044:detector"
+      ],
+      "reason": "Cached detector maximum score 0.816; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_045",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_045:detector"
+      ],
+      "reason": "Cached detector maximum score 0.603; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_046",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_046:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_047",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_047:detector"
+      ],
+      "reason": "Cached detector maximum score 0.807; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_048",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_048:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_049",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_049:detector"
+      ],
+      "reason": "Cached detector maximum score 0.416; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_050",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_050:detector"
+      ],
+      "reason": "Cached detector maximum score 0.809; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_051",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_051:detector"
+      ],
+      "reason": "Cached detector maximum score 0.832; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_052",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_052:detector"
+      ],
+      "reason": "Cached detector maximum score 0.780; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_053",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_053:detector"
+      ],
+      "reason": "Cached detector maximum score 0.264; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_054",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_054:detector"
+      ],
+      "reason": "Cached detector maximum score 0.799; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_055",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_055:detector"
+      ],
+      "reason": "Cached detector maximum score 0.690; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_056",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_056:detector"
+      ],
+      "reason": "Cached detector maximum score 0.395; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_057",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_057:detector"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "detector"
+    },
+    {
+      "id": "site_058",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_058:detector"
+      ],
+      "reason": "Cached detector maximum score 0.794; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_059",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_059:detector"
+      ],
+      "reason": "Cached detector maximum score 0.777; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    },
+    {
+      "id": "site_060",
+      "action": "no_target",
+      "evidence_ids": [
+        "site_060:detector"
+      ],
+      "reason": "Cached detector maximum score 0.000; fixed 0.25/0.70 thresholds.",
+      "method": "detector"
+    }
+  ],
+  "metrics": {
+    "evaluated": 60,
+    "automatic": 37,
+    "request_review": 23,
+    "coverage": 0.6166666666666667,
+    "resolved_automatic": 34,
+    "wrong_automatic": 2,
+    "false_confirms": 0,
+    "false_rejections": 2,
+    "selective_error": 0.058823529411764705,
+    "unresolved_routing": {
+      "no_target": 1,
+      "confirm": 2,
+      "request_review": 7
+    }
+  }
+}

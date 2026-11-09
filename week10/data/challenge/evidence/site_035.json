@@ -1,0 +1,128 @@
+{
+  "id": "site_035",
+  "imagery": {
+    "path": "images/site_035.jpg",
+    "date": "2025-05-24T00:00:00+00:00",
+    "resolution_m": 0.3,
+    "source_id": "m_3507544_se_18_030_20250524",
+    "latitude": 35.263816,
+    "longitude": -75.527653
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "ele": "3.0",
+      "fcc:ref": "1005791",
+      "height": "78.0",
+      "man_made": "tower",
+      "operator": "Pinnacle Towers LLC",
+      "ref": "1033395",
+      "start_date": "1995-05-07",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/7630888439"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          98,
+          794,
+          380,
+          926
+        ],
+        "confidence": 0.558
+      },
+      {
+        "xyxy": [
+          447,
+          474,
+          546,
+          562
+        ],
+        "confidence": 0.556
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1033395",
+        "unique_id": "103113",
+        "status_code": "C",
+        "constructed_date": "08/19/2019",
+        "dismantled_date": "",
+        "action_date": "01/26/2026",
+        "city": "BUXTON",
+        "state": "NC",
+        "county_fips": "37055",
+        "height_structure_m": "76.2",
+        "overall_height_agl_m": "78.0",
+        "structure_type_code": "GTOWER",
+        "address": "HWY 12",
+        "latitude": 35.26386111111111,
+        "longitude": -75.52775,
+        "coordinate_type_code": "T",
+        "organization_owner": "Pinnacle Towers LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=103113",
+        "distance_m": 10.1,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1309528",
+        "unique_id": "2709225",
+        "status_code": "G",
+        "constructed_date": "",
+        "dismantled_date": "",
+        "action_date": "01/26/2026",
+        "city": "Buxton",
+        "state": "NC",
+        "county_fips": "37055",
+        "height_structure_m": "41.1",
+        "overall_height_agl_m": "41.1",
+        "structure_type_code": "POLE",
+        "address": "47095 NC Highway 12",
+        "latitude": 35.26386111111111,
+        "longitude": -75.52775,
+        "coordinate_type_code": "T",
+        "organization_owner": "Pinnacle Towers LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2709225",
+        "distance_m": 10.1,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": null
+      },
+      {
+        "registration": "1005791",
+        "unique_id": "111075",
+        "status_code": "C",
+        "constructed_date": "05/07/1995",
+        "dismantled_date": "",
+        "action_date": "08/14/2025",
+        "city": "BUXTON",
+        "state": "NC",
+        "county_fips": "37055",
+        "height_structure_m": "93.9",
+        "overall_height_agl_m": "96.3",
+        "structure_type_code": "",
+        "address": "0.7 MI SE",
+        "latitude": 35.26305555555555,
+        "longitude": -75.52805555555555,
+        "coordinate_type_code": "T",
+        "organization_owner": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=111075",
+        "distance_m": 92.1,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "site_053",
+  "imagery": {
+    "path": "images/site_053.jpg",
+    "date": "2024-06-25T00:00:00+00:00",
+    "resolution_m": "0.6",
+    "source_id": "m_4107544_SE_18_60_20240625",
+    "latitude": "41.29838718558398",
+    "longitude": "-75.54196447613597"
+  },
+  "osm": {
+    "tags": {},
+    "snapshot": null,
+    "url": ""
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          226.57528686523438,
+          240.2598876953125,
+          285.0715637207031,
+          301.093017578125
+        ],
+        "confidence": 0.2643929421901703
+      }
+    ],
+    "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

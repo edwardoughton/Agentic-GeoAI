@@ -1,0 +1,84 @@
+{
+  "id": "site_003",
+  "imagery": {
+    "path": "images/site_003.jpg",
+    "date": "2024-06-26T00:00:00+00:00",
+    "resolution_m": "0.6",
+    "source_id": "m_3511940_se_11_060_20240626",
+    "latitude": "35.400341",
+    "longitude": "-119.018244"
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "power": "tower"
+    },
+    "snapshot": null,
+    "url": "https://www.openstreetmap.org/node/1804529370"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          244.7442626953125,
+          237.24945068359375,
+          292.223388671875,
+          281.17388916015625
+        ],
+        "confidence": 0.720617949962616
+      },
+      {
+        "xyxy": [
+          213.57830810546875,
+          217.15701293945312,
+          255.32940673828125,
+          253.65542602539062
+        ],
+        "confidence": 0.13032837212085724
+      },
+      {
+        "xyxy": [
+          221.71749877929688,
+          278.2999267578125,
+          270.7882385253906,
+          338.0916748046875
+        ],
+        "confidence": 0.10486158728599548
+      }
+    ],
+    "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1304704",
+        "unique_id": "2704400",
+        "status_code": "G",
+        "constructed_date": "",
+        "dismantled_date": "",
+        "action_date": "05/03/2018",
+        "city": "Bakersfield",
+        "state": "CA",
+        "county_fips": "06029",
+        "height_structure_m": "9.1",
+        "overall_height_agl_m": "13.7",
+        "structure_type_code": "B",
+        "address": "1418 w Columbus",
+        "latitude": 35.398472222222225,
+        "longitude": -119.01655555555556,
+        "coordinate_type_code": "T",
+        "organization_owner": "ACME Commercial Properties L.L.C.",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2704400",
+        "distance_m": 258.1,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": null
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

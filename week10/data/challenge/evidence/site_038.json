@@ -1,0 +1,68 @@
+{
+  "id": "site_038",
+  "imagery": {
+    "path": "images/site_038.jpg",
+    "date": "2023-07-12T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "ct_m_4107117_ne_19_030_20230712_20231113",
+    "latitude": 41.746014,
+    "longitude": -71.880179
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "monopole",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/10136376039"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          449,
+          463,
+          573,
+          591
+        ],
+        "confidence": 0.752
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1059566",
+        "unique_id": "619673",
+        "status_code": "C",
+        "constructed_date": "10/01/1998",
+        "dismantled_date": "",
+        "action_date": "08/09/2024",
+        "city": "Plainfield",
+        "state": "CT",
+        "county_fips": "09015",
+        "height_structure_m": "53.3",
+        "overall_height_agl_m": "60.7",
+        "structure_type_code": "MTOWER",
+        "address": "56 Roper Road (CT00594-S)",
+        "latitude": 41.746,
+        "longitude": -71.88016666666665,
+        "coordinate_type_code": "T",
+        "organization_owner": "SBA Properties, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=619673",
+        "distance_m": 1.9,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

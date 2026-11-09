@@ -1,0 +1,90 @@
+{
+  "id": "site_026",
+  "imagery": {
+    "path": "images/site_026.jpg",
+    "date": "2025-05-12T00:00:00+00:00",
+    "resolution_m": 0.3,
+    "source_id": "m_3709735_se_14_030_20250512",
+    "latitude": 37.379987,
+    "longitude": -97.641534
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/13989190488"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          448,
+          445,
+          573,
+          564
+        ],
+        "confidence": 0.784
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1033507",
+        "unique_id": "598617",
+        "status_code": "C",
+        "constructed_date": "09/15/2005",
+        "dismantled_date": "",
+        "action_date": "08/28/2006",
+        "city": "CONWAY SPRINGS",
+        "state": "KS",
+        "county_fips": "20191",
+        "height_structure_m": "91.4",
+        "overall_height_agl_m": "97.5",
+        "structure_type_code": "TOWER",
+        "address": ".8 MI S",
+        "latitude": 37.37994444444445,
+        "longitude": -97.64158333333334,
+        "coordinate_type_code": "T",
+        "organization_owner": "Haviland Telephone Company, Inc.",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=598617",
+        "distance_m": 6.4,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1236733",
+        "unique_id": "2634926",
+        "status_code": "C",
+        "constructed_date": "12/11/2002",
+        "dismantled_date": "",
+        "action_date": "02/05/2019",
+        "city": "CONWAY SPRINGS",
+        "state": "KS",
+        "county_fips": "20191",
+        "height_structure_m": "36.6",
+        "overall_height_agl_m": "39.0",
+        "structure_type_code": "MAST",
+        "address": "CONWAY SPRINGS SITE: NE 1/4, SEC. 4-T31S-R3W",
+        "latitude": 37.38252777777778,
+        "longitude": -97.64144444444445,
+        "coordinate_type_code": "T",
+        "organization_owner": "Alltel Corporation",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2634926",
+        "distance_m": 282.6,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

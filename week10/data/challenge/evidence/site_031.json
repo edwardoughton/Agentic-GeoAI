@@ -1,0 +1,68 @@
+{
+  "id": "site_031",
+  "imagery": {
+    "path": "images/site_031.jpg",
+    "date": "2023-06-02T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "de_m_3807539_nw_18_030_20230602_20230919",
+    "latitude": 38.470186,
+    "longitude": -75.227971
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/11267523107"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          456,
+          455,
+          601,
+          581
+        ],
+        "confidence": 0.517
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1229735",
+        "unique_id": "2627724",
+        "status_code": "C",
+        "constructed_date": "03/28/2001",
+        "dismantled_date": "",
+        "action_date": "11/09/2023",
+        "city": "Selbyville",
+        "state": "DE",
+        "county_fips": "10005",
+        "height_structure_m": "46.0",
+        "overall_height_agl_m": "48.5",
+        "structure_type_code": "LTOWER",
+        "address": "30067 Fava Road (DE05221-S)",
+        "latitude": 38.47013888888889,
+        "longitude": -75.22802777777778,
+        "coordinate_type_code": "T",
+        "organization_owner": "SBA Properties, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2627724",
+        "distance_m": 7.2,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

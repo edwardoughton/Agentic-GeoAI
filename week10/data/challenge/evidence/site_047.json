@@ -1,0 +1,67 @@
+{
+  "id": "site_047",
+  "imagery": {
+    "path": "images/site_047.jpg",
+    "date": "2022-07-16T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "or_m_4511923_ne_11_030_20220716",
+    "latitude": 45.747848,
+    "longitude": -119.142097
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/11935204121"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          461,
+          460,
+          572,
+          570
+        ],
+        "confidence": 0.807
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1226846",
+        "unique_id": "2624835",
+        "status_code": "C",
+        "constructed_date": "07/28/2000",
+        "dismantled_date": "",
+        "action_date": "06/01/2026",
+        "city": "Echo",
+        "state": "OR",
+        "county_fips": "41059",
+        "height_structure_m": "58.6",
+        "overall_height_agl_m": "60.0",
+        "structure_type_code": "LTOWER",
+        "address": "34718 Highway 320   (Stanfield OR 2 # 308315)",
+        "latitude": 45.74788888888889,
+        "longitude": -119.14205555555556,
+        "coordinate_type_code": "T",
+        "organization_owner": "American Towers LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2624835",
+        "distance_m": 5.6,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}
