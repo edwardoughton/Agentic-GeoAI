@@ -1,0 +1,57 @@
+{
+  "id": "site_004",
+  "imagery": {
+    "path": "images/site_004.jpg",
+    "date": "2024-08-31T00:00:00+00:00",
+    "resolution_m": 0.6,
+    "source_id": "m_4509239_ne_15_060_20240831",
+    "latitude": 45.480202,
+    "longitude": -92.165828
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/13986666064"
+  },
+  "detector": {
+    "available": true,
+    "detections": [],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1326645",
+        "unique_id": "2726895",
+        "status_code": "C",
+        "constructed_date": "11/27/2024",
+        "dismantled_date": "",
+        "action_date": "09/26/2025",
+        "city": "Comstock",
+        "state": "WI",
+        "county_fips": "55095",
+        "height_structure_m": "76.2",
+        "overall_height_agl_m": "79.2",
+        "structure_type_code": "LTOWER",
+        "address": "1898 5th Street, Comstock, WI  54829",
+        "latitude": 45.48019444444444,
+        "longitude": -92.16580555555556,
+        "coordinate_type_code": "T",
+        "organization_owner": "Vertical Bridge VBTS, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2726895",
+        "distance_m": 1.9,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": true
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

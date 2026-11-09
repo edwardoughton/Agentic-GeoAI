@@ -1,0 +1,68 @@
+{
+  "id": "site_040",
+  "imagery": {
+    "path": "images/site_040.jpg",
+    "date": "2023-07-31T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "mn_m_4509326_ne_15_030_20230731_20240119",
+    "latitude": 45.596833,
+    "longitude": -93.791395
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/11242564992"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          457,
+          458,
+          570,
+          569
+        ],
+        "confidence": 0.832
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1218991",
+        "unique_id": "2616639",
+        "status_code": "C",
+        "constructed_date": "12/20/2000",
+        "dismantled_date": "",
+        "action_date": "01/23/2026",
+        "city": "Foley",
+        "state": "MN",
+        "county_fips": "27009",
+        "height_structure_m": "55.2",
+        "overall_height_agl_m": "60.7",
+        "structure_type_code": "LTOWER",
+        "address": "17815 Hwy. 95",
+        "latitude": 45.596833333333336,
+        "longitude": -93.79138888888889,
+        "coordinate_type_code": "T",
+        "organization_owner": "T-Mobile USA Tower LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2616639",
+        "distance_m": 0.5,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

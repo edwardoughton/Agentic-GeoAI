@@ -1,0 +1,91 @@
+{
+  "id": "site_039",
+  "imagery": {
+    "path": "images/site_039.jpg",
+    "date": "2021-11-13T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "al_m_3308854_ne_16_030_20211113",
+    "latitude": 33.225696,
+    "longitude": -88.267781
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/13123449644"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          459,
+          443,
+          575,
+          569
+        ],
+        "confidence": 0.518
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1274621",
+        "unique_id": "2673968",
+        "status_code": "C",
+        "constructed_date": "07/20/2010",
+        "dismantled_date": "",
+        "action_date": "10/21/2015",
+        "city": "Pickensville",
+        "state": "AL",
+        "county_fips": "01107",
+        "height_structure_m": "91.4",
+        "overall_height_agl_m": "94.4",
+        "structure_type_code": "TOWER",
+        "address": "55 Water Ave",
+        "latitude": 33.22566666666667,
+        "longitude": -88.26777777777778,
+        "coordinate_type_code": "T",
+        "organization_owner": "SBA Towers III LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2673968",
+        "distance_m": 3.3,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1324862",
+        "unique_id": "2725111",
+        "status_code": "C",
+        "constructed_date": "05/09/2024",
+        "dismantled_date": "",
+        "action_date": "05/14/2024",
+        "city": "Pickensville",
+        "state": "AL",
+        "county_fips": "01107",
+        "height_structure_m": "108.2",
+        "overall_height_agl_m": "111.3",
+        "structure_type_code": "GTOWER",
+        "address": "28 Chopitoolas St",
+        "latitude": 33.223888888888894,
+        "longitude": -88.263,
+        "coordinate_type_code": "T",
+        "organization_owner": "Tillman Infrastructure, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2725111",
+        "distance_m": 488.0,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": true
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

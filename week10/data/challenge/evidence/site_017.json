@@ -1,0 +1,32 @@
+{
+  "id": "site_017",
+  "imagery": {
+    "path": "images/site_017.jpg",
+    "date": "2025-06-03T00:00:00+00:00",
+    "resolution_m": "0.3",
+    "source_id": "m_3507918_nw_17_030_20250603",
+    "latitude": "35.703445",
+    "longitude": "-79.8183"
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "water_tower"
+    },
+    "snapshot": null,
+    "url": "https://www.openstreetmap.org/node/6231631164"
+  },
+  "detector": {
+    "available": false,
+    "detections": null,
+    "source": null,
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

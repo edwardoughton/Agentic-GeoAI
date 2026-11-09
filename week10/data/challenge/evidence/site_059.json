@@ -1,0 +1,67 @@
+{
+  "id": "site_059",
+  "imagery": {
+    "path": "images/site_059.jpg",
+    "date": "2023-07-07T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "ma_m_4207132_ne_19_030_20230707_20231116",
+    "latitude": 42.566035,
+    "longitude": -71.005627
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/9646659159"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          438,
+          468,
+          555,
+          566
+        ],
+        "confidence": 0.777
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1266704",
+        "unique_id": "2666051",
+        "status_code": "C",
+        "constructed_date": "06/12/2009",
+        "dismantled_date": "",
+        "action_date": "08/06/2024",
+        "city": "Middleton",
+        "state": "MA",
+        "county_fips": "25009",
+        "height_structure_m": "45.7",
+        "overall_height_agl_m": "45.7",
+        "structure_type_code": "MTOWER",
+        "address": "11 Natsue Way (283071)",
+        "latitude": 42.56602777777778,
+        "longitude": -71.00561111111111,
+        "coordinate_type_code": "T",
+        "organization_owner": "American Towers LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2666051",
+        "distance_m": 1.5,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

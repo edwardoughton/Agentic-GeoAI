@@ -1,0 +1,91 @@
+{
+  "id": "site_006",
+  "imagery": {
+    "path": "images/site_006.jpg",
+    "date": "2023-05-01T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "la_m_2909017_ne_15_030_20230501_20240209",
+    "latitude": 29.705797,
+    "longitude": -90.908579
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "guyed_lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/11074605935"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          428,
+          459,
+          567,
+          592
+        ],
+        "confidence": 0.829
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1057784",
+        "unique_id": "618182",
+        "status_code": "C",
+        "constructed_date": "02/11/1999",
+        "dismantled_date": "",
+        "action_date": "02/05/2019",
+        "city": "SCHRIERER",
+        "state": "LA",
+        "county_fips": "22109",
+        "height_structure_m": "105.7",
+        "overall_height_agl_m": "108.8",
+        "structure_type_code": "GTOWER",
+        "address": "2134 BULL RUN ROAD (Bull Run site)",
+        "latitude": 29.705805555555553,
+        "longitude": -90.90852777777778,
+        "coordinate_type_code": "T",
+        "organization_owner": "Alltel Corporation",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=618182",
+        "distance_m": 5.0,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1061116",
+        "unique_id": "621040",
+        "status_code": "C",
+        "constructed_date": "04/08/1999",
+        "dismantled_date": "",
+        "action_date": "06/22/2018",
+        "city": "CHACAHOULA",
+        "state": "LA",
+        "county_fips": "22109",
+        "height_structure_m": "91.5",
+        "overall_height_agl_m": "92.9",
+        "structure_type_code": "TOWER",
+        "address": "1604 Highway 20(30248/Chacahoula)",
+        "latitude": 29.704166666666666,
+        "longitude": -90.91647222222223,
+        "coordinate_type_code": "T",
+        "organization_owner": "American Towers LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=621040",
+        "distance_m": 783.6,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

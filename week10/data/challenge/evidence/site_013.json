@@ -1,0 +1,103 @@
+{
+  "id": "site_013",
+  "imagery": {
+    "path": "images/site_013.jpg",
+    "date": "2024-10-27T00:00:00+00:00",
+    "resolution_m": "0.6",
+    "source_id": "m_3110603_se_13_060_20241027",
+    "latitude": "31.909612",
+    "longitude": "-106.632033"
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": null,
+    "url": "https://www.openstreetmap.org/node/14175118242"
+  },
+  "detector": {
+    "available": false,
+    "detections": null,
+    "source": null,
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1320255",
+        "unique_id": "2720233",
+        "status_code": "G",
+        "constructed_date": "08/03/2021",
+        "dismantled_date": "",
+        "action_date": "10/14/2021",
+        "city": "Canutillo",
+        "state": "TX",
+        "county_fips": "48141",
+        "height_structure_m": "21.3",
+        "overall_height_agl_m": "23.2",
+        "structure_type_code": "MTOWER",
+        "address": "955 Gato Road",
+        "latitude": 31.90961111111111,
+        "longitude": -106.63202777777776,
+        "coordinate_type_code": "T",
+        "organization_owner": "Sun State Towers, LLC.",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2720233",
+        "distance_m": 0.5,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1320878",
+        "unique_id": "2720856",
+        "status_code": "A",
+        "constructed_date": "",
+        "dismantled_date": "",
+        "action_date": "10/14/2021",
+        "city": "Canutillo",
+        "state": "TX",
+        "county_fips": "48141",
+        "height_structure_m": "22.9",
+        "overall_height_agl_m": "23.2",
+        "structure_type_code": "MTOWER",
+        "address": "955 Gato Road",
+        "latitude": 31.90961111111111,
+        "longitude": -106.63202777777776,
+        "coordinate_type_code": "T",
+        "organization_owner": "Sun State Towers, LLC.",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2720856",
+        "distance_m": 0.5,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": null
+      },
+      {
+        "registration": "1331368",
+        "unique_id": "2731879",
+        "status_code": "G",
+        "constructed_date": "",
+        "dismantled_date": "",
+        "action_date": "08/25/2025",
+        "city": "Canutillo",
+        "state": "TX",
+        "county_fips": "48141",
+        "height_structure_m": "22.9",
+        "overall_height_agl_m": "22.9",
+        "structure_type_code": "MTOWER",
+        "address": "955 Gato Road",
+        "latitude": 31.90961111111111,
+        "longitude": -106.63205555555555,
+        "coordinate_type_code": "T",
+        "organization_owner": "Sun State Towers",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2731879",
+        "distance_m": 2.1,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": null
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "https://data.fcc.gov/download/pub/uls/complete/r_tower.zip",
+  "retrieved_utc": "2026-11-07T14:59:56.522162+00:00",
+  "archive_sha256": "761a72fae01a06b7c29f69e7684e768b6aed1449c63b794fbe5d08d867a457d3",
+  "source_last_modified": "Sun, 01 Nov 2026 11:22:57 GMT",
+  "schema": "https://wireless.fcc.gov/uls/documentation/patower-2.xls",
+  "rows_registration": 197961,
+  "coordinate_rows": 203072,
+  "coordinate_datum_note": "FCC NAD83 coordinates compared approximately with WGS84 OSM; distances are screening estimates, not survey measurements.",
+  "warning": "Registration includes non-cellular structures and absent records do not establish absent towers. Dates/status are as filed; not independently verified.",
+  "classroom_prepared_date": "2026-11-09",
+  "query": "All REG coordinate records within 1000 m of each candidate; approximate spherical distances, NAD83/WGS84 not transformed.",
+  "candidate_count": 60,
+  "match_rows": 68
+}

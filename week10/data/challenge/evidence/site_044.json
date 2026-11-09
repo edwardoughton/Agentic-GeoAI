@@ -1,0 +1,68 @@
+{
+  "id": "site_044",
+  "imagery": {
+    "path": "images/site_044.jpg",
+    "date": "2024-09-05T00:00:00+00:00",
+    "resolution_m": 0.6,
+    "source_id": "m_3807910_NW_17_60_20240905",
+    "latitude": 38.81776,
+    "longitude": -79.857905
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "guyed_lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/10678520174"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          228,
+          231,
+          284,
+          288
+        ],
+        "confidence": 0.816
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1269688",
+        "unique_id": "2669035",
+        "status_code": "C",
+        "constructed_date": "11/23/2009",
+        "dismantled_date": "",
+        "action_date": "09/08/2025",
+        "city": "Beverly",
+        "state": "WV",
+        "county_fips": "54083",
+        "height_structure_m": "121.9",
+        "overall_height_agl_m": "126.5",
+        "structure_type_code": "LTOWER",
+        "address": "0.2 mi West of Kings Run Road",
+        "latitude": 38.817750000000004,
+        "longitude": -79.85791666666667,
+        "coordinate_type_code": "T",
+        "organization_owner": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2669035",
+        "distance_m": 1.5,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

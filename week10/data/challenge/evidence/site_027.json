@@ -1,0 +1,84 @@
+{
+  "id": "site_027",
+  "imagery": {
+    "path": "images/site_027.jpg",
+    "date": "2024-07-21T00:00:00+00:00",
+    "resolution_m": "0.6",
+    "source_id": "m_3612029_sw_10_060_20240721",
+    "latitude": "36.532258",
+    "longitude": "-120.478734"
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "power": "tower"
+    },
+    "snapshot": null,
+    "url": "https://www.openstreetmap.org/node/1081497156"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          199.60086059570312,
+          252.02447509765625,
+          255.82577514648438,
+          308.76837158203125
+        ],
+        "confidence": 0.708931565284729
+      },
+      {
+        "xyxy": [
+          231.03662109375,
+          232.35699462890625,
+          291.92999267578125,
+          292.18487548828125
+        ],
+        "confidence": 0.5586925148963928
+      },
+      {
+        "xyxy": [
+          249.3536376953125,
+          244.82489013671875,
+          303.316162109375,
+          298.38763427734375
+        ],
+        "confidence": 0.12369615584611893
+      }
+    ],
+    "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1326761",
+        "unique_id": "2727011",
+        "status_code": "C",
+        "constructed_date": "02/22/2024",
+        "dismantled_date": "",
+        "action_date": "01/30/2025",
+        "city": "Fresno",
+        "state": "CA",
+        "county_fips": "06019",
+        "height_structure_m": "44.2",
+        "overall_height_agl_m": "45.7",
+        "structure_type_code": "MTOWER",
+        "address": "West Kamm Avenue",
+        "latitude": 36.53052777777778,
+        "longitude": -120.48194444444445,
+        "coordinate_type_code": "T",
+        "organization_owner": "Public Safety Towers, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2727011",
+        "distance_m": 345.4,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

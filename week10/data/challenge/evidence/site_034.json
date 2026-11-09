@@ -1,0 +1,57 @@
+{
+  "id": "site_034",
+  "imagery": {
+    "path": "images/site_034.jpg",
+    "date": "2022-06-16T16:00:00Z",
+    "resolution_m": 0.6,
+    "source_id": "in_m_3708603_sw_16_060_20220616",
+    "latitude": 37.91629,
+    "longitude": -86.717442
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/4879505887"
+  },
+  "detector": {
+    "available": true,
+    "detections": [],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1231690",
+        "unique_id": "2629679",
+        "status_code": "C",
+        "constructed_date": "04/26/2002",
+        "dismantled_date": "",
+        "action_date": "06/22/2018",
+        "city": "Cannelton",
+        "state": "IN",
+        "county_fips": "18123",
+        "height_structure_m": "103.6",
+        "overall_height_agl_m": "105.6",
+        "structure_type_code": "GTOWER",
+        "address": "5415 Shady Road (ATC site # 371302)",
+        "latitude": 37.91627777777778,
+        "longitude": -86.71741666666667,
+        "coordinate_type_code": "T",
+        "organization_owner": "American Towers LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2629679",
+        "distance_m": 2.6,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "site_024",
+  "imagery": {
+    "path": "images/site_024.jpg",
+    "date": "2023-08-03T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "mn_m_4609447_sw_15_030_20230803_20240119",
+    "latitude": 46.298932,
+    "longitude": -94.247903
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/13471491279"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          464,
+          454,
+          588,
+          580
+        ],
+        "confidence": 0.75
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1237652",
+        "unique_id": "2635845",
+        "status_code": "C",
+        "constructed_date": "03/24/2003",
+        "dismantled_date": "",
+        "action_date": "10/21/2015",
+        "city": "Baxter",
+        "state": "MN",
+        "county_fips": "27035",
+        "height_structure_m": "57.9",
+        "overall_height_agl_m": "60.6",
+        "structure_type_code": "TOWER",
+        "address": "3.4 miles SE of Baxter, MN in Section 15 of Crow Wing County",
+        "latitude": 46.29888888888889,
+        "longitude": -94.24783333333333,
+        "coordinate_type_code": "T",
+        "organization_owner": "SBA Structures, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2635845",
+        "distance_m": 7.2,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

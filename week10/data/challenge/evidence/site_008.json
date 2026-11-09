@@ -1,0 +1,57 @@
+{
+  "id": "site_008",
+  "imagery": {
+    "path": "images/site_008.jpg",
+    "date": "2023-09-01T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "md_m_3807708_se_18_030_20230901_20231018",
+    "latitude": 38.908416,
+    "longitude": -77.013568
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "tower",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/8013743377"
+  },
+  "detector": {
+    "available": true,
+    "detections": [],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1333040",
+        "unique_id": "2733551",
+        "status_code": "G",
+        "constructed_date": "",
+        "dismantled_date": "",
+        "action_date": "03/25/2026",
+        "city": "Washington",
+        "state": "DC",
+        "county_fips": "11001",
+        "height_structure_m": "9.2",
+        "overall_height_agl_m": "10.9",
+        "structure_type_code": "POLE",
+        "address": "917 6TH STREET NW",
+        "latitude": 38.902166666666666,
+        "longitude": -77.01977777777778,
+        "coordinate_type_code": "T",
+        "organization_owner": "Crown Castle Fiber, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2733551",
+        "distance_m": 878.4,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": null
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}
