@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "site_001",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_001:detector",
+      "site_001:fcc",
+      "site_001:imagery",
+      "site_001:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_001",
+      "action": "no_target",
+      "confidence": 0.94,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_001:imagery",
+        "site_001:detector",
+        "site_001:osm",
+        "site_001:fcc"
+      ],
+      "reason": "Apartment roofs, pool and trees fill the chip; detector boxes cover the pool/buildings, not a ground mast. Nearest FCC tower is 228 m from center, beyond this chip; OSM antenna tag does not establish a freestanding site."
+    },
+    "reviewer": {
+      "id": "site_001",
+      "action": "no_target",
+      "confidence": 0.94,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_001:imagery"
+      ],
+      "reason": "Residential buildings, parking areas, trees and a road; no freestanding tower visible."
+    }
+  },
+  {
+    "id": "site_002",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_002:detector",
+      "site_002:fcc",
+      "site_002:imagery",
+      "site_002:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_002",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_002:imagery",
+        "site_002:detector",
+        "site_002:osm",
+        "site_002:fcc"
+      ],
+      "reason": "Round elevated water tank and its stem shadow are visible near center. OSM antenna tag and weak detector proposal do not change the excluded water-tower support; no separate cell mast is visible."
+    },
+    "reviewer": {
+      "id": "site_002",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_002:imagery"
+      ],
+      "reason": "Elevated round water tank and its long shadow among buildings."
+    }
+  },
+  {
+    "id": "site_003",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_003:detector",
+      "site_003:fcc",
+      "site_003:imagery",
+      "site_003:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_003",
+      "action": "no_target",
+      "confidence": 0.94,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_003:imagery",
+        "site_003:detector",
+        "site_003:osm",
+        "site_003:fcc"
+      ],
+      "reason": "Transmission structures and lines run beside the road and treatment basin; no separate cellular ground compound is visible. OSM power=tower agrees; the FCC building record 258 m away is not this structure."
+    },
+    "reviewer": {
+      "id": "site_003",
+      "action": "no_target",
+      "confidence": 0.9,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_003:imagery"
+      ],
+      "reason": "Fenced basin, small utility buildings, roads and canal; no cell tower visible."
+    }
+  },
+  {
+    "id": "site_004",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_004:detector",
+      "site_004:fcc",
+      "site_004:imagery",
+      "site_004:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_004",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_004:imagery",
+        "site_004:detector",
+        "site_004:osm",
+        "site_004:fcc"
+      ],
+      "reason": "Open field and farmyard show no tower or compound. FCC construction on 2024-11-27 follows the 2024-08-31 image, explaining the OSM mast without establishing a tower at image time."
+    },
+    "reviewer": {
+      "id": "site_004",
+      "action": "no_target",
+      "confidence": 0.95,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_004:imagery"
+      ],
+      "reason": "Farm buildings, lawns and cultivated fields; no tower visible."
+    }
+  },
+  {
+    "id": "site_005",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_005:detector",
+      "site_005:fcc",
+      "site_005:imagery",
+      "site_005:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_005",
+      "action": "no_target",
+      "confidence": 0.95,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_005:imagery",
+        "site_005:detector",
+        "site_005:osm",
+        "site_005:fcc"
+      ],
+      "reason": "Continuous forest canopy and a road, with no visible mast, clearing or equipment compound. Cached OSM/FCC records and detector proposals are empty; absence is based on the visible chip."
+    },
+    "reviewer": {
+      "id": "site_005",
+      "action": "no_target",
+      "confidence": 0.95,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_005:imagery"
+      ],
+      "reason": "Continuous forest canopy beside a road; no tower or compound visible."
+    }
+  },
+  {
+    "id": "site_006",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_006:detector",
+      "site_006:fcc",
+      "site_006:imagery",
+      "site_006:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_006",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_006:imagery",
+        "site_006:detector",
+        "site_006:osm",
+        "site_006:fcc"
+      ],
+      "reason": "Guyed mast rises from a gravel equipment compound, with visible guy anchors and long shadow. Detector and OSM align; the FCC GTOWER 5 m away predates the imagery."
+    },
+    "reviewer": {
+      "id": "site_006",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_006:imagery"
+      ],
+      "reason": "Guyed mast with long shadow, anchor clearings and equipment compound."
+    }
+  },
+  {
+    "id": "site_007",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_007:detector",
+      "site_007:fcc",
+      "site_007:imagery",
+      "site_007:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_007",
+      "action": "no_target",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_007:imagery",
+        "site_007:detector",
+        "site_007:osm",
+        "site_007:fcc"
+      ],
+      "reason": "Uninterrupted crop rows and a farm track show no tower compound. FCC construction on 2025-09-12 follows the 2025-08-01 image; later OSM mast evidence is compatible with later construction."
+    },
+    "reviewer": {
+      "id": "site_007",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_007:imagery"
+      ],
+      "reason": "Crop fields and a straight farm track; no tower visible."
+    }
+  },
+  {
+    "id": "site_008",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_008:detector",
+      "site_008:fcc",
+      "site_008:imagery",
+      "site_008:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_008",
+      "action": "no_target",
+      "confidence": 0.91,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_008:imagery",
+        "site_008:detector",
+        "site_008:osm",
+        "site_008:fcc"
+      ],
+      "reason": "School roofs, solar arrays and sports grounds show no distinct freestanding cellular mast. OSM communication-tower tag alone cannot resolve a ground site; the FCC pole 878 m away is outside the chip."
+    },
+    "reviewer": {
+      "id": "site_008",
+      "action": "no_target",
+      "confidence": 0.96,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_008:imagery"
+      ],
+      "reason": "School buildings, solar panels and athletic field; no freestanding cell tower visible."
+    }
+  },
+  {
+    "id": "site_009",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_009:detector",
+      "site_009:fcc",
+      "site_009:imagery",
+      "site_009:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_009",
+      "action": "request_review",
+      "confidence": 0.55,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_009:imagery",
+        "site_009:detector",
+        "site_009:osm",
+        "site_009:fcc"
+      ],
+      "reason": "A small framework/antenna-like feature adjoins the central light roof, but its ground base versus rooftop attachment is unresolved at this scale. OSM says cellular mast; detector is unavailable and FCC cache has no match."
+    },
+    "reviewer": {
+      "id": "site_009",
+      "action": "no_target",
+      "confidence": 0.91,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_009:imagery"
+      ],
+      "reason": "Rural buildings, trailers and open ground; no tower visible."
+    }
+  },
+  {
+    "id": "site_010",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_010:detector",
+      "site_010:fcc",
+      "site_010:imagery",
+      "site_010:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_010",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_010:imagery",
+        "site_010:detector",
+        "site_010:osm",
+        "site_010:fcc"
+      ],
+      "reason": "Lattice tower, triangular shadow and equipment pad are visible beside the wooded creek. Detector, OSM and a pre-image FCC registration 5 m away support this ground site."
+    },
+    "reviewer": {
+      "id": "site_010",
+      "action": "confirm",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_010:imagery"
+      ],
+      "reason": "Lattice tower and equipment on a square cleared pad beside woodland."
+    }
+  },
+  {
+    "id": "site_011",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_011:detector",
+      "site_011:fcc",
+      "site_011:imagery",
+      "site_011:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_011",
+      "action": "confirm",
+      "confidence": 0.96,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_011:imagery",
+        "site_011:detector",
+        "site_011:osm",
+        "site_011:fcc"
+      ],
+      "reason": "Small bright tower/equipment compound sits in a forest clearing with linear guy corridors. Detector and OSM align with a pre-image FCC tower 1 m away."
+    },
+    "reviewer": {
+      "id": "site_011",
+      "action": "request_review",
+      "confidence": 0.56,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_011:imagery"
+      ],
+      "reason": "Small bright equipment clearing in dense trees; upright structure is indistinct."
+    }
+  },
+  {
+    "id": "site_012",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_012:detector",
+      "site_012:fcc",
+      "site_012:imagery",
+      "site_012:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_012",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_012:imagery",
+        "site_012:detector",
+        "site_012:osm",
+        "site_012:fcc"
+      ],
+      "reason": "Lattice mast with sector-like crown, long shadow and equipment enclosure stands at the end of a farm access road. Detector, OSM and pre-image FCC LTOWER 3 m away agree."
+    },
+    "reviewer": {
+      "id": "site_012",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_012:imagery"
+      ],
+      "reason": "Lattice tower, equipment pad and access lane in a field."
+    }
+  },
+  {
+    "id": "site_013",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_013:detector",
+      "site_013:fcc",
+      "site_013:imagery",
+      "site_013:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_013",
+      "action": "request_review",
+      "confidence": 0.61,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_013:imagery",
+        "site_013:detector",
+        "site_013:osm",
+        "site_013:fcc"
+      ],
+      "reason": "A tall narrow dark feature stands near the central yard, but antenna structure and ground equipment cannot be separated confidently from vegetation. OSM mast and FCC MTOWER records within 2 m support a site; one FCC action is later than the image, and detector is unavailable."
+    },
+    "reviewer": {
+      "id": "site_013",
+      "action": "no_target",
+      "confidence": 0.89,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_013:imagery"
+      ],
+      "reason": "Rural homes, sheds and fields; no distinct tower compound visible."
+    }
+  },
+  {
+    "id": "site_014",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_014:detector",
+      "site_014:fcc",
+      "site_014:imagery",
+      "site_014:osm"
+    ],
+    "reason": "agent_disagreement",
+    "investigator": {
+      "id": "site_014",
+      "action": "confirm",
+      "confidence": 0.85,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_014:imagery",
+        "site_014:detector",
+        "site_014:osm",
+        "site_014:fcc"
+      ],
+      "reason": "Small antenna/mast feature and equipment are visible inside the central fenced square reached by a track. Detector and OSM support a cellular ground site; no FCC match is needed to establish the visible structure."
+    },
+    "reviewer": {
+      "id": "site_014",
+      "action": "no_target",
+      "confidence": 0.91,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_014:imagery"
+      ],
+      "reason": "Pasture with scattered small objects and nearby houses; no tower visible."
+    }
+  },
+  {
+    "id": "site_015",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_015:detector",
+      "site_015:fcc",
+      "site_015:imagery",
+      "site_015:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_015",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_015:imagery",
+        "site_015:detector",
+        "site_015:osm",
+        "site_015:fcc"
+      ],
+      "reason": "Mast and equipment shelters occupy a dedicated gravel clearing at the forest edge. Detector and OSM agree; FCC pole 6 m away predates imagery, while other nearby registrations may be separate structures."
+    },
+    "reviewer": {
+      "id": "site_015",
+      "action": "confirm",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_015:imagery"
+      ],
+      "reason": "Tower structure and equipment shelters in a gravel woodland clearing."
+    }
+  },
+  {
+    "id": "site_016",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_016:detector",
+      "site_016:fcc",
+      "site_016:imagery",
+      "site_016:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_016",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_016:imagery",
+        "site_016:detector",
+        "site_016:osm",
+        "site_016:fcc"
+      ],
+      "reason": "Tower and shelters occupy a fenced clearing with access road and guy-anchor corridors. Detector and OSM align with the FCC tower 2 m away, constructed before imagery."
+    },
+    "reviewer": {
+      "id": "site_016",
+      "action": "request_review",
+      "confidence": 0.57,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_016:imagery"
+      ],
+      "reason": "Rectangular cleared equipment site beside trees; mast details are indistinct."
+    }
+  },
+  {
+    "id": "site_017",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_017:detector",
+      "site_017:fcc",
+      "site_017:imagery",
+      "site_017:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_017",
+      "action": "no_target",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_017:imagery",
+        "site_017:detector",
+        "site_017:osm",
+        "site_017:fcc"
+      ],
+      "reason": "Large round water tank on an open multileg frame dominates the center; no separate cell tower is visible. OSM identifies water_tower; cellular antennas would not make this support eligible."
+    },
+    "reviewer": {
+      "id": "site_017",
+      "action": "no_target",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_017:imagery"
+      ],
+      "reason": "Large elevated water tank on multiple legs among buildings."
+    }
+  },
+  {
+    "id": "site_018",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_018:detector",
+      "site_018:fcc",
+      "site_018:imagery",
+      "site_018:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_018",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_018:imagery",
+        "site_018:detector",
+        "site_018:osm",
+        "site_018:fcc"
+      ],
+      "reason": "Tall lattice cell tower with visible antenna elements stands on a fenced gravel pad with equipment. Detector, OSM and pre-image FCC LTOWER 1 m away agree."
+    },
+    "reviewer": {
+      "id": "site_018",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_018:imagery"
+      ],
+      "reason": "Freestanding lattice tower with antenna tiers and fenced equipment pad."
+    }
+  },
+  {
+    "id": "site_019",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_019:detector",
+      "site_019:fcc",
+      "site_019:imagery",
+      "site_019:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_019",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_019:imagery",
+        "site_019:detector",
+        "site_019:osm",
+        "site_019:fcc"
+      ],
+      "reason": "Slender mast rises from a small square equipment pad and casts a long narrow shadow across pasture. Detector, OSM and pre-image FCC tower 2 m away agree."
+    },
+    "reviewer": {
+      "id": "site_019",
+      "action": "confirm",
+      "confidence": 0.91,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_019:imagery"
+      ],
+      "reason": "Slender mast, long narrow shadow, guy lines and small ground equipment pad."
+    }
+  },
+  {
+    "id": "site_020",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_020:detector",
+      "site_020:fcc",
+      "site_020:imagery",
+      "site_020:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_020",
+      "action": "request_review",
+      "confidence": 0.52,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_020:imagery",
+        "site_020:detector",
+        "site_020:osm",
+        "site_020:fcc"
+      ],
+      "reason": "Industrial aggregate/conveyor structures and open scrub are visible, but no distinct cellular mast can be isolated. OSM mast snapshot is from 2026, later than 2024 imagery; empty detector/FCC results do not resolve that date conflict."
+    },
+    "reviewer": {
+      "id": "site_020",
+      "action": "no_target",
+      "confidence": 0.9,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_020:imagery"
+      ],
+      "reason": "Industrial yard with machinery, material piles and buildings; no distinct cell tower visible."
+    }
+  },
+  {
+    "id": "site_021",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_021:detector",
+      "site_021:fcc",
+      "site_021:imagery",
+      "site_021:osm"
+    ],
+    "reason": "agent_disagreement",
+    "investigator": {
+      "id": "site_021",
+      "action": "confirm",
+      "confidence": 0.85,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_021:imagery",
+        "site_021:detector",
+        "site_021:osm",
+        "site_021:fcc"
+      ],
+      "reason": "Small antenna crown and slim support are visible just southeast of the long field-side roof, appearing separate from the roof. OSM and pre-image FCC MTOWER 3 m away support a ground mast; detector unavailable."
+    },
+    "reviewer": {
+      "id": "site_021",
+      "action": "no_target",
+      "confidence": 0.93,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_021:imagery"
+      ],
+      "reason": "Athletic field, golf course and light poles; no cell tower compound visible."
+    }
+  },
+  {
+    "id": "site_022",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_022:detector",
+      "site_022:fcc",
+      "site_022:imagery",
+      "site_022:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_022",
+      "action": "confirm",
+      "confidence": 0.89,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_022:imagery",
+        "site_022:detector",
+        "site_022:osm",
+        "site_022:fcc"
+      ],
+      "reason": "A small lattice/antenna feature, equipment shelters and access loop occupy the central forest clearing. Detector and OSM support this ground site despite no FCC match."
+    },
+    "reviewer": {
+      "id": "site_022",
+      "action": "request_review",
+      "confidence": 0.59,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_022:imagery"
+      ],
+      "reason": "Small equipment clearing at the end of a wooded access track; tower details unclear."
+    }
+  },
+  {
+    "id": "site_023",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_023:detector",
+      "site_023:fcc",
+      "site_023:imagery",
+      "site_023:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_023",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_023:imagery",
+        "site_023:detector",
+        "site_023:osm",
+        "site_023:fcc"
+      ],
+      "reason": "Long guyed communications mast projects west from a dedicated clearing with shelters and access road. Detector, OSM and pre-image FCC GTOWER 13 m away agree."
+    },
+    "reviewer": {
+      "id": "site_023",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_023:imagery"
+      ],
+      "reason": "Tall antenna mast extending from a woodland equipment compound."
+    }
+  },
+  {
+    "id": "site_024",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_024:detector",
+      "site_024:fcc",
+      "site_024:imagery",
+      "site_024:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_024",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_024:imagery",
+        "site_024:detector",
+        "site_024:osm",
+        "site_024:fcc"
+      ],
+      "reason": "Lattice tower with antenna crown, equipment hut and fenced pad is visible beside woodland. Detector, OSM and pre-image FCC tower 7 m away agree."
+    },
+    "reviewer": {
+      "id": "site_024",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_024:imagery"
+      ],
+      "reason": "Lattice tower and equipment shelter within a square fenced clearing."
+    }
+  },
+  {
+    "id": "site_025",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_025:detector",
+      "site_025:fcc",
+      "site_025:imagery",
+      "site_025:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_025",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_025:imagery",
+        "site_025:detector",
+        "site_025:osm",
+        "site_025:fcc"
+      ],
+      "reason": "Freestanding lattice tower and multiple antenna levels cast a long shadow from a fenced farm-side pad. Detector, OSM and pre-image FCC tower 6 m away agree."
+    },
+    "reviewer": {
+      "id": "site_025",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_025:imagery"
+      ],
+      "reason": "Tall lattice tower with antenna tiers and ground equipment beside farm tanks."
+    }
+  },
+  {
+    "id": "site_026",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_026:detector",
+      "site_026:fcc",
+      "site_026:imagery",
+      "site_026:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_026",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_026:imagery",
+        "site_026:detector",
+        "site_026:osm",
+        "site_026:fcc"
+      ],
+      "reason": "Guyed mast, equipment shelter and widely separated anchors are visible in a dedicated field compound. Detector, OSM and pre-image FCC tower 6 m away align; registration 283 m away may be another structure."
+    },
+    "reviewer": {
+      "id": "site_026",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_026:imagery"
+      ],
+      "reason": "Guyed mast, anchor points and equipment pad in open grass."
+    }
+  },
+  {
+    "id": "site_027",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_027:detector",
+      "site_027:fcc",
+      "site_027:imagery",
+      "site_027:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_027",
+      "action": "no_target",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_027:imagery",
+        "site_027:detector",
+        "site_027:osm",
+        "site_027:fcc"
+      ],
+      "reason": "Paired electrical lattice pylons carry multiple continuous lines across the crop field; no separate cellular mast is visible. OSM power=tower explains detector proposals; FCC tower 345 m away is outside this chip."
+    },
+    "reviewer": {
+      "id": "site_027",
+      "action": "no_target",
+      "confidence": 0.85,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_027:imagery"
+      ],
+      "reason": "Utility poles and small equipment clearings beside a crop field."
+    }
+  },
+  {
+    "id": "site_028",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_028:detector",
+      "site_028:fcc",
+      "site_028:imagery",
+      "site_028:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_028",
+      "action": "confirm",
+      "confidence": 0.94,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_028:imagery",
+        "site_028:detector",
+        "site_028:osm",
+        "site_028:fcc"
+      ],
+      "reason": "Bright sector-like antenna crown on a slim pole is visible beside a line of equipment shelters between ponds and trees. OSM monopole tag supports the ground site; empty detector/FCC results do not negate it."
+    },
+    "reviewer": {
+      "id": "site_028",
+      "action": "confirm",
+      "confidence": 0.95,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_028:imagery"
+      ],
+      "reason": "Antenna cluster and narrow mast beside equipment shelters among trees."
+    }
+  },
+  {
+    "id": "site_029",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_029:detector",
+      "site_029:fcc",
+      "site_029:imagery",
+      "site_029:osm"
+    ],
+    "reason": "agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_029",
+      "action": "request_review",
+      "confidence": 0.59,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_029:imagery",
+        "site_029:detector",
+        "site_029:osm",
+        "site_029:fcc"
+      ],
+      "reason": "Compact circular tank-like top on a frame is visible at the end of the track. OSM explicitly calls it a cellular mast mimicking a water tower and detector proposes it, but imagery does not distinguish camouflage from an actual excluded tank; FCC has no match."
+    },
+    "reviewer": {
+      "id": "site_029",
+      "action": "request_review",
+      "confidence": 0.59,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_029:imagery"
+      ],
+      "reason": "Small circular structure in a clearing near the highway; support details unclear."
+    }
+  },
+  {
+    "id": "site_030",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_030:detector",
+      "site_030:fcc",
+      "site_030:imagery",
+      "site_030:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_030",
+      "action": "no_target",
+      "confidence": 0.91,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_030:imagery",
+        "site_030:detector",
+        "site_030:osm",
+        "site_030:fcc"
+      ],
+      "reason": "Detector proposal covers equipment on a central building roof; surrounding roads, yards and courts show no separate cellular ground mast. OSM is empty and FCC tower 597 m away does not locate a target in this chip."
+    },
+    "reviewer": {
+      "id": "site_030",
+      "action": "no_target",
+      "confidence": 0.91,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_030:imagery"
+      ],
+      "reason": "Low buildings, paved lots and utility poles; no distinct cell tower visible."
+    }
+  },
+  {
+    "id": "site_031",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_031:detector",
+      "site_031:fcc",
+      "site_031:imagery",
+      "site_031:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_031",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_031:imagery",
+        "site_031:detector",
+        "site_031:osm",
+        "site_031:fcc"
+      ],
+      "reason": "Large lattice mast with antenna crown and equipment hut occupies a fenced woodland-edge compound. Detector, OSM and pre-image FCC LTOWER 7 m away agree."
+    },
+    "reviewer": {
+      "id": "site_031",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_031:imagery"
+      ],
+      "reason": "Large lattice tower with antenna cluster and equipment shelter in a clearing."
+    }
+  },
+  {
+    "id": "site_032",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_032:detector",
+      "site_032:fcc",
+      "site_032:imagery",
+      "site_032:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_032",
+      "action": "no_target",
+      "confidence": 0.96,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_032:imagery",
+        "site_032:detector",
+        "site_032:osm",
+        "site_032:fcc"
+      ],
+      "reason": "Forest canopy and field edge show no visible mast or equipment clearing throughout the chip. OSM, detector and FCC caches are empty; decision rests on imagery."
+    },
+    "reviewer": {
+      "id": "site_032",
+      "action": "no_target",
+      "confidence": 0.96,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_032:imagery"
+      ],
+      "reason": "Forest canopy and field edge; no tower or cleared equipment site visible."
+    }
+  },
+  {
+    "id": "site_033",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_033:detector",
+      "site_033:fcc",
+      "site_033:imagery",
+      "site_033:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_033",
+      "action": "request_review",
+      "confidence": 0.51,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_033:imagery",
+        "site_033:detector",
+        "site_033:osm",
+        "site_033:fcc"
+      ],
+      "reason": "Small pale pad/framework beside the northern end of the trailer row is visible, but a mast and its base are not clearly resolved. OSM cellular mast and weak historical detector proposal support further review; FCC has no match."
+    },
+    "reviewer": {
+      "id": "site_033",
+      "action": "no_target",
+      "confidence": 0.95,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_033:imagery"
+      ],
+      "reason": "Storage buildings, trailers, homes and road; no tower visible."
+    }
+  },
+  {
+    "id": "site_034",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_034:detector",
+      "site_034:fcc",
+      "site_034:imagery",
+      "site_034:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_034",
+      "action": "request_review",
+      "confidence": 0.45,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_034:imagery",
+        "site_034:detector",
+        "site_034:osm",
+        "site_034:fcc"
+      ],
+      "reason": "Woodland and a narrow track obscure the expected central site; no tower or equipment pad is clearly resolved. OSM and a pre-image FCC GTOWER only 3 m away conflict with the visible scene; no detector proposal resolves the conflict."
+    },
+    "reviewer": {
+      "id": "site_034",
+      "action": "no_target",
+      "confidence": 0.91,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_034:imagery"
+      ],
+      "reason": "Woodland, dirt tracks and a utility-line corridor; no cell tower compound visible."
+    }
+  },
+  {
+    "id": "site_035",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_035:detector",
+      "site_035:fcc",
+      "site_035:imagery",
+      "site_035:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_035",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_035:imagery",
+        "site_035:detector",
+        "site_035:osm",
+        "site_035:fcc"
+      ],
+      "reason": "A central antenna mast/equipment compound and a second large lattice structure at lower left are visible. Detector and OSM align with nearby pre-image FCC registrations; OSM and FCC identifiers refer to multiple nearby structures rather than one exact match."
+    },
+    "reviewer": {
+      "id": "site_035",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_035:imagery"
+      ],
+      "reason": "Two freestanding antenna towers with adjacent ground equipment near woodland."
+    }
+  },
+  {
+    "id": "site_036",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_036:detector",
+      "site_036:fcc",
+      "site_036:imagery",
+      "site_036:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_036",
+      "action": "request_review",
+      "confidence": 0.5,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_036:imagery",
+        "site_036:detector",
+        "site_036:osm",
+        "site_036:fcc"
+      ],
+      "reason": "Small pole-like features near the central riverside roof and parking area cannot be distinguished confidently from utility supports. OSM mast snapshot is later than the image; empty detector/FCC results leave cellular use and ground support unresolved."
+    },
+    "reviewer": {
+      "id": "site_036",
+      "action": "no_target",
+      "confidence": 0.93,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_036:imagery"
+      ],
+      "reason": "River, bridges, small buildings and open ground; no distinct tower visible."
+    }
+  },
+  {
+    "id": "site_037",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_037:detector",
+      "site_037:fcc",
+      "site_037:imagery",
+      "site_037:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_037",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_037:imagery",
+        "site_037:detector",
+        "site_037:osm",
+        "site_037:fcc"
+      ],
+      "reason": "High-voltage lines and electrical pylons cross the wooded corridor; no independent cellular tower compound is visible. OSM power=tower agrees; detector proposal falls on the power infrastructure."
+    },
+    "reviewer": {
+      "id": "site_037",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_037:imagery"
+      ],
+      "reason": "Electrical transmission lines and pylons crossing a wooded corridor."
+    }
+  },
+  {
+    "id": "site_038",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_038:detector",
+      "site_038:fcc",
+      "site_038:imagery",
+      "site_038:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_038",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_038:imagery",
+        "site_038:detector",
+        "site_038:osm",
+        "site_038:fcc"
+      ],
+      "reason": "Cellular pole/crown and equipment shelters occupy a dedicated gravel clearing beside the highway. Detector, OSM and pre-image FCC MTOWER 2 m away agree."
+    },
+    "reviewer": {
+      "id": "site_038",
+      "action": "confirm",
+      "confidence": 0.96,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_038:imagery"
+      ],
+      "reason": "Antenna structure within a cleared equipment compound beside a divided highway."
+    }
+  },
+  {
+    "id": "site_039",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_039:detector",
+      "site_039:fcc",
+      "site_039:imagery",
+      "site_039:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_039",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_039:imagery",
+        "site_039:detector",
+        "site_039:osm",
+        "site_039:fcc"
+      ],
+      "reason": "Freestanding lattice mast with antenna elements and shelters is visible in a fenced pad. Detector, OSM and the 2010 FCC tower 3 m away agree; the 2024 tower 488 m away postdates this 2021 image and is separate."
+    },
+    "reviewer": {
+      "id": "site_039",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_039:imagery"
+      ],
+      "reason": "Lattice antenna tower and equipment shelter on a fenced pad."
+    }
+  },
+  {
+    "id": "site_040",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_040:detector",
+      "site_040:fcc",
+      "site_040:imagery",
+      "site_040:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_040",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_040:imagery",
+        "site_040:detector",
+        "site_040:osm",
+        "site_040:fcc"
+      ],
+      "reason": "Lattice tower with antenna crown, long shadow and equipment shelters stands in a square field compound. Detector, OSM and pre-image FCC LTOWER within 1 m agree."
+    },
+    "reviewer": {
+      "id": "site_040",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_040:imagery"
+      ],
+      "reason": "Tower with antenna tiers, long shadow and equipment shelters in cropland."
+    }
+  },
+  {
+    "id": "site_041",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_041:detector",
+      "site_041:fcc",
+      "site_041:imagery",
+      "site_041:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_041",
+      "action": "no_target",
+      "confidence": 0.94,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_041:imagery",
+        "site_041:detector",
+        "site_041:osm",
+        "site_041:fcc"
+      ],
+      "reason": "Intersection has traffic, lighting and utility poles, with no dedicated cellular tower compound visible. OSM specifically tags utility_pole; weak detector proposal on roadside infrastructure does not establish an eligible tower."
+    },
+    "reviewer": {
+      "id": "site_041",
+      "action": "no_target",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_041:imagery"
+      ],
+      "reason": "Road intersection, homes and open lots; no tower compound visible."
+    }
+  },
+  {
+    "id": "site_042",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_042:detector",
+      "site_042:fcc",
+      "site_042:imagery",
+      "site_042:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_042",
+      "action": "no_target",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_042:imagery",
+        "site_042:detector",
+        "site_042:osm",
+        "site_042:fcc"
+      ],
+      "reason": "Antenna/equipment features sit on the hospital roof; no separate ground mast is visible elsewhere in the chip. Detector covers rooftop equipment and OSM says antenna, which does not establish a freestanding support."
+    },
+    "reviewer": {
+      "id": "site_042",
+      "action": "no_target",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_042:imagery"
+      ],
+      "reason": "Large building complex, rooftop equipment, parking and helipad."
+    }
+  },
+  {
+    "id": "site_043",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_043:detector",
+      "site_043:fcc",
+      "site_043:imagery",
+      "site_043:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_043",
+      "action": "confirm",
+      "confidence": 0.96,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_043:imagery",
+        "site_043:detector",
+        "site_043:osm",
+        "site_043:fcc"
+      ],
+      "reason": "Lattice mast and equipment sit on an elongated pale pad reached by a forest access road. Detector, OSM and pre-image FCC LTOWER 2 m away agree."
+    },
+    "reviewer": {
+      "id": "site_043",
+      "action": "request_review",
+      "confidence": 0.57,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_043:imagery"
+      ],
+      "reason": "Bright narrow woodland clearing with a small structure; tower details unresolved."
+    }
+  },
+  {
+    "id": "site_044",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_044:detector",
+      "site_044:fcc",
+      "site_044:imagery",
+      "site_044:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_044",
+      "action": "confirm",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_044:imagery",
+        "site_044:detector",
+        "site_044:osm",
+        "site_044:fcc"
+      ],
+      "reason": "Small mast/equipment compound is visible at the center of radiating cleared guy corridors. Detector, OSM and pre-image FCC LTOWER 2 m away agree."
+    },
+    "reviewer": {
+      "id": "site_044",
+      "action": "request_review",
+      "confidence": 0.58,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_044:imagery"
+      ],
+      "reason": "Small central equipment clearing surrounded by trees; mast is indistinct."
+    }
+  },
+  {
+    "id": "site_045",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_045:detector",
+      "site_045:fcc",
+      "site_045:imagery",
+      "site_045:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_045",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_045:imagery",
+        "site_045:detector",
+        "site_045:osm",
+        "site_045:fcc"
+      ],
+      "reason": "Guyed mast with multiple antenna clusters extends east from a farm-field equipment pad and casts a long shadow. Detector proposals, OSM and pre-image FCC GTOWER 4 m away agree."
+    },
+    "reviewer": {
+      "id": "site_045",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_045:imagery"
+      ],
+      "reason": "Guyed antenna tower extending from a small fenced equipment pad in cropland."
+    }
+  },
+  {
+    "id": "site_046",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_046:detector",
+      "site_046:fcc",
+      "site_046:imagery",
+      "site_046:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_046",
+      "action": "no_target",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_046:imagery",
+        "site_046:detector",
+        "site_046:osm",
+        "site_046:fcc"
+      ],
+      "reason": "Bare terrain and erosion channels fill the chip; no mast, shadow or equipment compound is visible. Cached OSM/detector/FCC are empty; absence is determined visually."
+    },
+    "reviewer": {
+      "id": "site_046",
+      "action": "no_target",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_046:imagery"
+      ],
+      "reason": "Bare terrain and shallow drainage channels; no tower visible."
+    }
+  },
+  {
+    "id": "site_047",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_047:detector",
+      "site_047:fcc",
+      "site_047:imagery",
+      "site_047:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_047",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_047:imagery",
+        "site_047:detector",
+        "site_047:osm",
+        "site_047:fcc"
+      ],
+      "reason": "Lattice cellular tower with a long structural shadow stands in a fenced roadside equipment compound. Detector, OSM and pre-image FCC LTOWER 6 m away agree."
+    },
+    "reviewer": {
+      "id": "site_047",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_047:imagery"
+      ],
+      "reason": "Lattice tower, antenna shadow and equipment in a roadside compound."
+    }
+  },
+  {
+    "id": "site_048",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_048:detector",
+      "site_048:fcc",
+      "site_048:imagery",
+      "site_048:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence, poor_imagery",
+    "investigator": {
+      "id": "site_048",
+      "action": "request_review",
+      "confidence": 0.37,
+      "image_quality": "poor",
+      "evidence_ids": [
+        "site_048:imagery",
+        "site_048:detector",
+        "site_048:osm",
+        "site_048:fcc"
+      ],
+      "reason": "Blurred residential imagery does not resolve a cellular monopole or its base. OSM monopole snapshot is later than the image; FCC records about 650 m away concern other structures, and detector has no proposal."
+    },
+    "reviewer": {
+      "id": "site_048",
+      "action": "no_target",
+      "confidence": 0.93,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_048:imagery"
+      ],
+      "reason": "Dense residential blocks and roads; no freestanding tower visible."
+    }
+  },
+  {
+    "id": "site_049",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_049:detector",
+      "site_049:fcc",
+      "site_049:imagery",
+      "site_049:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_049",
+      "action": "no_target",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_049:imagery",
+        "site_049:detector",
+        "site_049:osm",
+        "site_049:fcc"
+      ],
+      "reason": "Round elevated water tank, support legs and tank-shaped shadow are clear beside the ballfields. OSM water_tower agrees; detector proposal identifies an excluded support rather than a separate cell tower."
+    },
+    "reviewer": {
+      "id": "site_049",
+      "action": "no_target",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_049:imagery"
+      ],
+      "reason": "Elevated spherical water tank on legs beside playing fields."
+    }
+  },
+  {
+    "id": "site_050",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_050:detector",
+      "site_050:fcc",
+      "site_050:imagery",
+      "site_050:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_050",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_050:imagery",
+        "site_050:detector",
+        "site_050:osm",
+        "site_050:fcc"
+      ],
+      "reason": "Guyed cellular mast with antenna crown, equipment shelters and outlying anchors occupies a dedicated crop-field pad. Detector, OSM and pre-image FCC LTOWER 27 m away support the site."
+    },
+    "reviewer": {
+      "id": "site_050",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_050:imagery"
+      ],
+      "reason": "Freestanding antenna tower with shelters on a gravel pad in cropland."
+    }
+  },
+  {
+    "id": "site_051",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_051:detector",
+      "site_051:fcc",
+      "site_051:imagery",
+      "site_051:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_051",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_051:imagery",
+        "site_051:detector",
+        "site_051:osm",
+        "site_051:fcc"
+      ],
+      "reason": "Mast and small equipment compound are visible with radiating guy wires/anchor clearings in pasture. Detector, OSM and FCC GTOWER constructed in 2022 before the 2023 imagery agree."
+    },
+    "reviewer": {
+      "id": "site_051",
+      "action": "confirm",
+      "confidence": 0.93,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_051:imagery"
+      ],
+      "reason": "Guyed mast with radial lines, anchor pads and central ground equipment."
+    }
+  },
+  {
+    "id": "site_052",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_052:detector",
+      "site_052:fcc",
+      "site_052:imagery",
+      "site_052:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_052",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_052:imagery",
+        "site_052:detector",
+        "site_052:osm",
+        "site_052:fcc"
+      ],
+      "reason": "Lattice tower with multiple sector arrays casts a distinct long shadow from a small equipment compound in open pasture. Detector, OSM and pre-image FCC tower 3 m away agree."
+    },
+    "reviewer": {
+      "id": "site_052",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_052:imagery"
+      ],
+      "reason": "Lattice antenna tower and shelter with a long detailed shadow in pasture."
+    }
+  },
+  {
+    "id": "site_053",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_053:detector",
+      "site_053:fcc",
+      "site_053:imagery",
+      "site_053:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_053",
+      "action": "no_target",
+      "confidence": 0.86,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_053:imagery",
+        "site_053:detector",
+        "site_053:osm",
+        "site_053:fcc"
+      ],
+      "reason": "Homes, open yards and forest edge show no resolved tower, antenna crown or dedicated equipment compound. Weak detector proposal falls on vegetation; empty OSM/FCC caches are not treated as proof of absence."
+    },
+    "reviewer": {
+      "id": "site_053",
+      "action": "no_target",
+      "confidence": 0.95,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_053:imagery"
+      ],
+      "reason": "Homes, lawns and woodland; no tower compound visible."
+    }
+  },
+  {
+    "id": "site_054",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_054:detector",
+      "site_054:fcc",
+      "site_054:imagery",
+      "site_054:osm"
+    ],
+    "reason": "agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_054",
+      "action": "request_review",
+      "confidence": 0.48,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_054:imagery",
+        "site_054:detector",
+        "site_054:osm",
+        "site_054:fcc"
+      ],
+      "reason": "Central fenced pad and several small framed structures are visible, but an intact cellular mast/antenna array is not clearly resolved. Historical detector and OSM indicate a mast; FCC includes multiple broadcast-array structures and a 2020 dismantling, so records do not establish an eligible current cell tower."
+    },
+    "reviewer": {
+      "id": "site_054",
+      "action": "request_review",
+      "confidence": 0.63,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_054:imagery"
+      ],
+      "reason": "Fenced central pad and several separate anchor-like enclosures; upright mast unclear."
+    }
+  },
+  {
+    "id": "site_055",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_055:detector",
+      "site_055:fcc",
+      "site_055:imagery",
+      "site_055:osm"
+    ],
+    "reason": "agent_disagreement",
+    "investigator": {
+      "id": "site_055",
+      "action": "no_target",
+      "confidence": 0.96,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_055:imagery",
+        "site_055:detector",
+        "site_055:osm",
+        "site_055:fcc"
+      ],
+      "reason": "Lattice support carries continuous transmission lines along the road, with equipment nearby but no separate cell mast. OSM power=tower agrees; detector proposal on this electrical pylon remains excluded even if antennas are attached."
+    },
+    "reviewer": {
+      "id": "site_055",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_055:imagery"
+      ],
+      "reason": "Lattice tower and small shelter beside a rural road."
+    }
+  },
+  {
+    "id": "site_056",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_056:detector",
+      "site_056:fcc",
+      "site_056:imagery",
+      "site_056:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_056",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_056:imagery",
+        "site_056:detector",
+        "site_056:osm",
+        "site_056:fcc"
+      ],
+      "reason": "Small blue round water tank on elevated supports and its shadow are visible beside the central buildings. OSM water_tower agrees; detector proposal does not establish a separate eligible mast."
+    },
+    "reviewer": {
+      "id": "site_056",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_056:imagery"
+      ],
+      "reason": "Elevated round water tank among homes and small buildings."
+    }
+  },
+  {
+    "id": "site_057",
+    "action": "request_review",
+    "evidence_ids": [
+      "site_057:detector",
+      "site_057:fcc",
+      "site_057:imagery",
+      "site_057:osm"
+    ],
+    "reason": "agent_disagreement, agent_abstention, low_confidence",
+    "investigator": {
+      "id": "site_057",
+      "action": "request_review",
+      "confidence": 0.58,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_057:imagery",
+        "site_057:detector",
+        "site_057:osm",
+        "site_057:fcc"
+      ],
+      "reason": "Small equipment buildings and a circular tank-like feature are visible among trees, but a distinct cellular pole is unresolved. OSM mast and pre-image FCC POLE 4 m away support a site; detector is unavailable, and the record alone cannot settle support type."
+    },
+    "reviewer": {
+      "id": "site_057",
+      "action": "no_target",
+      "confidence": 0.9,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_057:imagery"
+      ],
+      "reason": "Circular tank and small utility buildings beside parking and railway."
+    }
+  },
+  {
+    "id": "site_058",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_058:detector",
+      "site_058:fcc",
+      "site_058:imagery",
+      "site_058:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_058",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_058:imagery",
+        "site_058:detector",
+        "site_058:osm",
+        "site_058:fcc"
+      ],
+      "reason": "Guyed lattice tower with antenna elements and several shelters occupies a forest clearing with radiating anchor corridors. Detector, OSM and pre-image FCC GTOWER 3 m away agree; distant array records concern other structures."
+    },
+    "reviewer": {
+      "id": "site_058",
+      "action": "confirm",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_058:imagery"
+      ],
+      "reason": "Antenna mast, equipment shelters and narrow shadow in a woodland compound."
+    }
+  },
+  {
+    "id": "site_059",
+    "action": "confirm",
+    "evidence_ids": [
+      "site_059:detector",
+      "site_059:fcc",
+      "site_059:imagery",
+      "site_059:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_059",
+      "action": "confirm",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_059:imagery",
+        "site_059:detector",
+        "site_059:osm",
+        "site_059:fcc"
+      ],
+      "reason": "Monopole antenna crown and ground equipment enclosure are visible south of the developed yard. Detector, OSM and pre-image FCC MTOWER 2 m away agree."
+    },
+    "reviewer": {
+      "id": "site_059",
+      "action": "confirm",
+      "confidence": 0.97,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_059:imagery"
+      ],
+      "reason": "Antenna structure and equipment shelter in a fenced pad beside a storage yard."
+    }
+  },
+  {
+    "id": "site_060",
+    "action": "no_target",
+    "evidence_ids": [
+      "site_060:detector",
+      "site_060:fcc",
+      "site_060:imagery",
+      "site_060:osm"
+    ],
+    "reason": "Independent agents agree above the routing threshold.",
+    "investigator": {
+      "id": "site_060",
+      "action": "no_target",
+      "confidence": 0.99,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_060:imagery",
+        "site_060:detector",
+        "site_060:osm",
+        "site_060:fcc"
+      ],
+      "reason": "Cultivated field, dirt tracks and a few vehicles show no tower or equipment compound across the chip. OSM/detector/FCC caches are empty; decision is based on visible land cover."
+    },
+    "reviewer": {
+      "id": "site_060",
+      "action": "no_target",
+      "confidence": 0.98,
+      "image_quality": "adequate",
+      "evidence_ids": [
+        "site_060:imagery"
+      ],
+      "reason": "Cultivated fields and intersecting dirt tracks; no tower visible."
+    }
+  }
+]

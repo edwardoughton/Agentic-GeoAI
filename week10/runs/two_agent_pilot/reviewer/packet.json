@@ -1,0 +1,37 @@
+[
+  {
+    "id": "site_001",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "24a7707bffef0b582655d98917be8820df967d74f34ddd06b7efa5b29372c62d",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_001.jpg"
+  },
+  {
+    "id": "site_002",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "01592e4c038fc4243ed3593ed28fa64ab24dec8f0269df49e265b1099cf41b5c",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_002.jpg"
+  },
+  {
+    "id": "site_003",
+    "width": 512,
+    "height": 512,
+    "sha256": "5ce795a4c9f84fd88ac8500bdc190fe3bc1bd0746070e0e813612ce8dd6a72d8",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_003.jpg"
+  },
+  {
+    "id": "site_004",
+    "width": 512,
+    "height": 512,
+    "sha256": "9c917ec03e7c9f1dcf52ad70ebdf9c0c31d4dc3938cf3d08503eb952f76d84ac",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_004.jpg"
+  },
+  {
+    "id": "site_005",
+    "width": 512,
+    "height": 512,
+    "sha256": "acdcd193a4b245f28410a1978538ed979f84389432e436757eee8e2632fc594e",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_005.jpg"
+  }
+]

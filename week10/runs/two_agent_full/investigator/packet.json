@@ -1,0 +1,4523 @@
+[
+  {
+    "id": "site_001",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "24a7707bffef0b582655d98917be8820df967d74f34ddd06b7efa5b29372c62d",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_001.jpg",
+    "evidence": {
+      "id": "site_001",
+      "imagery": {
+        "path": "images/site_001.jpg",
+        "date": "2025-10-13T00:00:00+00:00",
+        "resolution_m": "0.3",
+        "source_id": "m_3008438_nw_16_030_20251013",
+        "latitude": "30.443461",
+        "longitude": "-84.325828"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "antenna"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/10914579618"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              592.2120361328125,
+              421.98370361328125,
+              696.075439453125,
+              510.51141357421875
+            ],
+            "confidence": 0.41598355770111084
+          },
+          {
+            "xyxy": [
+              554.8521728515625,
+              425.14056396484375,
+              658.5380859375,
+              517.3296508789062
+            ],
+            "confidence": 0.23784776031970978
+          },
+          {
+            "xyxy": [
+              518.8328857421875,
+              430.90167236328125,
+              620.3026123046875,
+              523.8789672851562
+            ],
+            "confidence": 0.12485603988170624
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1254864",
+            "unique_id": "2654029",
+            "status_code": "C",
+            "constructed_date": "02/08/2007",
+            "dismantled_date": "",
+            "action_date": "01/23/2026",
+            "city": "Tallahasee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "42.7",
+            "overall_height_agl_m": "42.7",
+            "structure_type_code": "TOWER",
+            "address": "2373 W Tennessee St (9JK0377B)",
+            "latitude": 30.44461111111111,
+            "longitude": -84.32386111111111,
+            "coordinate_type_code": "T",
+            "organization_owner": "T-Mobile USA Tower LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2654029",
+            "distance_m": 227.8,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1241048",
+            "unique_id": "2639834",
+            "status_code": "C",
+            "constructed_date": "05/21/2004",
+            "dismantled_date": "",
+            "action_date": "01/22/2026",
+            "city": "Tallahassee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "45.7",
+            "overall_height_agl_m": "46.9",
+            "structure_type_code": "TOWER",
+            "address": "2145 W. Pensacola Street",
+            "latitude": 30.439888888888888,
+            "longitude": -84.32047222222222,
+            "coordinate_type_code": "T",
+            "organization_owner": "STC Two LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2639834",
+            "distance_m": 649.1,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1312615",
+            "unique_id": "2712399",
+            "status_code": "C",
+            "constructed_date": "01/13/2021",
+            "dismantled_date": "",
+            "action_date": "08/09/2024",
+            "city": "Tallahassee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "9.9",
+            "overall_height_agl_m": "11.1",
+            "structure_type_code": "UPOLE",
+            "address": "2825 Municipal Way",
+            "latitude": 30.43975,
+            "longitude": -84.33458333333333,
+            "coordinate_type_code": "T",
+            "organization_owner": "ALLTEL Corporation",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2712399",
+            "distance_m": 935.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1026901",
+            "unique_id": "127542",
+            "status_code": "C",
+            "constructed_date": "12/20/2007",
+            "dismantled_date": "",
+            "action_date": "06/10/2024",
+            "city": "Tallahassee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "52.7",
+            "overall_height_agl_m": "54.9",
+            "structure_type_code": "MTOWER",
+            "address": "706 Mabry Street (97157)",
+            "latitude": 30.435388888888887,
+            "longitude": -84.32875,
+            "coordinate_type_code": "T",
+            "organization_owner": "American Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=127542",
+            "distance_m": 940.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_002",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "01592e4c038fc4243ed3593ed28fa64ab24dec8f0269df49e265b1099cf41b5c",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_002.jpg",
+    "evidence": {
+      "id": "site_002",
+      "imagery": {
+        "path": "images/site_002.jpg",
+        "date": "2025-10-30T00:00:00+00:00",
+        "resolution_m": "0.3",
+        "source_id": "m_2908153_nw_17_030_20251030",
+        "latitude": "29.23611",
+        "longitude": "-81.464148"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "antenna"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/12900195851"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              480.1181640625,
+              560.0621948242188,
+              586.0535888671875,
+              652.5020141601562
+            ],
+            "confidence": 0.14844422042369843
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_003",
+    "width": 512,
+    "height": 512,
+    "sha256": "5ce795a4c9f84fd88ac8500bdc190fe3bc1bd0746070e0e813612ce8dd6a72d8",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_003.jpg",
+    "evidence": {
+      "id": "site_003",
+      "imagery": {
+        "path": "images/site_003.jpg",
+        "date": "2024-06-26T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3511940_se_11_060_20240626",
+        "latitude": "35.400341",
+        "longitude": "-119.018244"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "power": "tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/1804529370"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              244.7442626953125,
+              237.24945068359375,
+              292.223388671875,
+              281.17388916015625
+            ],
+            "confidence": 0.720617949962616
+          },
+          {
+            "xyxy": [
+              213.57830810546875,
+              217.15701293945312,
+              255.32940673828125,
+              253.65542602539062
+            ],
+            "confidence": 0.13032837212085724
+          },
+          {
+            "xyxy": [
+              221.71749877929688,
+              278.2999267578125,
+              270.7882385253906,
+              338.0916748046875
+            ],
+            "confidence": 0.10486158728599548
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1304704",
+            "unique_id": "2704400",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "05/03/2018",
+            "city": "Bakersfield",
+            "state": "CA",
+            "county_fips": "06029",
+            "height_structure_m": "9.1",
+            "overall_height_agl_m": "13.7",
+            "structure_type_code": "B",
+            "address": "1418 w Columbus",
+            "latitude": 35.398472222222225,
+            "longitude": -119.01655555555556,
+            "coordinate_type_code": "T",
+            "organization_owner": "ACME Commercial Properties L.L.C.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2704400",
+            "distance_m": 258.1,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_004",
+    "width": 512,
+    "height": 512,
+    "sha256": "9c917ec03e7c9f1dcf52ad70ebdf9c0c31d4dc3938cf3d08503eb952f76d84ac",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_004.jpg",
+    "evidence": {
+      "id": "site_004",
+      "imagery": {
+        "path": "images/site_004.jpg",
+        "date": "2024-08-31T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_4509239_ne_15_060_20240831",
+        "latitude": 45.480202,
+        "longitude": -92.165828
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13986666064"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1326645",
+            "unique_id": "2726895",
+            "status_code": "C",
+            "constructed_date": "11/27/2024",
+            "dismantled_date": "",
+            "action_date": "09/26/2025",
+            "city": "Comstock",
+            "state": "WI",
+            "county_fips": "55095",
+            "height_structure_m": "76.2",
+            "overall_height_agl_m": "79.2",
+            "structure_type_code": "LTOWER",
+            "address": "1898 5th Street, Comstock, WI  54829",
+            "latitude": 45.48019444444444,
+            "longitude": -92.16580555555556,
+            "coordinate_type_code": "T",
+            "organization_owner": "Vertical Bridge VBTS, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2726895",
+            "distance_m": 1.9,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": true
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_005",
+    "width": 512,
+    "height": 512,
+    "sha256": "acdcd193a4b245f28410a1978538ed979f84389432e436757eee8e2632fc594e",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_005.jpg",
+    "evidence": {
+      "id": "site_005",
+      "imagery": {
+        "path": "images/site_005.jpg",
+        "date": "2024-07-01T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_4108005_NW_18_60_20240701",
+        "latitude": "41.988671179440225",
+        "longitude": "-80.44031314952872"
+      },
+      "osm": {
+        "tags": {},
+        "snapshot": null,
+        "url": ""
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_006",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "d743c0357aa4f63f8ee8a6565ff372163ec3e33c72235463b21e3b94a84af494",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_006.jpg",
+    "evidence": {
+      "id": "site_006",
+      "imagery": {
+        "path": "images/site_006.jpg",
+        "date": "2023-05-01T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "la_m_2909017_ne_15_030_20230501_20240209",
+        "latitude": 29.705797,
+        "longitude": -90.908579
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11074605935"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              428,
+              459,
+              567,
+              592
+            ],
+            "confidence": 0.829
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1057784",
+            "unique_id": "618182",
+            "status_code": "C",
+            "constructed_date": "02/11/1999",
+            "dismantled_date": "",
+            "action_date": "02/05/2019",
+            "city": "SCHRIERER",
+            "state": "LA",
+            "county_fips": "22109",
+            "height_structure_m": "105.7",
+            "overall_height_agl_m": "108.8",
+            "structure_type_code": "GTOWER",
+            "address": "2134 BULL RUN ROAD (Bull Run site)",
+            "latitude": 29.705805555555553,
+            "longitude": -90.90852777777778,
+            "coordinate_type_code": "T",
+            "organization_owner": "Alltel Corporation",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=618182",
+            "distance_m": 5.0,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1061116",
+            "unique_id": "621040",
+            "status_code": "C",
+            "constructed_date": "04/08/1999",
+            "dismantled_date": "",
+            "action_date": "06/22/2018",
+            "city": "CHACAHOULA",
+            "state": "LA",
+            "county_fips": "22109",
+            "height_structure_m": "91.5",
+            "overall_height_agl_m": "92.9",
+            "structure_type_code": "TOWER",
+            "address": "1604 Highway 20(30248/Chacahoula)",
+            "latitude": 29.704166666666666,
+            "longitude": -90.91647222222223,
+            "coordinate_type_code": "T",
+            "organization_owner": "American Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=621040",
+            "distance_m": 783.6,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_007",
+    "width": 512,
+    "height": 512,
+    "sha256": "f220b31bbd3337a1e3e15b77be7b0a780ac9cd7f042fb9da650a0e1f9ab97a65",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_007.jpg",
+    "evidence": {
+      "id": "site_007",
+      "imagery": {
+        "path": "images/site_007.jpg",
+        "date": "2025-08-01T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_4008529_se_16_060_20250801",
+        "latitude": 40.530067,
+        "longitude": -85.394322
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/14020930760"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1330838",
+            "unique_id": "2731348",
+            "status_code": "G",
+            "constructed_date": "09/12/2025",
+            "dismantled_date": "",
+            "action_date": "11/25/2025",
+            "city": "Hartford City",
+            "state": "IN",
+            "county_fips": "18009",
+            "height_structure_m": "76.2",
+            "overall_height_agl_m": "79.2",
+            "structure_type_code": "LTOWER",
+            "address": "CR 550 N",
+            "latitude": 40.530055555555556,
+            "longitude": -85.39430555555556,
+            "coordinate_type_code": "T",
+            "organization_owner": "TowerCom VI-B, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2731348",
+            "distance_m": 1.9,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": true
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_008",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "6b3b8cd562b500bc3fe4a9516838265ba1bd13e5dd1c4fb4a0df514c166810bb",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_008.jpg",
+    "evidence": {
+      "id": "site_008",
+      "imagery": {
+        "path": "images/site_008.jpg",
+        "date": "2023-09-01T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "md_m_3807708_se_18_030_20230901_20231018",
+        "latitude": 38.908416,
+        "longitude": -77.013568
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "tower",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/8013743377"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1333040",
+            "unique_id": "2733551",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "03/25/2026",
+            "city": "Washington",
+            "state": "DC",
+            "county_fips": "11001",
+            "height_structure_m": "9.2",
+            "overall_height_agl_m": "10.9",
+            "structure_type_code": "POLE",
+            "address": "917 6TH STREET NW",
+            "latitude": 38.902166666666666,
+            "longitude": -77.01977777777778,
+            "coordinate_type_code": "T",
+            "organization_owner": "Crown Castle Fiber, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2733551",
+            "distance_m": 878.4,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_009",
+    "width": 512,
+    "height": 512,
+    "sha256": "70166ee6ba7be29cbda96fc7dfbf7835e8f5a1545531f8aeddc9a867255ecf2c",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_009.jpg",
+    "evidence": {
+      "id": "site_009",
+      "imagery": {
+        "path": "images/site_009.jpg",
+        "date": "2024-05-20T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3812251_ne_10_060_20240520",
+        "latitude": "38.246877",
+        "longitude": "-122.684924"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/13996540084"
+      },
+      "detector": {
+        "available": false,
+        "detections": null,
+        "source": null,
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_010",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "d760e342fa162480c4035e58fab053431437445ed6b161921c9f953b55908983",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_010.jpg",
+    "evidence": {
+      "id": "site_010",
+      "imagery": {
+        "path": "images/site_010.jpg",
+        "date": "2023-05-03T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "la_m_3009029_sw_15_030_20230503_20240209",
+        "latitude": 30.52901,
+        "longitude": -90.478598
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/4363113647"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              449,
+              438,
+              567,
+              553
+            ],
+            "confidence": 0.81
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1047425",
+            "unique_id": "105088",
+            "status_code": "C",
+            "constructed_date": "03/06/2009",
+            "dismantled_date": "",
+            "action_date": "02/07/2020",
+            "city": "HAMMOND",
+            "state": "LA",
+            "county_fips": "22105",
+            "height_structure_m": "75.3",
+            "overall_height_agl_m": "78.0",
+            "structure_type_code": "",
+            "address": "47376 Highway 51N (304814)",
+            "latitude": 30.529055555555555,
+            "longitude": -90.4786111111111,
+            "coordinate_type_code": "T",
+            "organization_owner": "American Towers, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=105088",
+            "distance_m": 5.2,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_011",
+    "width": 512,
+    "height": 512,
+    "sha256": "f058d16cf81def95f8bad6f4dd4a87b21ab80dd1d5ebe35c2c6685497bfe5141",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_011.jpg",
+    "evidence": {
+      "id": "site_011",
+      "imagery": {
+        "path": "images/site_011.jpg",
+        "date": "2024-08-07T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_3209420_se_15_060_20240807",
+        "latitude": 32.666995,
+        "longitude": -94.560629
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11263742759"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              229,
+              235,
+              295,
+              284
+            ],
+            "confidence": 0.774
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1043241",
+            "unique_id": "606299",
+            "status_code": "C",
+            "constructed_date": "10/30/1995",
+            "dismantled_date": "",
+            "action_date": "01/08/2026",
+            "city": "HARLETON",
+            "state": "TX",
+            "county_fips": "48203",
+            "height_structure_m": "102.7",
+            "overall_height_agl_m": "107.3",
+            "structure_type_code": "TOWER",
+            "address": "16325 FARM ROAD 2208",
+            "latitude": 32.666999999999994,
+            "longitude": -94.56063888888889,
+            "coordinate_type_code": "T",
+            "organization_owner": "CCATT LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=606299",
+            "distance_m": 1.1,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_012",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "e475024520fe92932bd9048e75f768f01da7ff24720eddab0150396256288e5d",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_012.jpg",
+    "evidence": {
+      "id": "site_012",
+      "imagery": {
+        "path": "images/site_012.jpg",
+        "date": "2025-07-01T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_4810312_nw_13_030_20250701",
+        "latitude": 48.85044,
+        "longitude": -103.610582
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11273548935"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              460,
+              470,
+              565,
+              568
+            ],
+            "confidence": 0.662
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1290644",
+            "unique_id": "2690073",
+            "status_code": "C",
+            "constructed_date": "09/08/2014",
+            "dismantled_date": "",
+            "action_date": "01/10/2026",
+            "city": "Fortuna",
+            "state": "ND",
+            "county_fips": "38023",
+            "height_structure_m": "57.9",
+            "overall_height_agl_m": "60.6",
+            "structure_type_code": "LTOWER",
+            "address": "SE corner of Hwy 85 and 99th St NW",
+            "latitude": 48.85041666666667,
+            "longitude": -103.61055555555555,
+            "coordinate_type_code": "T",
+            "organization_owner": "CTI Towers Assets, II, LLC c/o Symphony Towers Infrastructure",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2690073",
+            "distance_m": 3.2,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_013",
+    "width": 512,
+    "height": 512,
+    "sha256": "4f612e90346bb851b3f10818ac860946effd28461c9e02fb8f9f997fe8eea417",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_013.jpg",
+    "evidence": {
+      "id": "site_013",
+      "imagery": {
+        "path": "images/site_013.jpg",
+        "date": "2024-10-27T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3110603_se_13_060_20241027",
+        "latitude": "31.909612",
+        "longitude": "-106.632033"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/14175118242"
+      },
+      "detector": {
+        "available": false,
+        "detections": null,
+        "source": null,
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1320255",
+            "unique_id": "2720233",
+            "status_code": "G",
+            "constructed_date": "08/03/2021",
+            "dismantled_date": "",
+            "action_date": "10/14/2021",
+            "city": "Canutillo",
+            "state": "TX",
+            "county_fips": "48141",
+            "height_structure_m": "21.3",
+            "overall_height_agl_m": "23.2",
+            "structure_type_code": "MTOWER",
+            "address": "955 Gato Road",
+            "latitude": 31.90961111111111,
+            "longitude": -106.63202777777776,
+            "coordinate_type_code": "T",
+            "organization_owner": "Sun State Towers, LLC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2720233",
+            "distance_m": 0.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1320878",
+            "unique_id": "2720856",
+            "status_code": "A",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "10/14/2021",
+            "city": "Canutillo",
+            "state": "TX",
+            "county_fips": "48141",
+            "height_structure_m": "22.9",
+            "overall_height_agl_m": "23.2",
+            "structure_type_code": "MTOWER",
+            "address": "955 Gato Road",
+            "latitude": 31.90961111111111,
+            "longitude": -106.63202777777776,
+            "coordinate_type_code": "T",
+            "organization_owner": "Sun State Towers, LLC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2720856",
+            "distance_m": 0.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1331368",
+            "unique_id": "2731879",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "08/25/2025",
+            "city": "Canutillo",
+            "state": "TX",
+            "county_fips": "48141",
+            "height_structure_m": "22.9",
+            "overall_height_agl_m": "22.9",
+            "structure_type_code": "MTOWER",
+            "address": "955 Gato Road",
+            "latitude": 31.90961111111111,
+            "longitude": -106.63205555555555,
+            "coordinate_type_code": "T",
+            "organization_owner": "Sun State Towers",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2731879",
+            "distance_m": 2.1,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": null
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_014",
+    "width": 512,
+    "height": 512,
+    "sha256": "18dd30b05ba970e9735fd95f4c08ea1dd768d854f551b81263d928f0605415bf",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_014.jpg",
+    "evidence": {
+      "id": "site_014",
+      "imagery": {
+        "path": "images/site_014.jpg",
+        "date": "2024-08-06T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_3908039_NE_17_60_20240806",
+        "latitude": 39.448799,
+        "longitude": -80.136157
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11772013354"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              235,
+              228,
+              287,
+              279
+            ],
+            "confidence": 0.673
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_015",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "12ccb06da8322fe1b30cbd37c9785d9cc96361b213536db5ad22fb6f3b27c3fb",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_015.jpg",
+    "evidence": {
+      "id": "site_015",
+      "imagery": {
+        "path": "images/site_015.jpg",
+        "date": "2025-07-02T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_4709801_ne_14_030_20250702",
+        "latitude": 47.988175,
+        "longitude": -98.932661
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/7366917995"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              451,
+              463,
+              600,
+              574
+            ],
+            "confidence": 0.75
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1049780",
+            "unique_id": "611470",
+            "status_code": "C",
+            "constructed_date": "06/22/2010",
+            "dismantled_date": "",
+            "action_date": "01/08/2026",
+            "city": "Devils Lake",
+            "state": "ND",
+            "county_fips": "38005",
+            "height_structure_m": "61.9",
+            "overall_height_agl_m": "66.1",
+            "structure_type_code": "POLE",
+            "address": "7747 Ephraim Hill Road",
+            "latitude": 47.988166666666665,
+            "longitude": -98.93258333333334,
+            "coordinate_type_code": "T",
+            "organization_owner": "CCATT LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=611470",
+            "distance_m": 5.9,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1051105",
+            "unique_id": "612579",
+            "status_code": "C",
+            "constructed_date": "04/11/1984",
+            "dismantled_date": "",
+            "action_date": "07/07/1998",
+            "city": "DEVILS LAKE",
+            "state": "ND",
+            "county_fips": "38005",
+            "height_structure_m": ".0",
+            "overall_height_agl_m": "89.9",
+            "structure_type_code": "TOWER",
+            "address": "9 MI. S. OF CITY ON SULLY'S HILL",
+            "latitude": 47.98777777777778,
+            "longitude": -98.93333333333334,
+            "coordinate_type_code": "T",
+            "organization_owner": "ALWIN, DALE  DBA =  DAKOTA ROSE BROADCASTING",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=612579",
+            "distance_m": 66.7,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1039996",
+            "unique_id": "603639",
+            "status_code": "C",
+            "constructed_date": "01/01/1961",
+            "dismantled_date": "",
+            "action_date": "03/09/1998",
+            "city": "DEVILS LAKE",
+            "state": "ND",
+            "county_fips": "38005",
+            "height_structure_m": "90.8",
+            "overall_height_agl_m": "100.6",
+            "structure_type_code": "TOWER",
+            "address": "5 KM SSW",
+            "latitude": 47.98444444444444,
+            "longitude": -98.93194444444445,
+            "coordinate_type_code": "T",
+            "organization_owner": "NORTH DAKOTA, STATE OF",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=603639",
+            "distance_m": 418.2,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_016",
+    "width": 512,
+    "height": 512,
+    "sha256": "bc752e32713175ff886d6b7eaf9701f36f2adc206eb4eaefc392643c9c6c8c6c",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_016.jpg",
+    "evidence": {
+      "id": "site_016",
+      "imagery": {
+        "path": "images/site_016.jpg",
+        "date": "2024-05-31T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_4207964_nw_17_060_20240531",
+        "latitude": 42.109416,
+        "longitude": -79.103618
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/10713271442"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              220,
+              229,
+              284,
+              285
+            ],
+            "confidence": 0.851
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1012274",
+            "unique_id": "116122",
+            "status_code": "C",
+            "constructed_date": "06/24/2000",
+            "dismantled_date": "",
+            "action_date": "01/27/2026",
+            "city": "KENNEDY",
+            "state": "NY",
+            "county_fips": "36013",
+            "height_structure_m": "76.5",
+            "overall_height_agl_m": "80.5",
+            "structure_type_code": "TOWER",
+            "address": "2550 SCOTT HILL RD",
+            "latitude": 42.10941666666667,
+            "longitude": -79.10363888888888,
+            "coordinate_type_code": "T",
+            "organization_owner": "Crown Atlantic Company, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=116122",
+            "distance_m": 1.7,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_017",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "302b09bfe167c0171fc61544f2164c05cad6653d20c5712e2807b628c08b3886",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_017.jpg",
+    "evidence": {
+      "id": "site_017",
+      "imagery": {
+        "path": "images/site_017.jpg",
+        "date": "2025-06-03T00:00:00+00:00",
+        "resolution_m": "0.3",
+        "source_id": "m_3507918_nw_17_030_20250603",
+        "latitude": "35.703445",
+        "longitude": "-79.8183"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "water_tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/6231631164"
+      },
+      "detector": {
+        "available": false,
+        "detections": null,
+        "source": null,
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_018",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "cb7d297cc166e71ce4a94d1dc8656b6b6e5261a89068d533e93030034fd706f8",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_018.jpg",
+    "evidence": {
+      "id": "site_018",
+      "imagery": {
+        "path": "images/site_018.jpg",
+        "date": "2023-04-16T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "la_m_3109361_sw_15_030_20230416_20240214",
+        "latitude": 31.004648,
+        "longitude": -93.496664
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11914378375"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              443,
+              443,
+              565,
+              566
+            ],
+            "confidence": 0.812
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1294402",
+            "unique_id": "2693921",
+            "status_code": "C",
+            "constructed_date": "02/06/2015",
+            "dismantled_date": "",
+            "action_date": "05/06/2021",
+            "city": "Evans",
+            "state": "LA",
+            "county_fips": "22115",
+            "height_structure_m": "76.2",
+            "overall_height_agl_m": "79.2",
+            "structure_type_code": "LTOWER",
+            "address": "approximately 18152 Louisiana Route 111 (HV856/Evans)",
+            "latitude": 31.004638888888888,
+            "longitude": -93.49666666666667,
+            "coordinate_type_code": "T",
+            "organization_owner": "Horvath Towers III, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2693921",
+            "distance_m": 1.0,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_019",
+    "width": 512,
+    "height": 512,
+    "sha256": "65d3e6f13d052f0a16c6f0bca37349b533480851e95afdc9b42746e29686650d",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_019.jpg",
+    "evidence": {
+      "id": "site_019",
+      "imagery": {
+        "path": "images/site_019.jpg",
+        "date": "2024-10-21T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_3209530_ne_15_060_20241021",
+        "latitude": 32.622204,
+        "longitude": -95.296965
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/5330573701"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              236,
+              237,
+              278,
+              280
+            ],
+            "confidence": 0.439
+          },
+          {
+            "xyxy": [
+              239,
+              235,
+              322,
+              280
+            ],
+            "confidence": 0.337
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1245313",
+            "unique_id": "2644459",
+            "status_code": "C",
+            "constructed_date": "02/28/2005",
+            "dismantled_date": "",
+            "action_date": "01/08/2026",
+            "city": "Hawkins",
+            "state": "TX",
+            "county_fips": "48499",
+            "height_structure_m": "77.7",
+            "overall_height_agl_m": "79.6",
+            "structure_type_code": "TOWER",
+            "address": "US 80 & FM 3836",
+            "latitude": 32.622194444444446,
+            "longitude": -95.29694444444445,
+            "coordinate_type_code": "T",
+            "organization_owner": "CCATT LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2644459",
+            "distance_m": 2.2,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_020",
+    "width": 512,
+    "height": 512,
+    "sha256": "e72a1ca0c1e664ac856062440561628519029041f7a9e13e82e4332f711094bf",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_020.jpg",
+    "evidence": {
+      "id": "site_020",
+      "imagery": {
+        "path": "images/site_020.jpg",
+        "date": "2024-07-27T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_3911951_sw_11_060_20240727",
+        "latitude": 39.184571,
+        "longitude": -119.704047
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/8424513211"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_021",
+    "width": 512,
+    "height": 512,
+    "sha256": "eccbe5f0b2c761274a599594a53f6437265d80e912008b1838d4963f61267b69",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_021.jpg",
+    "evidence": {
+      "id": "site_021",
+      "imagery": {
+        "path": "images/site_021.jpg",
+        "date": "2024-07-22T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_4012230_sw_10_060_20240722",
+        "latitude": "40.545831",
+        "longitude": "-122.364027"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/13641931303"
+      },
+      "detector": {
+        "available": false,
+        "detections": null,
+        "source": null,
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1299653",
+            "unique_id": "2699270",
+            "status_code": "C",
+            "constructed_date": "06/27/2016",
+            "dismantled_date": "",
+            "action_date": "01/11/2023",
+            "city": "Redding",
+            "state": "CA",
+            "county_fips": "06089",
+            "height_structure_m": "25.9",
+            "overall_height_agl_m": "25.9",
+            "structure_type_code": "MTOWER",
+            "address": "4200 Bechelli Lane",
+            "latitude": 40.54586111111111,
+            "longitude": -122.36402777777778,
+            "coordinate_type_code": "T",
+            "organization_owner": "Parallel Infrastructure III LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2699270",
+            "distance_m": 3.3,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_022",
+    "width": 512,
+    "height": 512,
+    "sha256": "4e74bf874c922e9bf23e065e01a0e1e326e1693bb09b6adc5fbbc74ec3ce2f7e",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_022.jpg",
+    "evidence": {
+      "id": "site_022",
+      "imagery": {
+        "path": "images/site_022.jpg",
+        "date": "2024-05-22T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_3812212_nw_10_060_20240522",
+        "latitude": 38.85114,
+        "longitude": -122.593732
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13987245976"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              222,
+              221,
+              291,
+              273
+            ],
+            "confidence": 0.316
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_023",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "a04050e3b21a3ae34d080bd1b15f6ca8cf86f0316316ce9409ac496adde5e7e5",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_023.jpg",
+    "evidence": {
+      "id": "site_023",
+      "imagery": {
+        "path": "images/site_023.jpg",
+        "date": "2024-08-09T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_3709046_NW_15_30_20240809",
+        "latitude": 37.347944,
+        "longitude": -90.370848
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11365041523"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              467,
+              442,
+              579,
+              559
+            ],
+            "confidence": 0.549
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1004876",
+            "unique_id": "110328",
+            "status_code": "C",
+            "constructed_date": "06/10/1996",
+            "dismantled_date": "",
+            "action_date": "01/27/2026",
+            "city": "COLDWATER",
+            "state": "MO",
+            "county_fips": "29123",
+            "height_structure_m": "121.9",
+            "overall_height_agl_m": "126.2",
+            "structure_type_code": "GTOWER",
+            "address": "1294 Madison 325",
+            "latitude": 37.34805555555556,
+            "longitude": -90.37083333333332,
+            "coordinate_type_code": "T",
+            "organization_owner": "Crown Castle GT Company, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=110328",
+            "distance_m": 12.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_024",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "55fea993449d8deda38823937fd052cebd96fdb8f070429772c7386eff6aea17",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_024.jpg",
+    "evidence": {
+      "id": "site_024",
+      "imagery": {
+        "path": "images/site_024.jpg",
+        "date": "2023-08-03T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "mn_m_4609447_sw_15_030_20230803_20240119",
+        "latitude": 46.298932,
+        "longitude": -94.247903
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13471491279"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              464,
+              454,
+              588,
+              580
+            ],
+            "confidence": 0.75
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1237652",
+            "unique_id": "2635845",
+            "status_code": "C",
+            "constructed_date": "03/24/2003",
+            "dismantled_date": "",
+            "action_date": "10/21/2015",
+            "city": "Baxter",
+            "state": "MN",
+            "county_fips": "27035",
+            "height_structure_m": "57.9",
+            "overall_height_agl_m": "60.6",
+            "structure_type_code": "TOWER",
+            "address": "3.4 miles SE of Baxter, MN in Section 15 of Crow Wing County",
+            "latitude": 46.29888888888889,
+            "longitude": -94.24783333333333,
+            "coordinate_type_code": "T",
+            "organization_owner": "SBA Structures, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2635845",
+            "distance_m": 7.2,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_025",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "85680eb73fe9ddf678ee6633495ad42d6ddb3560934ca05e0737da567103c68a",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_025.jpg",
+    "evidence": {
+      "id": "site_025",
+      "imagery": {
+        "path": "images/site_025.jpg",
+        "date": "2023-10-19T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "ia_m_4009510_sw_15_030_20231019_20240104",
+        "latitude": 40.757313,
+        "longitude": -95.813908
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/6022943252"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              465,
+              459,
+              571,
+              566
+            ],
+            "confidence": 0.848
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1239463",
+            "unique_id": "2637991",
+            "status_code": "C",
+            "constructed_date": "07/22/2003",
+            "dismantled_date": "",
+            "action_date": "11/24/2015",
+            "city": "Percival",
+            "state": "IA",
+            "county_fips": "19071",
+            "height_structure_m": "76.1",
+            "overall_height_agl_m": "79.2",
+            "structure_type_code": "TOWER",
+            "address": "2005 195th Street",
+            "latitude": 40.757305555555554,
+            "longitude": -95.81383333333333,
+            "coordinate_type_code": "T",
+            "organization_owner": "Global Tower, LLC. through American Towers, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2637991",
+            "distance_m": 6.3,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_026",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "45f7955fa4d566147179eb5b5bc82ead7117b5e4cc0f551e8da092a08a4a4e80",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_026.jpg",
+    "evidence": {
+      "id": "site_026",
+      "imagery": {
+        "path": "images/site_026.jpg",
+        "date": "2025-05-12T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_3709735_se_14_030_20250512",
+        "latitude": 37.379987,
+        "longitude": -97.641534
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13989190488"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              448,
+              445,
+              573,
+              564
+            ],
+            "confidence": 0.784
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1033507",
+            "unique_id": "598617",
+            "status_code": "C",
+            "constructed_date": "09/15/2005",
+            "dismantled_date": "",
+            "action_date": "08/28/2006",
+            "city": "CONWAY SPRINGS",
+            "state": "KS",
+            "county_fips": "20191",
+            "height_structure_m": "91.4",
+            "overall_height_agl_m": "97.5",
+            "structure_type_code": "TOWER",
+            "address": ".8 MI S",
+            "latitude": 37.37994444444445,
+            "longitude": -97.64158333333334,
+            "coordinate_type_code": "T",
+            "organization_owner": "Haviland Telephone Company, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=598617",
+            "distance_m": 6.4,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1236733",
+            "unique_id": "2634926",
+            "status_code": "C",
+            "constructed_date": "12/11/2002",
+            "dismantled_date": "",
+            "action_date": "02/05/2019",
+            "city": "CONWAY SPRINGS",
+            "state": "KS",
+            "county_fips": "20191",
+            "height_structure_m": "36.6",
+            "overall_height_agl_m": "39.0",
+            "structure_type_code": "MAST",
+            "address": "CONWAY SPRINGS SITE: NE 1/4, SEC. 4-T31S-R3W",
+            "latitude": 37.38252777777778,
+            "longitude": -97.64144444444445,
+            "coordinate_type_code": "T",
+            "organization_owner": "Alltel Corporation",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2634926",
+            "distance_m": 282.6,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_027",
+    "width": 512,
+    "height": 512,
+    "sha256": "6701e20401d3cd3dd45465fa4d6510a2ba5b526d40c057c3cea18c257ea91abc",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_027.jpg",
+    "evidence": {
+      "id": "site_027",
+      "imagery": {
+        "path": "images/site_027.jpg",
+        "date": "2024-07-21T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3612029_sw_10_060_20240721",
+        "latitude": "36.532258",
+        "longitude": "-120.478734"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "power": "tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/1081497156"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              199.60086059570312,
+              252.02447509765625,
+              255.82577514648438,
+              308.76837158203125
+            ],
+            "confidence": 0.708931565284729
+          },
+          {
+            "xyxy": [
+              231.03662109375,
+              232.35699462890625,
+              291.92999267578125,
+              292.18487548828125
+            ],
+            "confidence": 0.5586925148963928
+          },
+          {
+            "xyxy": [
+              249.3536376953125,
+              244.82489013671875,
+              303.316162109375,
+              298.38763427734375
+            ],
+            "confidence": 0.12369615584611893
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1326761",
+            "unique_id": "2727011",
+            "status_code": "C",
+            "constructed_date": "02/22/2024",
+            "dismantled_date": "",
+            "action_date": "01/30/2025",
+            "city": "Fresno",
+            "state": "CA",
+            "county_fips": "06019",
+            "height_structure_m": "44.2",
+            "overall_height_agl_m": "45.7",
+            "structure_type_code": "MTOWER",
+            "address": "West Kamm Avenue",
+            "latitude": 36.53052777777778,
+            "longitude": -120.48194444444445,
+            "coordinate_type_code": "T",
+            "organization_owner": "Public Safety Towers, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2727011",
+            "distance_m": 345.4,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_028",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "7085ab2942957a4196d33d7dd0d9b77ee5b2864d4a772466c5c664e91a72fc69",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_028.jpg",
+    "evidence": {
+      "id": "site_028",
+      "imagery": {
+        "path": "images/site_028.jpg",
+        "date": "2025-10-15T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_3408448_ne_16_030_20251015",
+        "latitude": 34.359255,
+        "longitude": -84.051168
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "monopole",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11899287346"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_029",
+    "width": 512,
+    "height": 512,
+    "sha256": "7df69e04eff9f7d29b39192b73d7651153381b765c1a3fcd46c2db5402e5b438",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_029.jpg",
+    "evidence": {
+      "id": "site_029",
+      "imagery": {
+        "path": "images/site_029.jpg",
+        "date": "2024-06-04T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3512060_ne_10_060_20240604",
+        "latitude": "35.073897",
+        "longitude": "-120.520389"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "mimics": "water_tower",
+          "tower:construction": "lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/13996610876"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              237.82273864746094,
+              229.11244201660156,
+              290.1790771484375,
+              280.787353515625
+            ],
+            "confidence": 0.6748909950256348
+          }
+        ],
+        "source": "assisted_annotation_v3/batch3_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_030",
+    "width": 512,
+    "height": 512,
+    "sha256": "93eb1dc721e271b05988fcd7650d64c1278a0a3f78204b1306dbf8b7d354a2d2",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_030.jpg",
+    "evidence": {
+      "id": "site_030",
+      "imagery": {
+        "path": "images/site_030.jpg",
+        "date": "2024-06-19T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_4012055_se_10_060_20240619",
+        "latitude": "40.14251278346589",
+        "longitude": "-120.13568548685174"
+      },
+      "osm": {
+        "tags": {},
+        "snapshot": null,
+        "url": ""
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              232.6427764892578,
+              147.22146606445312,
+              287.01788330078125,
+              206.46273803710938
+            ],
+            "confidence": 0.3158683776855469
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1063358",
+            "unique_id": "106754",
+            "status_code": "C",
+            "constructed_date": "06/01/1988",
+            "dismantled_date": "",
+            "action_date": "09/11/2026",
+            "city": "HERLONG",
+            "state": "CA",
+            "county_fips": "06035",
+            "height_structure_m": "24.4",
+            "overall_height_agl_m": "25.0",
+            "structure_type_code": "LTOWER",
+            "address": "355 Herlong St",
+            "latitude": 40.14363888888889,
+            "longitude": -120.14255555555556,
+            "coordinate_type_code": "T",
+            "organization_owner": "Citizens Telecommunications Company of California Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=106754",
+            "distance_m": 597.2,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_031",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "c65e3d6c80e10070f13e232bbd5f131b954a014008a7a571d3ed8c89b272339f",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_031.jpg",
+    "evidence": {
+      "id": "site_031",
+      "imagery": {
+        "path": "images/site_031.jpg",
+        "date": "2023-06-02T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "de_m_3807539_nw_18_030_20230602_20230919",
+        "latitude": 38.470186,
+        "longitude": -75.227971
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11267523107"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              456,
+              455,
+              601,
+              581
+            ],
+            "confidence": 0.517
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1229735",
+            "unique_id": "2627724",
+            "status_code": "C",
+            "constructed_date": "03/28/2001",
+            "dismantled_date": "",
+            "action_date": "11/09/2023",
+            "city": "Selbyville",
+            "state": "DE",
+            "county_fips": "10005",
+            "height_structure_m": "46.0",
+            "overall_height_agl_m": "48.5",
+            "structure_type_code": "LTOWER",
+            "address": "30067 Fava Road (DE05221-S)",
+            "latitude": 38.47013888888889,
+            "longitude": -75.22802777777778,
+            "coordinate_type_code": "T",
+            "organization_owner": "SBA Properties, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2627724",
+            "distance_m": 7.2,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_032",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "768753f6235ab9769803a65f36640539a3eb0e517e8620f5116bea929fcffe1f",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_032.jpg",
+    "evidence": {
+      "id": "site_032",
+      "imagery": {
+        "path": "images/site_032.jpg",
+        "date": "2025-07-27T00:00:00+00:00",
+        "resolution_m": "0.3",
+        "source_id": "m_3407939_ne_17_030_20250727",
+        "latitude": "34.48704250454942",
+        "longitude": "-79.14549908191438"
+      },
+      "osm": {
+        "tags": {},
+        "snapshot": null,
+        "url": ""
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_033",
+    "width": 512,
+    "height": 512,
+    "sha256": "ebeabac915fad37c76e88b4c23ccb1c6027698760eaa407a95d543b86d025652",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_033.jpg",
+    "evidence": {
+      "id": "site_033",
+      "imagery": {
+        "path": "images/site_033.jpg",
+        "date": "2021-07-26T16:00:00Z",
+        "resolution_m": "0.6",
+        "source_id": "co_m_4010548_sw_13_060_20210726",
+        "latitude": "40.310685",
+        "longitude": "-105.077919"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/11982970080"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              232.02780151367188,
+              232.7471160888672,
+              274.3584289550781,
+              280.55267333984375
+            ],
+            "confidence": 0.18572412431240082
+          }
+        ],
+        "source": "assisted_annotation_v3/batch3_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_034",
+    "width": 512,
+    "height": 512,
+    "sha256": "eec4c19c75386e117a3a4da9e3d3d85abc57cac239773e97080ac6c0f6e6c6b4",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_034.jpg",
+    "evidence": {
+      "id": "site_034",
+      "imagery": {
+        "path": "images/site_034.jpg",
+        "date": "2022-06-16T16:00:00Z",
+        "resolution_m": 0.6,
+        "source_id": "in_m_3708603_sw_16_060_20220616",
+        "latitude": 37.91629,
+        "longitude": -86.717442
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/4879505887"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1231690",
+            "unique_id": "2629679",
+            "status_code": "C",
+            "constructed_date": "04/26/2002",
+            "dismantled_date": "",
+            "action_date": "06/22/2018",
+            "city": "Cannelton",
+            "state": "IN",
+            "county_fips": "18123",
+            "height_structure_m": "103.6",
+            "overall_height_agl_m": "105.6",
+            "structure_type_code": "GTOWER",
+            "address": "5415 Shady Road (ATC site # 371302)",
+            "latitude": 37.91627777777778,
+            "longitude": -86.71741666666667,
+            "coordinate_type_code": "T",
+            "organization_owner": "American Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2629679",
+            "distance_m": 2.6,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_035",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "4bd0bbb2bcbcd6252b0dbdb67ba1c27a93d2f09a35040b1945f8ddee80e84b2a",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_035.jpg",
+    "evidence": {
+      "id": "site_035",
+      "imagery": {
+        "path": "images/site_035.jpg",
+        "date": "2025-05-24T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_3507544_se_18_030_20250524",
+        "latitude": 35.263816,
+        "longitude": -75.527653
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "ele": "3.0",
+          "fcc:ref": "1005791",
+          "height": "78.0",
+          "man_made": "tower",
+          "operator": "Pinnacle Towers LLC",
+          "ref": "1033395",
+          "start_date": "1995-05-07",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/7630888439"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              98,
+              794,
+              380,
+              926
+            ],
+            "confidence": 0.558
+          },
+          {
+            "xyxy": [
+              447,
+              474,
+              546,
+              562
+            ],
+            "confidence": 0.556
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1033395",
+            "unique_id": "103113",
+            "status_code": "C",
+            "constructed_date": "08/19/2019",
+            "dismantled_date": "",
+            "action_date": "01/26/2026",
+            "city": "BUXTON",
+            "state": "NC",
+            "county_fips": "37055",
+            "height_structure_m": "76.2",
+            "overall_height_agl_m": "78.0",
+            "structure_type_code": "GTOWER",
+            "address": "HWY 12",
+            "latitude": 35.26386111111111,
+            "longitude": -75.52775,
+            "coordinate_type_code": "T",
+            "organization_owner": "Pinnacle Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=103113",
+            "distance_m": 10.1,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1309528",
+            "unique_id": "2709225",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "01/26/2026",
+            "city": "Buxton",
+            "state": "NC",
+            "county_fips": "37055",
+            "height_structure_m": "41.1",
+            "overall_height_agl_m": "41.1",
+            "structure_type_code": "POLE",
+            "address": "47095 NC Highway 12",
+            "latitude": 35.26386111111111,
+            "longitude": -75.52775,
+            "coordinate_type_code": "T",
+            "organization_owner": "Pinnacle Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2709225",
+            "distance_m": 10.1,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1005791",
+            "unique_id": "111075",
+            "status_code": "C",
+            "constructed_date": "05/07/1995",
+            "dismantled_date": "",
+            "action_date": "08/14/2025",
+            "city": "BUXTON",
+            "state": "NC",
+            "county_fips": "37055",
+            "height_structure_m": "93.9",
+            "overall_height_agl_m": "96.3",
+            "structure_type_code": "",
+            "address": "0.7 MI SE",
+            "latitude": 35.26305555555555,
+            "longitude": -75.52805555555555,
+            "coordinate_type_code": "T",
+            "organization_owner": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=111075",
+            "distance_m": 92.1,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_036",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "b7df85012fa3378721f527ac6957efced50d5c740faedc9589990c881d239caf",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_036.jpg",
+    "evidence": {
+      "id": "site_036",
+      "imagery": {
+        "path": "images/site_036.jpg",
+        "date": "2022-07-14T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "or_m_4312213_sw_10_030_20220714",
+        "latitude": 43.75898,
+        "longitude": -122.495777
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/7873022748"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_037",
+    "width": 512,
+    "height": 512,
+    "sha256": "dec0f54b798cc8c6a54f368fcee5420daedf3f9847fe6837b72dfccfc24013d1",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_037.jpg",
+    "evidence": {
+      "id": "site_037",
+      "imagery": {
+        "path": "images/site_037.jpg",
+        "date": "2024-11-09T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3209722_sw_14_060_20241109",
+        "latitude": "32.647177",
+        "longitude": "-97.340156"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "power": "tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/3481102121"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              229.0625,
+              234.822021484375,
+              277.712646484375,
+              277.0772705078125
+            ],
+            "confidence": 0.4996255934238434
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_038",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "50c66eedcc44a7476a6eb83f961b03599fe78fad924db6c00e6097c7bed2bf90",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_038.jpg",
+    "evidence": {
+      "id": "site_038",
+      "imagery": {
+        "path": "images/site_038.jpg",
+        "date": "2023-07-12T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "ct_m_4107117_ne_19_030_20230712_20231113",
+        "latitude": 41.746014,
+        "longitude": -71.880179
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "monopole",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/10136376039"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              449,
+              463,
+              573,
+              591
+            ],
+            "confidence": 0.752
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1059566",
+            "unique_id": "619673",
+            "status_code": "C",
+            "constructed_date": "10/01/1998",
+            "dismantled_date": "",
+            "action_date": "08/09/2024",
+            "city": "Plainfield",
+            "state": "CT",
+            "county_fips": "09015",
+            "height_structure_m": "53.3",
+            "overall_height_agl_m": "60.7",
+            "structure_type_code": "MTOWER",
+            "address": "56 Roper Road (CT00594-S)",
+            "latitude": 41.746,
+            "longitude": -71.88016666666665,
+            "coordinate_type_code": "T",
+            "organization_owner": "SBA Properties, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=619673",
+            "distance_m": 1.9,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_039",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "5041056023f04ae7e3877bae59b6bc1d34e927eca5b72b0c532867db48ae0981",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_039.jpg",
+    "evidence": {
+      "id": "site_039",
+      "imagery": {
+        "path": "images/site_039.jpg",
+        "date": "2021-11-13T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "al_m_3308854_ne_16_030_20211113",
+        "latitude": 33.225696,
+        "longitude": -88.267781
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13123449644"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              459,
+              443,
+              575,
+              569
+            ],
+            "confidence": 0.518
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1274621",
+            "unique_id": "2673968",
+            "status_code": "C",
+            "constructed_date": "07/20/2010",
+            "dismantled_date": "",
+            "action_date": "10/21/2015",
+            "city": "Pickensville",
+            "state": "AL",
+            "county_fips": "01107",
+            "height_structure_m": "91.4",
+            "overall_height_agl_m": "94.4",
+            "structure_type_code": "TOWER",
+            "address": "55 Water Ave",
+            "latitude": 33.22566666666667,
+            "longitude": -88.26777777777778,
+            "coordinate_type_code": "T",
+            "organization_owner": "SBA Towers III LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2673968",
+            "distance_m": 3.3,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1324862",
+            "unique_id": "2725111",
+            "status_code": "C",
+            "constructed_date": "05/09/2024",
+            "dismantled_date": "",
+            "action_date": "05/14/2024",
+            "city": "Pickensville",
+            "state": "AL",
+            "county_fips": "01107",
+            "height_structure_m": "108.2",
+            "overall_height_agl_m": "111.3",
+            "structure_type_code": "GTOWER",
+            "address": "28 Chopitoolas St",
+            "latitude": 33.223888888888894,
+            "longitude": -88.263,
+            "coordinate_type_code": "T",
+            "organization_owner": "Tillman Infrastructure, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2725111",
+            "distance_m": 488.0,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": true
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_040",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "ee1856027b074650acb76b3403cf2bc2928d09cb6457c8f5ac34d55d73643e0b",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_040.jpg",
+    "evidence": {
+      "id": "site_040",
+      "imagery": {
+        "path": "images/site_040.jpg",
+        "date": "2023-07-31T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "mn_m_4509326_ne_15_030_20230731_20240119",
+        "latitude": 45.596833,
+        "longitude": -93.791395
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11242564992"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              457,
+              458,
+              570,
+              569
+            ],
+            "confidence": 0.832
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1218991",
+            "unique_id": "2616639",
+            "status_code": "C",
+            "constructed_date": "12/20/2000",
+            "dismantled_date": "",
+            "action_date": "01/23/2026",
+            "city": "Foley",
+            "state": "MN",
+            "county_fips": "27009",
+            "height_structure_m": "55.2",
+            "overall_height_agl_m": "60.7",
+            "structure_type_code": "LTOWER",
+            "address": "17815 Hwy. 95",
+            "latitude": 45.596833333333336,
+            "longitude": -93.79138888888889,
+            "coordinate_type_code": "T",
+            "organization_owner": "T-Mobile USA Tower LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2616639",
+            "distance_m": 0.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_041",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "7f76f44264b5b00ea7d0fd00499806d346496ce61d6bfdda12467508ed1f57e1",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_041.jpg",
+    "evidence": {
+      "id": "site_041",
+      "imagery": {
+        "path": "images/site_041.jpg",
+        "date": "2023-09-25T16:00:00Z",
+        "resolution_m": "0.3",
+        "source_id": "co_m_3910426_ne_13_030_20230925_20240104",
+        "latitude": "39.594726",
+        "longitude": "-104.787359"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "utility_pole"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/9582859383"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              485.69512939453125,
+              436.19110107421875,
+              569.7211303710938,
+              518.3326416015625
+            ],
+            "confidence": 0.11619526147842407
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_042",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "9d10cffdd893f60ec24192350aa56c97a039ea14ac36854eba9bdc31251b29da",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_042.jpg",
+    "evidence": {
+      "id": "site_042",
+      "imagery": {
+        "path": "images/site_042.jpg",
+        "date": "2025-10-19T00:00:00+00:00",
+        "resolution_m": "0.3",
+        "source_id": "m_2808243_sw_17_030_20251019",
+        "latitude": "28.254958",
+        "longitude": "-82.715015"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "antenna"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/12925026144"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              544.6849975585938,
+              465.6162109375,
+              610.5993041992188,
+              516.9921875
+            ],
+            "confidence": 0.2886762022972107
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_043",
+    "width": 512,
+    "height": 512,
+    "sha256": "b2590b440a996ca4add5725df456504cc9647193a3a9bc799278ceb338a4eaf3",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_043.jpg",
+    "evidence": {
+      "id": "site_043",
+      "imagery": {
+        "path": "images/site_043.jpg",
+        "date": "2024-08-22T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_3808238_NE_17_60_20240822",
+        "latitude": 38.463745,
+        "longitude": -82.274577
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11934108333"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              225,
+              220,
+              296,
+              282
+            ],
+            "confidence": 0.787
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1291669",
+            "unique_id": "2691186",
+            "status_code": "C",
+            "constructed_date": "06/29/2014",
+            "dismantled_date": "",
+            "action_date": "10/21/2015",
+            "city": "Barboursville",
+            "state": "WV",
+            "county_fips": "54011",
+            "height_structure_m": "91.4",
+            "overall_height_agl_m": "93.0",
+            "structure_type_code": "LTOWER",
+            "address": "6720 Blue Sulpher Rd (WV15739-S)",
+            "latitude": 38.463750000000005,
+            "longitude": -82.27455555555555,
+            "coordinate_type_code": "T",
+            "organization_owner": "SBA Towers V, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2691186",
+            "distance_m": 1.9,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_044",
+    "width": 512,
+    "height": 512,
+    "sha256": "c20d17165d39778d32cae0535878cd2f06a3a1efc688c53bed9865350e832648",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_044.jpg",
+    "evidence": {
+      "id": "site_044",
+      "imagery": {
+        "path": "images/site_044.jpg",
+        "date": "2024-09-05T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_3807910_NW_17_60_20240905",
+        "latitude": 38.81776,
+        "longitude": -79.857905
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/10678520174"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              228,
+              231,
+              284,
+              288
+            ],
+            "confidence": 0.816
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1269688",
+            "unique_id": "2669035",
+            "status_code": "C",
+            "constructed_date": "11/23/2009",
+            "dismantled_date": "",
+            "action_date": "09/08/2025",
+            "city": "Beverly",
+            "state": "WV",
+            "county_fips": "54083",
+            "height_structure_m": "121.9",
+            "overall_height_agl_m": "126.5",
+            "structure_type_code": "LTOWER",
+            "address": "0.2 mi West of Kings Run Road",
+            "latitude": 38.817750000000004,
+            "longitude": -79.85791666666667,
+            "coordinate_type_code": "T",
+            "organization_owner": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2669035",
+            "distance_m": 1.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_045",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "54593e301746f8be7e97f372dca983ff9f4192202164fb2008a3c74a0a3277a6",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_045.jpg",
+    "evidence": {
+      "id": "site_045",
+      "imagery": {
+        "path": "images/site_045.jpg",
+        "date": "2025-09-28T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_4509610_ne_14_030_20250928",
+        "latitude": 45.862136,
+        "longitude": -96.791345
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11916425378"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              468,
+              461,
+              571,
+              564
+            ],
+            "confidence": 0.603
+          },
+          {
+            "xyxy": [
+              467,
+              465,
+              735,
+              571
+            ],
+            "confidence": 0.488
+          },
+          {
+            "xyxy": [
+              548,
+              484,
+              719,
+              549
+            ],
+            "confidence": 0.312
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1243565",
+            "unique_id": "2642589",
+            "status_code": "C",
+            "constructed_date": "06/22/2010",
+            "dismantled_date": "",
+            "action_date": "01/08/2026",
+            "city": "Rosholt",
+            "state": "SD",
+            "county_fips": "46109",
+            "height_structure_m": "145.4",
+            "overall_height_agl_m": "146.9",
+            "structure_type_code": "GTOWER",
+            "address": "Hwy 127 & 470th Ave.",
+            "latitude": 45.86216666666667,
+            "longitude": -96.79133333333333,
+            "coordinate_type_code": "T",
+            "organization_owner": "CCATT LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2642589",
+            "distance_m": 3.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_046",
+    "width": 512,
+    "height": 512,
+    "sha256": "44347b03c5726d64337aa352c6ba969f6a13a31d76b39f95be1a650ff37a7815",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_046.jpg",
+    "evidence": {
+      "id": "site_046",
+      "imagery": {
+        "path": "images/site_046.jpg",
+        "date": "2024-09-11T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3610145_se_14_060_20240911",
+        "latitude": "36.26476640028535",
+        "longitude": "-101.37864764294325"
+      },
+      "osm": {
+        "tags": {},
+        "snapshot": null,
+        "url": ""
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_047",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "5573aad6f13bbbf0a3261267b22ace84d9c7c282ec8106b2355a4faf25da498b",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_047.jpg",
+    "evidence": {
+      "id": "site_047",
+      "imagery": {
+        "path": "images/site_047.jpg",
+        "date": "2022-07-16T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "or_m_4511923_ne_11_030_20220716",
+        "latitude": 45.747848,
+        "longitude": -119.142097
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11935204121"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              461,
+              460,
+              572,
+              570
+            ],
+            "confidence": 0.807
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1226846",
+            "unique_id": "2624835",
+            "status_code": "C",
+            "constructed_date": "07/28/2000",
+            "dismantled_date": "",
+            "action_date": "06/01/2026",
+            "city": "Echo",
+            "state": "OR",
+            "county_fips": "41059",
+            "height_structure_m": "58.6",
+            "overall_height_agl_m": "60.0",
+            "structure_type_code": "LTOWER",
+            "address": "34718 Highway 320   (Stanfield OR 2 # 308315)",
+            "latitude": 45.74788888888889,
+            "longitude": -119.14205555555556,
+            "coordinate_type_code": "T",
+            "organization_owner": "American Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2624835",
+            "distance_m": 5.6,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_048",
+    "width": 512,
+    "height": 512,
+    "sha256": "b591da8f34ca05c0687774b4e64630e568e69f8e946798690b7bcb902dac7c39",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_048.jpg",
+    "evidence": {
+      "id": "site_048",
+      "imagery": {
+        "path": "images/site_048.jpg",
+        "date": "2022-01-04T16:00:00Z",
+        "resolution_m": 0.6,
+        "source_id": "hi_m_1915516_sw_05_060_20220104_20220909",
+        "latitude": 19.783651,
+        "longitude": -155.092961
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "height": "18.288",
+          "man_made": "mast",
+          "tower:construction": "monopole",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/14107286109"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1250917",
+            "unique_id": "2650081",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "11/11/2005",
+            "city": "Papaiko",
+            "state": "HI",
+            "county_fips": "15001",
+            "height_structure_m": "85.0",
+            "overall_height_agl_m": "85.0",
+            "structure_type_code": "2TA2",
+            "address": "Papaiko Sugar Mill",
+            "latitude": 19.78086111111111,
+            "longitude": -155.0875,
+            "coordinate_type_code": "A",
+            "organization_owner": "",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2650081",
+            "distance_m": 650.2,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1006758",
+            "unique_id": "111857",
+            "status_code": "C",
+            "constructed_date": "01/01/1980",
+            "dismantled_date": "",
+            "action_date": "01/18/1997",
+            "city": "PAPAIKO",
+            "state": "HI",
+            "county_fips": "15001",
+            "height_structure_m": "114.0",
+            "overall_height_agl_m": "115.0",
+            "structure_type_code": "TOWER",
+            "address": "PAPAIKO SUGAR MILL",
+            "latitude": 19.780833333333334,
+            "longitude": -155.0875,
+            "coordinate_type_code": "T",
+            "organization_owner": "NEW WEST BROADCASTING CORP",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=111857",
+            "distance_m": 651.7,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1250917",
+            "unique_id": "2650081",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "11/11/2005",
+            "city": "Papaiko",
+            "state": "HI",
+            "county_fips": "15001",
+            "height_structure_m": "85.0",
+            "overall_height_agl_m": "85.0",
+            "structure_type_code": "2TA2",
+            "address": "Papaiko Sugar Mill",
+            "latitude": 19.780277777777776,
+            "longitude": -155.08777777777777,
+            "coordinate_type_code": "T",
+            "organization_owner": "",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2650081",
+            "distance_m": 659.4,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_049",
+    "width": 512,
+    "height": 512,
+    "sha256": "a4b1ca8151f20efe397ca0d93f7e9720ef5bfb53fcaff2759ef3737cc3e3bdca",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_049.jpg",
+    "evidence": {
+      "id": "site_049",
+      "imagery": {
+        "path": "images/site_049.jpg",
+        "date": "2022-10-04T16:00:00Z",
+        "resolution_m": "0.6",
+        "source_id": "nc_m_3407915_ne_17_060_20221004",
+        "latitude": "34.836473",
+        "longitude": "-79.179639"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "water_tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/8268419873"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              237.0792236328125,
+              228.9375762939453,
+              299.373291015625,
+              282.89056396484375
+            ],
+            "confidence": 0.4157680571079254
+          }
+        ],
+        "source": "assisted_annotation_v3/batch3_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_050",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "588dd1822905d53edd8d2ed7207d356bab956dfe02b9e1b84c45b2e6ebfab922",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_050.jpg",
+    "evidence": {
+      "id": "site_050",
+      "imagery": {
+        "path": "images/site_050.jpg",
+        "date": "2023-08-30T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "ia_m_4009218_nw_15_030_20230830_20231127",
+        "latitude": 40.728835,
+        "longitude": -92.854206
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/12794859011"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              477,
+              428,
+              608,
+              549
+            ],
+            "confidence": 0.809
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1016993",
+            "unique_id": "119619",
+            "status_code": "C",
+            "constructed_date": "08/24/1994",
+            "dismantled_date": "",
+            "action_date": "08/16/2025",
+            "city": "Centerville",
+            "state": "IA",
+            "county_fips": "19007",
+            "height_structure_m": "83.8",
+            "overall_height_agl_m": "83.8",
+            "structure_type_code": "LTOWER",
+            "address": "2816 Eastridge Dr",
+            "latitude": 40.728611111111114,
+            "longitude": -92.85408333333332,
+            "coordinate_type_code": "T",
+            "organization_owner": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=119619",
+            "distance_m": 27.0,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_051",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "efc3b97a893a774954aa165989bf6bce5dca40a8271c86b23748ab2265235b43",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_051.jpg",
+    "evidence": {
+      "id": "site_051",
+      "imagery": {
+        "path": "images/site_051.jpg",
+        "date": "2023-08-29T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "ar_m_3609137_sw_15_030_20230829_20240104",
+        "latitude": 36.430196,
+        "longitude": -91.49019
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13401719885"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              459,
+              467,
+              562,
+              570
+            ],
+            "confidence": 0.832
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1321939",
+            "unique_id": "2721917",
+            "status_code": "C",
+            "constructed_date": "09/30/2022",
+            "dismantled_date": "",
+            "action_date": "10/13/2022",
+            "city": "Mammoth Springs",
+            "state": "AR",
+            "county_fips": "05049",
+            "height_structure_m": "93.3",
+            "overall_height_agl_m": "95.4",
+            "structure_type_code": "GTOWER",
+            "address": "32 Needles Eye Trail",
+            "latitude": 36.43019444444444,
+            "longitude": -91.49019444444444,
+            "coordinate_type_code": "T",
+            "organization_owner": "Tillman Infrastructure, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2721917",
+            "distance_m": 0.4,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_052",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "c962db321bd99c51ee0144286c6522f47be67889a5a727be58245f1b3897b344",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_052.jpg",
+    "evidence": {
+      "id": "site_052",
+      "imagery": {
+        "path": "images/site_052.jpg",
+        "date": "2025-08-21T00:00:00+00:00",
+        "resolution_m": 0.3,
+        "source_id": "m_4209801_sw_14_030_20250821",
+        "latitude": 42.912779,
+        "longitude": -98.971701
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13973412524"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              467,
+              474,
+              565,
+              571
+            ],
+            "confidence": 0.78
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1272619",
+            "unique_id": "2671966",
+            "status_code": "C",
+            "constructed_date": "02/12/2010",
+            "dismantled_date": "",
+            "action_date": "02/17/2010",
+            "city": "Butte West",
+            "state": "NE",
+            "county_fips": "31015",
+            "height_structure_m": "100.5",
+            "overall_height_agl_m": "106.6",
+            "structure_type_code": "TOWER",
+            "address": "47637 Highway 12",
+            "latitude": 42.91277777777778,
+            "longitude": -98.97166666666666,
+            "coordinate_type_code": "T",
+            "organization_owner": "Industrial Tower and Wireless, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2671966",
+            "distance_m": 2.8,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_053",
+    "width": 512,
+    "height": 512,
+    "sha256": "12e2dbfc0cc56a85ac38dfc28de3e9328b91ee4844d35fb3f41305f9f1c9c4ab",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_053.jpg",
+    "evidence": {
+      "id": "site_053",
+      "imagery": {
+        "path": "images/site_053.jpg",
+        "date": "2024-06-25T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_4107544_SE_18_60_20240625",
+        "latitude": "41.29838718558398",
+        "longitude": "-75.54196447613597"
+      },
+      "osm": {
+        "tags": {},
+        "snapshot": null,
+        "url": ""
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              226.57528686523438,
+              240.2598876953125,
+              285.0715637207031,
+              301.093017578125
+            ],
+            "confidence": 0.2643929421901703
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_054",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "403064b6453cd019b1e7de340ac0544588cd28c63a62fbdb850dcb9dbf3c8e4f",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_054.jpg",
+    "evidence": {
+      "id": "site_054",
+      "imagery": {
+        "path": "images/site_054.jpg",
+        "date": "2023-07-07T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "nh_m_4207114_ne_19_030_20230707_20231113",
+        "latitude": 42.86685,
+        "longitude": -71.287159
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/11965031455"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              444,
+              443,
+              568,
+              567
+            ],
+            "confidence": 0.799
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1024939",
+            "unique_id": "101687",
+            "status_code": "C",
+            "constructed_date": "01/01/1996",
+            "dismantled_date": "",
+            "action_date": "04/12/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "66.0",
+            "overall_height_agl_m": "67.0",
+            "structure_type_code": "3GTA3",
+            "address": "TWR 3 - 8 LAWRENCE RD",
+            "latitude": 42.86713888888889,
+            "longitude": -71.2875,
+            "coordinate_type_code": "T",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101687",
+            "distance_m": 42.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1024856",
+            "unique_id": "101675",
+            "status_code": "I",
+            "constructed_date": "01/01/1996",
+            "dismantled_date": "08/29/2020",
+            "action_date": "01/07/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "85.0",
+            "overall_height_agl_m": "85.6",
+            "structure_type_code": "",
+            "address": "TWR 4 - 8 LAWRENCE RD",
+            "latitude": 42.86638888888889,
+            "longitude": -71.28722222222223,
+            "coordinate_type_code": "A",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101675",
+            "distance_m": 51.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1024855",
+            "unique_id": "101674",
+            "status_code": "C",
+            "constructed_date": "01/01/1983",
+            "dismantled_date": "",
+            "action_date": "01/14/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "90.0",
+            "overall_height_agl_m": "91.0",
+            "structure_type_code": "3GTA1",
+            "address": "TWR 1 - 8 LAWRENCE RD",
+            "latitude": 42.86702777777778,
+            "longitude": -71.28783333333332,
+            "coordinate_type_code": "A",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101674",
+            "distance_m": 58.4,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1024938",
+            "unique_id": "101686",
+            "status_code": "C",
+            "constructed_date": "08/07/1997",
+            "dismantled_date": "",
+            "action_date": "04/12/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "69.0",
+            "overall_height_agl_m": "70.0",
+            "structure_type_code": "3GTA2",
+            "address": "TWR 2 - 8 LAWRENCE RD",
+            "latitude": 42.86702777777778,
+            "longitude": -71.28783333333332,
+            "coordinate_type_code": "A",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101686",
+            "distance_m": 58.4,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1024939",
+            "unique_id": "101687",
+            "status_code": "C",
+            "constructed_date": "01/01/1996",
+            "dismantled_date": "",
+            "action_date": "04/12/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "66.0",
+            "overall_height_agl_m": "67.0",
+            "structure_type_code": "3GTA3",
+            "address": "TWR 3 - 8 LAWRENCE RD",
+            "latitude": 42.86702777777778,
+            "longitude": -71.28783333333332,
+            "coordinate_type_code": "A",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101687",
+            "distance_m": 58.4,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1024855",
+            "unique_id": "101674",
+            "status_code": "C",
+            "constructed_date": "01/01/1983",
+            "dismantled_date": "",
+            "action_date": "01/14/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "90.0",
+            "overall_height_agl_m": "91.0",
+            "structure_type_code": "3GTA1",
+            "address": "TWR 1 - 8 LAWRENCE RD",
+            "latitude": 42.86638888888889,
+            "longitude": -71.28769444444444,
+            "coordinate_type_code": "T",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101674",
+            "distance_m": 67.3,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1024938",
+            "unique_id": "101686",
+            "status_code": "C",
+            "constructed_date": "08/07/1997",
+            "dismantled_date": "",
+            "action_date": "04/12/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "69.0",
+            "overall_height_agl_m": "70.0",
+            "structure_type_code": "3GTA2",
+            "address": "TWR 2 - 8 LAWRENCE RD",
+            "latitude": 42.867472222222226,
+            "longitude": -71.28819444444444,
+            "coordinate_type_code": "T",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101686",
+            "distance_m": 109.1,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1024856",
+            "unique_id": "101675",
+            "status_code": "I",
+            "constructed_date": "01/01/1996",
+            "dismantled_date": "08/29/2020",
+            "action_date": "01/07/2021",
+            "city": "DERRY",
+            "state": "NH",
+            "county_fips": "33015",
+            "height_structure_m": "85.0",
+            "overall_height_agl_m": "85.6",
+            "structure_type_code": "",
+            "address": "TWR 4 - 8 LAWRENCE RD",
+            "latitude": 42.86611111111111,
+            "longitude": -71.28527777777778,
+            "coordinate_type_code": "T",
+            "organization_owner": "Blount Communications, Inc.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=101675",
+            "distance_m": 173.9,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_055",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "06d9133355094029fdc5ddc00e2f7b03e3e35433f1cbd03f451a477ad57435ff",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_055.jpg",
+    "evidence": {
+      "id": "site_055",
+      "imagery": {
+        "path": "images/site_055.jpg",
+        "date": "2023-09-25T16:00:00Z",
+        "resolution_m": "0.3",
+        "source_id": "co_m_3910419_sw_13_030_20230925_20240104",
+        "latitude": "39.686203",
+        "longitude": "-104.69765"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "power": "tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/1203616099"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              453.5196533203125,
+              475.3927001953125,
+              556.297119140625,
+              573.10986328125
+            ],
+            "confidence": 0.6898598670959473
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_056",
+    "width": 512,
+    "height": 512,
+    "sha256": "809566b29009fbb36800c114452b8a0fa55932fab82ccbf6be1e9ee15853a9f3",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_056.jpg",
+    "evidence": {
+      "id": "site_056",
+      "imagery": {
+        "path": "images/site_056.jpg",
+        "date": "2022-10-15T16:00:00Z",
+        "resolution_m": "0.6",
+        "source_id": "nc_m_3608156_nw_17_060_20221015",
+        "latitude": "36.247612",
+        "longitude": "-81.11134"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "water_tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/13120308976"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              236.58688354492188,
+              242.0494384765625,
+              297.5945129394531,
+              297.001953125
+            ],
+            "confidence": 0.39530932903289795
+          }
+        ],
+        "source": "assisted_annotation_v3/batch3_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_057",
+    "width": 512,
+    "height": 512,
+    "sha256": "8e49704a06a777114c38dae0e41eda55573a929467513940ec13d6f303ad07aa",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_057.jpg",
+    "evidence": {
+      "id": "site_057",
+      "imagery": {
+        "path": "images/site_057.jpg",
+        "date": "2024-06-09T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3412039_nw_10_060_20240609",
+        "latitude": "34.471659",
+        "longitude": "-120.229129"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/13093159438"
+      },
+      "detector": {
+        "available": false,
+        "detections": null,
+        "source": null,
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1019048",
+            "unique_id": "121338",
+            "status_code": "T",
+            "constructed_date": "10/01/1993",
+            "dismantled_date": "",
+            "action_date": "07/02/2002",
+            "city": "GAVIOTA",
+            "state": "CA",
+            "county_fips": "06083",
+            "height_structure_m": "15.2",
+            "overall_height_agl_m": "18.2",
+            "structure_type_code": "POLE",
+            "address": "GAVIOTO STATE BEACH RD",
+            "latitude": 34.47166666666667,
+            "longitude": -120.22916666666667,
+            "coordinate_type_code": "T",
+            "organization_owner": "Crown Castle GT Company LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=121338",
+            "distance_m": 3.6,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_058",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "b04d2504ddd689d838c750e234edd97e30197024fc36aaf7dbd4ea8c9870dd45",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_058.jpg",
+    "evidence": {
+      "id": "site_058",
+      "imagery": {
+        "path": "images/site_058.jpg",
+        "date": "2023-06-22T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "nh_m_4307223_sw_18_030_20230622_20231113",
+        "latitude": 43.653553,
+        "longitude": -72.237305
+      },
+      "osm": {
+        "tags": {
+          "addr:city": "Lebanon",
+          "addr:street": "150 Heater Rd",
+          "communication:mobile_phone": "yes",
+          "ele": "218.8",
+          "fcc:registration_number": "1240794",
+          "height": "78.9",
+          "man_made": "mast",
+          "operator": "SBA Communications",
+          "tower:construction": "guyed_lattice",
+          "tower:type": "communication",
+          "url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2639580"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/947110662"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              425,
+              457,
+              569,
+              591
+            ],
+            "confidence": 0.794
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1240794",
+            "unique_id": "2639580",
+            "status_code": "C",
+            "constructed_date": "05/31/2004",
+            "dismantled_date": "",
+            "action_date": "11/20/2023",
+            "city": "LEBANON",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "78.6",
+            "overall_height_agl_m": "80.2",
+            "structure_type_code": "GTOWER",
+            "address": "150 HEATER ROAD (NH16806-A)",
+            "latitude": 43.653527777777775,
+            "longitude": -72.23730555555555,
+            "coordinate_type_code": "T",
+            "organization_owner": "SBA Towers VI, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2639580",
+            "distance_m": 2.8,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1027573",
+            "unique_id": "128063",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA1",
+            "address": "TWR 1 - E OF ST RT 120 & ETNA RD S OF N LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24277777777777,
+            "coordinate_type_code": "T",
+            "organization_owner": "KOOR COMMUNICATIONS, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128063",
+            "distance_m": 600.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1027574",
+            "unique_id": "128064",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA2",
+            "address": "TWR 2 - E OF ST RT 120 & ETNA RD S OF N LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24277777777777,
+            "coordinate_type_code": "T",
+            "organization_owner": "KOOR COMMUNICATIONS , INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128064",
+            "distance_m": 600.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1027575",
+            "unique_id": "128065",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA3",
+            "address": "TWR 3 - E OF ST RT 120 & ETNA RD S OF N LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24277777777777,
+            "coordinate_type_code": "T",
+            "organization_owner": "KOOR COMMUNICATIONS, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128065",
+            "distance_m": 600.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1027576",
+            "unique_id": "128066",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA4",
+            "address": "TWR 4 - E OF ST RT 120 & ETNA RD S OF LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24277777777777,
+            "coordinate_type_code": "T",
+            "organization_owner": "KOOR COMMUNICATIONS, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128066",
+            "distance_m": 600.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1027573",
+            "unique_id": "128063",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA1",
+            "address": "TWR 1 - E OF ST RT 120 & ETNA RD S OF N LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24333333333334,
+            "coordinate_type_code": "A",
+            "organization_owner": "KOOR COMMUNICATIONS, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128063",
+            "distance_m": 633.8,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1027574",
+            "unique_id": "128064",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA2",
+            "address": "TWR 2 - E OF ST RT 120 & ETNA RD S OF N LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24333333333334,
+            "coordinate_type_code": "A",
+            "organization_owner": "KOOR COMMUNICATIONS , INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128064",
+            "distance_m": 633.8,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1027575",
+            "unique_id": "128065",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA3",
+            "address": "TWR 3 - E OF ST RT 120 & ETNA RD S OF N LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24333333333334,
+            "coordinate_type_code": "A",
+            "organization_owner": "KOOR COMMUNICATIONS, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128065",
+            "distance_m": 633.8,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          },
+          {
+            "registration": "1027576",
+            "unique_id": "128066",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "04/06/2000",
+            "city": "LEBANON CITY",
+            "state": "NH",
+            "county_fips": "33009",
+            "height_structure_m": "80.2",
+            "overall_height_agl_m": "81.1",
+            "structure_type_code": "4TA4",
+            "address": "TWR 4 - E OF ST RT 120 & ETNA RD S OF LABOMBARD RD",
+            "latitude": 43.657222222222224,
+            "longitude": -72.24333333333334,
+            "coordinate_type_code": "A",
+            "organization_owner": "KOOR COMMUNICATIONS, INC.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=128066",
+            "distance_m": 633.8,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_059",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "374d0251734ce4762dfc2150a695ec928f146c24e5b0a6013d3c67eb5425c029",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_059.jpg",
+    "evidence": {
+      "id": "site_059",
+      "imagery": {
+        "path": "images/site_059.jpg",
+        "date": "2023-07-07T16:00:00Z",
+        "resolution_m": 0.3,
+        "source_id": "ma_m_4207132_ne_19_030_20230707_20231116",
+        "latitude": 42.566035,
+        "longitude": -71.005627
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/9646659159"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              438,
+              468,
+              555,
+              566
+            ],
+            "confidence": 0.777
+          }
+        ],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1266704",
+            "unique_id": "2666051",
+            "status_code": "C",
+            "constructed_date": "06/12/2009",
+            "dismantled_date": "",
+            "action_date": "08/06/2024",
+            "city": "Middleton",
+            "state": "MA",
+            "county_fips": "25009",
+            "height_structure_m": "45.7",
+            "overall_height_agl_m": "45.7",
+            "structure_type_code": "MTOWER",
+            "address": "11 Natsue Way (283071)",
+            "latitude": 42.56602777777778,
+            "longitude": -71.00561111111111,
+            "coordinate_type_code": "T",
+            "organization_owner": "American Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2666051",
+            "distance_m": 1.5,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_060",
+    "width": 512,
+    "height": 512,
+    "sha256": "7e7866ef011867f8bebd25f6b398c678e5f168b74aca16f4e737310a49d2f85e",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_060.jpg",
+    "evidence": {
+      "id": "site_060",
+      "imagery": {
+        "path": "images/site_060.jpg",
+        "date": "2024-10-27T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3110603_se_13_060_20241027",
+        "latitude": "31.899365038524472",
+        "longitude": "-106.62885355289748"
+      },
+      "osm": {
+        "tags": {},
+        "snapshot": null,
+        "url": ""
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  }
+]

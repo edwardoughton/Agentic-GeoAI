@@ -1,0 +1,42 @@
+[
+  {
+    "id": "site_001",
+    "action": "no_target",
+    "confidence": 0.92,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_001:imagery", "site_001:detector", "site_001:osm", "site_001:fcc"],
+    "reason": "The whole chip shows apartment buildings, a pool, roads and trees, with no visible freestanding cell tower or tower compound. Detector proposals overlap the pool and adjacent roofs. The OSM antenna tag does not establish a ground tower; FCC matches are 227.8–940.3 m away and do not identify a structure in this chip."
+  },
+  {
+    "id": "site_002",
+    "action": "no_target",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_002:imagery", "site_002:detector", "site_002:osm", "site_002:fcc"],
+    "reason": "A round elevated water tank and its long tank-shaped shadow occupy the central enclosure. The whole chip contains no separate visible freestanding cell tower. The OSM mobile-phone antenna tag is compatible with antennas on the excluded water tower; the low-confidence detector proposal does not establish a separate tower. Empty FCC results are not evidence of absence."
+  },
+  {
+    "id": "site_003",
+    "action": "no_target",
+    "confidence": 0.96,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_003:imagery", "site_003:detector", "site_003:osm", "site_003:fcc"],
+    "reason": "Electrical transmission structures and conductors cross the utility enclosure; no separate freestanding cell tower is visible elsewhere in the chip. Detector proposals near the transmission structure do not change its excluded support type, consistent with OSM power=tower despite its mobile-phone tag. The FCC building-type record is 258.1 m away and has no construction date establishing a matching ground tower."
+  },
+  {
+    "id": "site_004",
+    "action": "no_target",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_004:imagery", "site_004:detector", "site_004:osm", "site_004:fcc"],
+    "reason": "The whole chip shows fields, a farm lane and farm buildings, with no visible tower or tower compound. The close FCC match lists construction on 2024-11-27, after the 2024-08-31 image; the OSM mast snapshot is later still, on 2026-09-21. These records therefore do not establish a tower at the imagery date. The cached detector has no proposals."
+  },
+  {
+    "id": "site_005",
+    "action": "no_target",
+    "confidence": 0.91,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_005:imagery", "site_005:detector", "site_005:osm", "site_005:fcc"],
+    "reason": "The whole chip shows continuous forest canopy and a diagonal road, with no visible tower, tower shadow, clearing or equipment compound. Canopy limits visibility of the ground. The cached detector has no proposals, OSM tags are empty and FCC has no nearby matches; these missing records are not treated as negative evidence."
+  }
+]

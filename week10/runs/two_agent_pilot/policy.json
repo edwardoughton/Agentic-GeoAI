@@ -1,0 +1,11 @@
+{
+  "ids": [
+    "site_001",
+    "site_002",
+    "site_003",
+    "site_004",
+    "site_005"
+  ],
+  "target": "Label freestanding cell-tower ground sites. Exclude water towers, electrical pylons and rooftop supports, even with antennas. Inspect the whole chip.",
+  "mode": "independent offline assistant handoffs"
+}

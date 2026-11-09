@@ -1,0 +1,11 @@
+{
+  "total": 5,
+  "provisionally_accepted": 5,
+  "human_review": 0,
+  "threshold": 0.85,
+  "confidence_calibrated": false,
+  "input_sha256": {
+    "investigator": "2b3974cdbe7ea9949ffbee9ed6f6b268fb84ac4db984dc5dfc22c047aabed143",
+    "reviewer": "930f6c6a930b6fda34b7a16be82c03ee95c01593dd5b3e93dd063947c89471ca"
+  }
+}
