@@ -1,0 +1,45 @@
+{
+  "id": "site_029",
+  "imagery": {
+    "path": "images/site_029.jpg",
+    "date": "2024-06-04T00:00:00+00:00",
+    "resolution_m": "0.6",
+    "source_id": "m_3512060_ne_10_060_20240604",
+    "latitude": "35.073897",
+    "longitude": "-120.520389"
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "mimics": "water_tower",
+      "tower:construction": "lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": null,
+    "url": "https://www.openstreetmap.org/node/13996610876"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          237.82273864746094,
+          229.11244201660156,
+          290.1790771484375,
+          280.787353515625
+        ],
+        "confidence": 0.6748909950256348
+      }
+    ],
+    "source": "assisted_annotation_v3/batch3_raw_predictions.json",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

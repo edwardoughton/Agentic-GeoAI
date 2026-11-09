@@ -1,0 +1,67 @@
+{
+  "id": "site_010",
+  "imagery": {
+    "path": "images/site_010.jpg",
+    "date": "2023-05-03T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "la_m_3009029_sw_15_030_20230503_20240209",
+    "latitude": 30.52901,
+    "longitude": -90.478598
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/4363113647"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          449,
+          438,
+          567,
+          553
+        ],
+        "confidence": 0.81
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1047425",
+        "unique_id": "105088",
+        "status_code": "C",
+        "constructed_date": "03/06/2009",
+        "dismantled_date": "",
+        "action_date": "02/07/2020",
+        "city": "HAMMOND",
+        "state": "LA",
+        "county_fips": "22105",
+        "height_structure_m": "75.3",
+        "overall_height_agl_m": "78.0",
+        "structure_type_code": "",
+        "address": "47376 Highway 51N (304814)",
+        "latitude": 30.529055555555555,
+        "longitude": -90.4786111111111,
+        "coordinate_type_code": "T",
+        "organization_owner": "American Towers, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=105088",
+        "distance_m": 5.2,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

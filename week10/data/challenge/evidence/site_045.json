@@ -1,0 +1,85 @@
+{
+  "id": "site_045",
+  "imagery": {
+    "path": "images/site_045.jpg",
+    "date": "2025-09-28T00:00:00+00:00",
+    "resolution_m": 0.3,
+    "source_id": "m_4509610_ne_14_030_20250928",
+    "latitude": 45.862136,
+    "longitude": -96.791345
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/11916425378"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          468,
+          461,
+          571,
+          564
+        ],
+        "confidence": 0.603
+      },
+      {
+        "xyxy": [
+          467,
+          465,
+          735,
+          571
+        ],
+        "confidence": 0.488
+      },
+      {
+        "xyxy": [
+          548,
+          484,
+          719,
+          549
+        ],
+        "confidence": 0.312
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1243565",
+        "unique_id": "2642589",
+        "status_code": "C",
+        "constructed_date": "06/22/2010",
+        "dismantled_date": "",
+        "action_date": "01/08/2026",
+        "city": "Rosholt",
+        "state": "SD",
+        "county_fips": "46109",
+        "height_structure_m": "145.4",
+        "overall_height_agl_m": "146.9",
+        "structure_type_code": "GTOWER",
+        "address": "Hwy 127 & 470th Ave.",
+        "latitude": 45.86216666666667,
+        "longitude": -96.79133333333333,
+        "coordinate_type_code": "T",
+        "organization_owner": "CCATT LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2642589",
+        "distance_m": 3.5,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

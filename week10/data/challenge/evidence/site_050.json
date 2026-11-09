@@ -1,0 +1,68 @@
+{
+  "id": "site_050",
+  "imagery": {
+    "path": "images/site_050.jpg",
+    "date": "2023-08-30T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "ia_m_4009218_nw_15_030_20230830_20231127",
+    "latitude": 40.728835,
+    "longitude": -92.854206
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "guyed_lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/12794859011"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          477,
+          428,
+          608,
+          549
+        ],
+        "confidence": 0.809
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1016993",
+        "unique_id": "119619",
+        "status_code": "C",
+        "constructed_date": "08/24/1994",
+        "dismantled_date": "",
+        "action_date": "08/16/2025",
+        "city": "Centerville",
+        "state": "IA",
+        "county_fips": "19007",
+        "height_structure_m": "83.8",
+        "overall_height_agl_m": "83.8",
+        "structure_type_code": "LTOWER",
+        "address": "2816 Eastridge Dr",
+        "latitude": 40.728611111111114,
+        "longitude": -92.85408333333332,
+        "coordinate_type_code": "T",
+        "organization_owner": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=119619",
+        "distance_m": 27.0,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

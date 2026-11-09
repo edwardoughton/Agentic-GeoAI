@@ -1,0 +1,33 @@
+{
+  "id": "site_020",
+  "imagery": {
+    "path": "images/site_020.jpg",
+    "date": "2024-07-27T00:00:00+00:00",
+    "resolution_m": 0.6,
+    "source_id": "m_3911951_sw_11_060_20240727",
+    "latitude": 39.184571,
+    "longitude": -119.704047
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/8424513211"
+  },
+  "detector": {
+    "available": true,
+    "detections": [],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

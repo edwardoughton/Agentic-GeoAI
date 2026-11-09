@@ -1,0 +1,67 @@
+{
+  "id": "site_018",
+  "imagery": {
+    "path": "images/site_018.jpg",
+    "date": "2023-04-16T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "la_m_3109361_sw_15_030_20230416_20240214",
+    "latitude": 31.004648,
+    "longitude": -93.496664
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/11914378375"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          443,
+          443,
+          565,
+          566
+        ],
+        "confidence": 0.812
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1294402",
+        "unique_id": "2693921",
+        "status_code": "C",
+        "constructed_date": "02/06/2015",
+        "dismantled_date": "",
+        "action_date": "05/06/2021",
+        "city": "Evans",
+        "state": "LA",
+        "county_fips": "22115",
+        "height_structure_m": "76.2",
+        "overall_height_agl_m": "79.2",
+        "structure_type_code": "LTOWER",
+        "address": "approximately 18152 Louisiana Route 111 (HV856/Evans)",
+        "latitude": 31.004638888888888,
+        "longitude": -93.49666666666667,
+        "coordinate_type_code": "T",
+        "organization_owner": "Horvath Towers III, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2693921",
+        "distance_m": 1.0,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

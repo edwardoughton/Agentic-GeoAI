@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tower Detective · browser labelling</title>
+<style>
+:root{color-scheme:light;--ink:#172b3a;--muted:#526778;--accent:#176b66;--line:#d6e0e5}
+*{box-sizing:border-box}body{margin:0;background:#f3f6f7;color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+header{padding:18px 28px;background:#123a45;color:white}header h1{margin:0;font-size:25px}header p{margin:4px 0 0;color:#d4e7e8}
+main{max-width:1450px;margin:auto;padding:20px;display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:20px}
+section,aside{background:white;border:1px solid var(--line);border-radius:12px;padding:18px;min-width:0}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+button,.file-button,select{font:inherit;border:1px solid var(--line);border-radius:7px;padding:9px 13px;background:white;color:var(--ink);cursor:pointer}
+button:hover,.file-button:hover{background:#e9f4f1}button:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #e4ad35;outline-offset:2px}
+button.primary{background:var(--accent);color:white;border-color:var(--accent)}button:disabled{opacity:.4;cursor:default}
+.stage{background:#15242a;border-radius:8px;overflow:hidden;line-height:0;min-height:220px;display:flex;align-items:center;justify-content:center}
+canvas{display:block;width:auto;height:auto;max-width:100%;max-height:65vh;touch-action:none;cursor:crosshair}
+.muted{color:var(--muted);font-size:14px}h2{font-size:18px;margin:0 0 12px}label{display:block;margin-top:15px;font-weight:600}select,textarea{width:100%;margin-top:5px}
+textarea{min-height:90px;border:1px solid var(--line);border-radius:7px;padding:10px;font:inherit;resize:vertical}
+.pill{display:inline-block;background:#e5f1ee;color:#145c55;padding:4px 10px;border-radius:20px;font-weight:600;font-size:14px}
+progress{width:100%;accent-color:var(--accent);margin:12px 0}.actions{display:grid;gap:8px;margin-top:16px}
+#message{min-height:45px;padding:8px 0;color:#924b00}ol{padding-left:22px;font-size:14px}footer{padding:0 24px 20px;max-width:1450px;margin:auto;font-size:13px;color:var(--muted)}
+@media(max-width:650px){main{grid-template-columns:1fr}header{padding:16px}}
+</style>
+</head>
+<body>
+<header><h1>ðŸ•µï¸ Tower Detective</h1><p>Find the site. Draw the box. Know when to ask a human.</p><p class="muted" style="color:#d4e7e8;margin:8px 0 0"><strong id="team-name"></strong> Â· Shortcut: <kbd>Ctrl</kbd>+<kbd>Enter</kbd> saves and advances</p></header>
+<main>
+<section aria-label="Image labelling workspace">
+<div class="toolbar"><button id="prev">← Previous</button><span id="position" class="pill"></span><button id="next">Next →</button><span id="image-name"></span></div>
+<div class="stage"><canvas id="canvas" aria-label="Draw a rectangle around each freestanding cell-tower ground site"></canvas></div>
+<p class="muted">Drag to draw. Click a box to select it; use “Delete selected” to remove it. Boxes use original image pixels.</p>
+<div class="toolbar"><button id="delete">Delete selected</button><button id="clear">Clear boxes</button><span id="box-count" class="muted"></span></div>
+</section>
+<aside>
+<h2 id="mode-title">Your 20-image mission</h2>
+<div id="progress-label"></div><progress id="progress" max="20" value="0"></progress>
+<p class="muted">Target: freestanding cell-tower ground sites. Exclude water towers, electrical pylons and rooftop supports, even with antennas.</p>
+<label for="status">Your decision</label><select id="status"><option value="unreviewed">Not reviewed yet</option><option value="positive">Positive — target present</option><option value="negative">Negative — no target</option><option value="uncertain">Uncertain — ask for review</option></select>
+<label for="notes">What made you decide?</label><textarea id="notes" placeholder="A short observation, or what you cannot resolve…"></textarea>
+<div id="message" role="status" aria-live="polite"></div>
+<div class="actions"><button id="save" class="primary">Save decision & next →</button><button id="export">Export reviewed JSON</button><label class="file-button" style="margin:0;font-weight:400">Resume from JSON<input id="import" type="file" accept=".json" hidden></label></div>
+<ol><li>Inspect the whole image.</li><li>Positive needs at least one box.</li><li>Negative needs zero boxes.</li><li>Uncertainty is allowed. Export when time is up.</li></ol>
+<p class="muted">Browser storage is a convenience, not a submitted file. Export frequently. Your download can be loaded here to resume.</p>
+</aside>
+</main>
+<footer>Original teaching interface inspired by the VIA workflow. Exports VIA 2-style rectangle records; this page is not the upstream VIA application. No network calls, sign-in, or image uploads.</footer>
+<script>
+'use strict';
+const DATA = {"key": "manual20-54971e4c84fc", "title": "Your 20-image mission", "team": "Team Agentic-GeoAI", "filename": "my_tower_labels.json", "records": [{"id": "site_020", "image": "../data/challenge/images/site_020.jpg", "width": 512, "height": 512, "sha256": "e72a1ca0c1e664ac856062440561628519029041f7a9e13e82e4332f711094bf", "size": 132488, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_001", "image": "../data/challenge/images/site_001.jpg", "width": 1024, "height": 1024, "sha256": "24a7707bffef0b582655d98917be8820df967d74f34ddd06b7efa5b29372c62d", "size": 634204, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_005", "image": "../data/challenge/images/site_005.jpg", "width": 512, "height": 512, "sha256": "acdcd193a4b245f28410a1978538ed979f84389432e436757eee8e2632fc594e", "size": 141016, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_011", "image": "../data/challenge/images/site_011.jpg", "width": 512, "height": 512, "sha256": "f058d16cf81def95f8bad6f4dd4a87b21ab80dd1d5ebe35c2c6685497bfe5141", "size": 158269, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_014", "image": "../data/challenge/images/site_014.jpg", "width": 512, "height": 512, "sha256": "18dd30b05ba970e9735fd95f4c08ea1dd768d854f551b81263d928f0605415bf", "size": 101926, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_010", "image": "../data/challenge/images/site_010.jpg", "width": 1024, "height": 1024, "sha256": "d760e342fa162480c4035e58fab053431437445ed6b161921c9f953b55908983", "size": 590118, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_013", "image": "../data/challenge/images/site_013.jpg", "width": 512, "height": 512, "sha256": "4f612e90346bb851b3f10818ac860946effd28461c9e02fb8f9f997fe8eea417", "size": 108315, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_024", "image": "../data/challenge/images/site_024.jpg", "width": 1024, "height": 1024, "sha256": "55fea993449d8deda38823937fd052cebd96fdb8f070429772c7386eff6aea17", "size": 546755, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_006", "image": "../data/challenge/images/site_006.jpg", "width": 1024, "height": 1024, "sha256": "d743c0357aa4f63f8ee8a6565ff372163ec3e33c72235463b21e3b94a84af494", "size": 680500, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_008", "image": "../data/challenge/images/site_008.jpg", "width": 1024, "height": 1024, "sha256": "6b3b8cd562b500bc3fe4a9516838265ba1bd13e5dd1c4fb4a0df514c166810bb", "size": 553692, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_018", "image": "../data/challenge/images/site_018.jpg", "width": 1024, "height": 1024, "sha256": "cb7d297cc166e71ce4a94d1dc8656b6b6e5261a89068d533e93030034fd706f8", "size": 594560, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_015", "image": "../data/challenge/images/site_015.jpg", "width": 1024, "height": 1024, "sha256": "12ccb06da8322fe1b30cbd37c9785d9cc96361b213536db5ad22fb6f3b27c3fb", "size": 644843, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_004", "image": "../data/challenge/images/site_004.jpg", "width": 512, "height": 512, "sha256": "9c917ec03e7c9f1dcf52ad70ebdf9c0c31d4dc3938cf3d08503eb952f76d84ac", "size": 134033, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_021", "image": "../data/challenge/images/site_021.jpg", "width": 512, "height": 512, "sha256": "eccbe5f0b2c761274a599594a53f6437265d80e912008b1838d4963f61267b69", "size": 124537, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_012", "image": "../data/challenge/images/site_012.jpg", "width": 1024, "height": 1024, "sha256": "e475024520fe92932bd9048e75f768f01da7ff24720eddab0150396256288e5d", "size": 470257, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_009", "image": "../data/challenge/images/site_009.jpg", "width": 512, "height": 512, "sha256": "70166ee6ba7be29cbda96fc7dfbf7835e8f5a1545531f8aeddc9a867255ecf2c", "size": 143576, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_007", "image": "../data/challenge/images/site_007.jpg", "width": 512, "height": 512, "sha256": "f220b31bbd3337a1e3e15b77be7b0a780ac9cd7f042fb9da650a0e1f9ab97a65", "size": 165869, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_002", "image": "../data/challenge/images/site_002.jpg", "width": 1024, "height": 1024, "sha256": "01592e4c038fc4243ed3593ed28fa64ab24dec8f0269df49e265b1099cf41b5c", "size": 659214, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_003", "image": "../data/challenge/images/site_003.jpg", "width": 512, "height": 512, "sha256": "5ce795a4c9f84fd88ac8500bdc190fe3bc1bd0746070e0e813612ce8dd6a72d8", "size": 126661, "boxes": [], "status": "unreviewed", "notes": ""}, {"id": "site_016", "image": "../data/challenge/images/site_016.jpg", "width": 512, "height": 512, "sha256": "bc752e32713175ff886d6b7eaf9701f36f2adc206eb4eaefc392643c9c6c8c6c", "size": 188887, "boxes": [], "status": "unreviewed", "notes": ""}]};
+const $ = id => document.getElementById(id);
+const canvas=$('canvas'), ctx=canvas.getContext('2d');
+let index=0, selected=-1, start=null, draft=null, image=null, ready=false;
+const TEAM_NAME = DATA.team || "Team Agentic-GeoAI";
+const clone = value => JSON.parse(JSON.stringify(value));
+let rows=clone(DATA.records);
+const key='tower-detective-v1:'+DATA.key;
+$('team-name').textContent = TEAM_NAME;
+function checkRecord(r, original){
+  if(r.id!==original.id || !['positive','negative','uncertain','unreviewed'].includes(r.status) || !Array.isArray(r.boxes) || typeof r.notes!=='string')throw Error('Invalid image record');
+  for(const b of r.boxes){if(!['x','y','width','height'].every(k=>Number.isFinite(b[k])) || b.x<0 || b.y<0 || b.width<=0 || b.height<=0 || b.x+b.width>original.width+.01 || b.y+b.height>original.height+.01)throw Error('Box outside image');}
+  if(r.status==='positive' && !r.boxes.length || r.status==='negative' && r.boxes.length)throw Error('Positive needs boxes; negative needs no boxes');
+}
+try{const old=JSON.parse(localStorage.getItem(key));if(old){if(old.length!==rows.length)throw Error('Wrong saved set');old.forEach((r,i)=>checkRecord(r,rows[i]));rows=old;}}catch(e){console.info('No valid saved session:',e.message);}
+function message(s){$('message').textContent=s;}
+function persist(){try{localStorage.setItem(key,JSON.stringify(rows));}catch(e){message('Browser storage unavailable. Please export your JSON.');}}
+function progress(){let done=rows.filter(r=>r.status!=='unreviewed').length;$('progress').max=rows.length;$('progress').value=done;$('progress-label').textContent=`${done} of ${rows.length} reviewed`;$('box-count').textContent=`${rows[index].boxes.length} box(es)`;}
+function draw(){
+ if(!ready)return;ctx.clearRect(0,0,canvas.width,canvas.height);ctx.drawImage(image,0,0);
+ const boxes=rows[index].boxes;
+ [...boxes,...(draft?[draft]:[])].forEach((b,i)=>{ctx.strokeStyle=i===selected?'#ffd34f':'#42f5a1';ctx.lineWidth=Math.max(2,canvas.width/300);ctx.strokeRect(b.x,b.y,b.width,b.height);ctx.fillStyle='#102c26';ctx.fillRect(b.x,b.y,30,24);ctx.fillStyle='white';ctx.font='16px system-ui';ctx.fillText(String(i+1),b.x+7,b.y+18);});
+ progress();
+}
+function commit(){
+ const r=rows[index], status=$('status').value;
+ if(status==='positive'&&!r.boxes.length){message('Draw at least one box for a positive image.');return false;}
+ if(status==='negative'&&r.boxes.length){message('Delete the boxes before marking no target.');return false;}
+ r.status=status;r.notes=$('notes').value;persist();progress();return true;
+}
+function show(){
+ ready=false;image=null;selected=-1;start=null;draft=null;message('');const r=rows[index];
+ $('position').textContent=`${index+1} / ${rows.length}`;$('image-name').textContent=r.id;
+ $('mode-title').textContent=DATA.title;$('status').value=r.status;$('notes').value=r.notes;
+ $('prev').disabled=index===0;$('next').disabled=index===rows.length-1;progress();
+ const target=index, img=new Image();img.onload=()=>{if(index!==target)return;image=img;ready=true;canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;draw();};
+ img.onerror=()=>message('Image missing. Keep this HTML beside the supplied lesson folders.');img.src=r.image;
+}
+function point(e){const b=canvas.getBoundingClientRect();return {x:Math.max(0,Math.min(canvas.width,(e.clientX-b.left)*canvas.width/b.width)),y:Math.max(0,Math.min(canvas.height,(e.clientY-b.top)*canvas.height/b.height))};}
+canvas.addEventListener('pointerdown',e=>{if(!ready)return;canvas.setPointerCapture(e.pointerId);start=point(e);draft=null;});
+canvas.addEventListener('pointermove',e=>{if(!start)return;const p=point(e);draft={x:Math.min(start.x,p.x),y:Math.min(start.y,p.y),width:Math.abs(p.x-start.x),height:Math.abs(p.y-start.y)};draw();});
+canvas.addEventListener('pointerup',e=>{
+ if(!start)return;const p=point(e),r=rows[index];
+ if(draft && draft.width>=3 && draft.height>=3){r.boxes.push(draft);selected=r.boxes.length-1;r.status='unreviewed';$('status').value='unreviewed';}
+ else{selected=-1;for(let i=r.boxes.length-1;i>=0;i--){const b=r.boxes[i];if(p.x>=b.x&&p.x<=b.x+b.width&&p.y>=b.y&&p.y<=b.y+b.height){selected=i;break;}}}
+ start=null;draft=null;persist();draw();
+});
+canvas.addEventListener('pointercancel',()=>{start=null;draft=null;draw();});
+$('delete').onclick=()=>{if(selected<0){message('Click a box first.');return;}rows[index].boxes.splice(selected,1);rows[index].status='unreviewed';$('status').value='unreviewed';selected=-1;persist();draw();};
+$('clear').onclick=()=>{rows[index].boxes=[];rows[index].status='unreviewed';$('status').value='unreviewed';selected=-1;persist();draw();};
+$('prev').onclick=()=>{if(commit()&&index>0){index--;show();}};
+$('next').onclick=()=>{if(commit()&&index<rows.length-1){index++;show();}};
+$('save').onclick=()=>{if($('status').value==='unreviewed'){message('Choose positive, negative, or uncertain first.');return;}if(commit()){if(index<rows.length-1){index++;show();}else message('Last image saved. Export your JSON to keep a file.');}};
+$('status').onchange=()=>{commit();};
+$('notes').oninput=()=>{rows[index].notes=$('notes').value;persist();};
+document.addEventListener('keydown',e=>{
+ if((e.ctrlKey||e.metaKey) && e.key==='Enter'){e.preventDefault();$('save').click();}
+});
+$('export').onclick=()=>{
+ if(!commit())return;
+ const meta={};rows.forEach(r=>{meta[r.id]={filename:r.id+'.jpg',size:r.size,
+ regions:r.boxes.map(b=>({shape_attributes:{name:'rect',...b},region_attributes:{class:'tower_ground_site'}})),
+ file_attributes:{id:r.id,status:r.status,notes:r.notes}};});
+ const obj={_via_settings:{project:{name:DATA.key}},_via_img_metadata:meta,
+ _via_attributes:{region:{class:{type:'text'}},file:{id:{type:'text'},status:{type:'dropdown',options:{positive:'',negative:'',uncertain:'',unreviewed:''}},notes:{type:'text'}}}};
+ const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}), url=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=url;a.download=DATA.filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);message('JSON exported. Keep the downloaded file to resume or compare.');
+};
+$('import').onchange=async e=>{
+ try{
+ const file=e.target.files[0];if(!file)return;const obj=JSON.parse(await file.text());
+ const incoming=Object.values(obj._via_img_metadata), byId=new Map();
+ for(const item of incoming){const id=item.file_attributes?.id;if(byId.has(id))throw Error('Duplicate image ID');byId.set(id,item);}
+ if(byId.size!==rows.length || [...byId.keys()].some(id=>!rows.some(r=>r.id===id)))throw Error('This export belongs to a different image set');
+ const updated=rows.map(r=>{const item=byId.get(r.id);const next={...r,status:item.file_attributes.status,notes:item.file_attributes.notes||'',boxes:item.regions.map(b=>{if(b.shape_attributes.name!=='rect')throw Error('Only rectangle annotations are supported');const {x,y,width,height}=b.shape_attributes;return{x,y,width,height};})};checkRecord(next,r);return next;});
+ rows=updated;persist();show();message('Loaded your saved annotations.');
+ }catch(err){message('Could not import: '+err.message);}finally{e.target.value='';}
+};
+show();
+</script>
+</body>
+</html>

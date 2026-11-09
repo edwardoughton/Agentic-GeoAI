@@ -1,0 +1,68 @@
+{
+  "id": "site_025",
+  "imagery": {
+    "path": "images/site_025.jpg",
+    "date": "2023-10-19T16:00:00Z",
+    "resolution_m": 0.3,
+    "source_id": "ia_m_4009510_sw_15_030_20231019_20240104",
+    "latitude": 40.757313,
+    "longitude": -95.813908
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/6022943252"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          465,
+          459,
+          571,
+          566
+        ],
+        "confidence": 0.848
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1239463",
+        "unique_id": "2637991",
+        "status_code": "C",
+        "constructed_date": "07/22/2003",
+        "dismantled_date": "",
+        "action_date": "11/24/2015",
+        "city": "Percival",
+        "state": "IA",
+        "county_fips": "19071",
+        "height_structure_m": "76.1",
+        "overall_height_agl_m": "79.2",
+        "structure_type_code": "TOWER",
+        "address": "2005 195th Street",
+        "latitude": 40.757305555555554,
+        "longitude": -95.81383333333333,
+        "coordinate_type_code": "T",
+        "organization_owner": "Global Tower, LLC. through American Towers, LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2637991",
+        "distance_m": 6.3,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

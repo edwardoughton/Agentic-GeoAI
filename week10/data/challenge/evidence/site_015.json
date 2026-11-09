@@ -1,0 +1,113 @@
+{
+  "id": "site_015",
+  "imagery": {
+    "path": "images/site_015.jpg",
+    "date": "2025-07-02T00:00:00+00:00",
+    "resolution_m": 0.3,
+    "source_id": "m_4709801_ne_14_030_20250702",
+    "latitude": 47.988175,
+    "longitude": -98.932661
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/7366917995"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          451,
+          463,
+          600,
+          574
+        ],
+        "confidence": 0.75
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1049780",
+        "unique_id": "611470",
+        "status_code": "C",
+        "constructed_date": "06/22/2010",
+        "dismantled_date": "",
+        "action_date": "01/08/2026",
+        "city": "Devils Lake",
+        "state": "ND",
+        "county_fips": "38005",
+        "height_structure_m": "61.9",
+        "overall_height_agl_m": "66.1",
+        "structure_type_code": "POLE",
+        "address": "7747 Ephraim Hill Road",
+        "latitude": 47.988166666666665,
+        "longitude": -98.93258333333334,
+        "coordinate_type_code": "T",
+        "organization_owner": "CCATT LLC",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=611470",
+        "distance_m": 5.9,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1051105",
+        "unique_id": "612579",
+        "status_code": "C",
+        "constructed_date": "04/11/1984",
+        "dismantled_date": "",
+        "action_date": "07/07/1998",
+        "city": "DEVILS LAKE",
+        "state": "ND",
+        "county_fips": "38005",
+        "height_structure_m": ".0",
+        "overall_height_agl_m": "89.9",
+        "structure_type_code": "TOWER",
+        "address": "9 MI. S. OF CITY ON SULLY'S HILL",
+        "latitude": 47.98777777777778,
+        "longitude": -98.93333333333334,
+        "coordinate_type_code": "T",
+        "organization_owner": "ALWIN, DALE  DBA =  DAKOTA ROSE BROADCASTING",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=612579",
+        "distance_m": 66.7,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      },
+      {
+        "registration": "1039996",
+        "unique_id": "603639",
+        "status_code": "C",
+        "constructed_date": "01/01/1961",
+        "dismantled_date": "",
+        "action_date": "03/09/1998",
+        "city": "DEVILS LAKE",
+        "state": "ND",
+        "county_fips": "38005",
+        "height_structure_m": "90.8",
+        "overall_height_agl_m": "100.6",
+        "structure_type_code": "TOWER",
+        "address": "5 KM SSW",
+        "latitude": 47.98444444444444,
+        "longitude": -98.93194444444445,
+        "coordinate_type_code": "T",
+        "organization_owner": "NORTH DAKOTA, STATE OF",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=603639",
+        "distance_m": 418.2,
+        "spatial_relation": "within 1 km; may be another structure",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}

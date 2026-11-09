@@ -1,0 +1,888 @@
+[
+  {
+    "id": "site_001",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_002",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_003",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_004",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "EVIDENCE_100_02_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_005",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_006",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_06_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 428.0,
+          "y": 459.0,
+          "width": 139.0,
+          "height": 133.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_007",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "EVIDENCE_100_04_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_008",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_01_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 498.0,
+          "y": 483.0,
+          "width": 81.0,
+          "height": 55.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_009",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "VIA_V2_SUGGESTED_02_100_reviewed_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_010",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_03_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 449.0,
+          "y": 438.0,
+          "width": 118.0,
+          "height": 115.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_011",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_07_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 229.0,
+          "y": 235.0,
+          "width": 66.0,
+          "height": 49.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_012",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_03_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 460.0,
+          "y": 470.0,
+          "width": 105.0,
+          "height": 98.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_013",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "VIA_SUGGESTED_01_100_reviewed_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_014",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_07_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 235.0,
+          "y": 228.0,
+          "width": 52.0,
+          "height": 51.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_015",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_08_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 451.0,
+          "y": 463.0,
+          "width": 149.0,
+          "height": 111.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_016",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_08_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 220.0,
+          "y": 229.0,
+          "width": 64.0,
+          "height": 56.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_017",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "VIA_V2_SUGGESTED_02_100_reviewed_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_018",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_04_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 443.0,
+          "y": 443.0,
+          "width": 122.0,
+          "height": 123.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_019",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_01_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 239.0,
+          "y": 235.0,
+          "width": 83.0,
+          "height": 45.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_020",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "EVIDENCE_100_05_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_021",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "VIA_SUGGESTED_01_100_reviewed_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_022",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_01_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 222.0,
+          "y": 221.0,
+          "width": 69.0,
+          "height": 52.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_023",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_01_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 174.0,
+          "y": 443.0,
+          "width": 405.0,
+          "height": 117.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_024",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_06_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 464.0,
+          "y": 454.0,
+          "width": 124.0,
+          "height": 126.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_025",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_PILOT_20_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 465.0,
+          "y": 459.0,
+          "width": 106.0,
+          "height": 107.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_026",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_08_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 448.0,
+          "y": 445.0,
+          "width": 125.0,
+          "height": 119.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_027",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 199.0,
+          "y": 252.0,
+          "width": 57.0,
+          "height": 57.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 231.0,
+          "y": 232.0,
+          "width": 61.0,
+          "height": 61.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_028",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_06_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 500.0,
+          "y": 467.0,
+          "width": 74.0,
+          "height": 67.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_029",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "BATCH3_V3_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_030",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_031",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_01_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 456.0,
+          "y": 455.0,
+          "width": 145.0,
+          "height": 126.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_032",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_033",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH3_V3_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_034",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "EVIDENCE_100_03_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_035",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_08_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 98.0,
+          "y": 794.0,
+          "width": 282.0,
+          "height": 132.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 447.0,
+          "y": 474.0,
+          "width": 99.0,
+          "height": 88.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_036",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "EVIDENCE_100_04_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_037",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_038",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_05_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 449.0,
+          "y": 463.0,
+          "width": 124.0,
+          "height": 128.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_039",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_PILOT_20_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 459.0,
+          "y": 443.0,
+          "width": 116.0,
+          "height": 126.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_040",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_04_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 457.0,
+          "y": 458.0,
+          "width": 113.0,
+          "height": 111.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_041",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_042",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 544.0,
+          "y": 465.0,
+          "width": 67.0,
+          "height": 52.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_043",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_06_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 225.0,
+          "y": 220.0,
+          "width": 71.0,
+          "height": 62.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_044",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_07_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 228.0,
+          "y": 231.0,
+          "width": 56.0,
+          "height": 57.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_045",
+    "status": "positive",
+    "sampling_group": "challenging",
+    "source_review": "EVIDENCE_100_02_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 469.0,
+          "y": 462.0,
+          "width": 264.0,
+          "height": 102.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_046",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_047",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_06_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 461.0,
+          "y": 460.0,
+          "width": 111.0,
+          "height": 110.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_048",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "EVIDENCE_100_07_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_049",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH3_V3_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_050",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_08_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 477.0,
+          "y": 428.0,
+          "width": 131.0,
+          "height": 121.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_051",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_08_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 459.0,
+          "y": 467.0,
+          "width": 103.0,
+          "height": 103.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_052",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_05_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 467.0,
+          "y": 474.0,
+          "width": 98.0,
+          "height": 97.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_053",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_054",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_05_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 444.0,
+          "y": 443.0,
+          "width": 124.0,
+          "height": 124.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_055",
+    "status": "uncertain",
+    "sampling_group": "challenging",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 453.0,
+          "y": 475.0,
+          "width": 104.0,
+          "height": 99.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_056",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH3_V3_REVIEWED_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_057",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "VIA_SUGGESTED_01_100_reviewed_integrated.json",
+    "regions": []
+  },
+  {
+    "id": "site_058",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_02_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 425.0,
+          "y": 457.0,
+          "width": 144.0,
+          "height": 134.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_059",
+    "status": "positive",
+    "sampling_group": "likely_easy_positive",
+    "source_review": "EVIDENCE_100_02_REVIEWED_integrated.json",
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 438.0,
+          "y": 468.0,
+          "width": 117.0,
+          "height": 98.0
+        },
+        "region_attributes": {
+          "class": "tower_ground_site"
+        }
+      }
+    ]
+  },
+  {
+    "id": "site_060",
+    "status": "negative",
+    "sampling_group": "verified_negative",
+    "source_review": "BATCH4_CELL_TOWERS_REVIEWED_integrated.json",
+    "regions": []
+  }
+]

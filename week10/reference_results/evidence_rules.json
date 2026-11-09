@@ -1,0 +1,679 @@
+{
+  "kind": "computed fixed baseline, not an agent run",
+  "predictions": [
+    {
+      "id": "site_001",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_001:detector",
+        "site_001:osm",
+        "site_001:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_002",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_002:detector",
+        "site_002:osm",
+        "site_002:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_003",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_003:detector",
+        "site_003:osm",
+        "site_003:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_004",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_004:detector",
+        "site_004:osm",
+        "site_004:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_005",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_005:detector",
+        "site_005:osm",
+        "site_005:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_006",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_006:detector",
+        "site_006:osm",
+        "site_006:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_007",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_007:detector",
+        "site_007:osm",
+        "site_007:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_008",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_008:detector",
+        "site_008:osm",
+        "site_008:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_009",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_009:detector",
+        "site_009:osm",
+        "site_009:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_010",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_010:detector",
+        "site_010:osm",
+        "site_010:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_011",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_011:detector",
+        "site_011:osm",
+        "site_011:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_012",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_012:detector",
+        "site_012:osm",
+        "site_012:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_013",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_013:detector",
+        "site_013:osm",
+        "site_013:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_014",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_014:detector",
+        "site_014:osm",
+        "site_014:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_015",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_015:detector",
+        "site_015:osm",
+        "site_015:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_016",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_016:detector",
+        "site_016:osm",
+        "site_016:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_017",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_017:detector",
+        "site_017:osm",
+        "site_017:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_018",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_018:detector",
+        "site_018:osm",
+        "site_018:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_019",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_019:detector",
+        "site_019:osm",
+        "site_019:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_020",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_020:detector",
+        "site_020:osm",
+        "site_020:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_021",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_021:detector",
+        "site_021:osm",
+        "site_021:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_022",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_022:detector",
+        "site_022:osm",
+        "site_022:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_023",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_023:detector",
+        "site_023:osm",
+        "site_023:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_024",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_024:detector",
+        "site_024:osm",
+        "site_024:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_025",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_025:detector",
+        "site_025:osm",
+        "site_025:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_026",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_026:detector",
+        "site_026:osm",
+        "site_026:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_027",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_027:detector",
+        "site_027:osm",
+        "site_027:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_028",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_028:detector",
+        "site_028:osm",
+        "site_028:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_029",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_029:detector",
+        "site_029:osm",
+        "site_029:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_030",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_030:detector",
+        "site_030:osm",
+        "site_030:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_031",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_031:detector",
+        "site_031:osm",
+        "site_031:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_032",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_032:detector",
+        "site_032:osm",
+        "site_032:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_033",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_033:detector",
+        "site_033:osm",
+        "site_033:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_034",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_034:detector",
+        "site_034:osm",
+        "site_034:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_035",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_035:detector",
+        "site_035:osm",
+        "site_035:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_036",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_036:detector",
+        "site_036:osm",
+        "site_036:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_037",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_037:detector",
+        "site_037:osm",
+        "site_037:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_038",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_038:detector",
+        "site_038:osm",
+        "site_038:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_039",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_039:detector",
+        "site_039:osm",
+        "site_039:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_040",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_040:detector",
+        "site_040:osm",
+        "site_040:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_041",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_041:detector",
+        "site_041:osm",
+        "site_041:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_042",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_042:detector",
+        "site_042:osm",
+        "site_042:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_043",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_043:detector",
+        "site_043:osm",
+        "site_043:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_044",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_044:detector",
+        "site_044:osm",
+        "site_044:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_045",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_045:detector",
+        "site_045:osm",
+        "site_045:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_046",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_046:detector",
+        "site_046:osm",
+        "site_046:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_047",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_047:detector",
+        "site_047:osm",
+        "site_047:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_048",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_048:detector",
+        "site_048:osm",
+        "site_048:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_049",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_049:detector",
+        "site_049:osm",
+        "site_049:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_050",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_050:detector",
+        "site_050:osm",
+        "site_050:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_051",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_051:detector",
+        "site_051:osm",
+        "site_051:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_052",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_052:detector",
+        "site_052:osm",
+        "site_052:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_053",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_053:detector",
+        "site_053:osm",
+        "site_053:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_054",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_054:detector",
+        "site_054:osm",
+        "site_054:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_055",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_055:detector",
+        "site_055:osm",
+        "site_055:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_056",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_056:detector",
+        "site_056:osm",
+        "site_056:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_057",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_057:detector",
+        "site_057:osm",
+        "site_057:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_058",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_058:detector",
+        "site_058:osm",
+        "site_058:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_059",
+      "action": "confirm",
+      "evidence_ids": [
+        "site_059:detector",
+        "site_059:osm",
+        "site_059:fcc"
+      ],
+      "reason": "High detector score and nearby temporally compatible FCC record; no excluded support tag.",
+      "method": "evidence_rules"
+    },
+    {
+      "id": "site_060",
+      "action": "request_review",
+      "evidence_ids": [
+        "site_060:detector",
+        "site_060:osm",
+        "site_060:fcc"
+      ],
+      "reason": "Weak, missing, or conflicting evidence.",
+      "method": "evidence_rules"
+    }
+  ],
+  "metrics": {
+    "evaluated": 60,
+    "automatic": 20,
+    "request_review": 40,
+    "coverage": 0.3333333333333333,
+    "resolved_automatic": 20,
+    "wrong_automatic": 0,
+    "false_confirms": 0,
+    "false_rejections": 0,
+    "selective_error": 0.0,
+    "unresolved_routing": {
+      "request_review": 10
+    }
+  }
+}

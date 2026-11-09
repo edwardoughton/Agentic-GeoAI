@@ -1,0 +1,68 @@
+{
+  "id": "site_012",
+  "imagery": {
+    "path": "images/site_012.jpg",
+    "date": "2025-07-01T00:00:00+00:00",
+    "resolution_m": 0.3,
+    "source_id": "m_4810312_nw_13_030_20250701",
+    "latitude": 48.85044,
+    "longitude": -103.610582
+  },
+  "osm": {
+    "tags": {
+      "communication:mobile_phone": "yes",
+      "man_made": "mast",
+      "tower:construction": "lattice",
+      "tower:type": "communication"
+    },
+    "snapshot": "2026-09-21",
+    "url": "https://www.openstreetmap.org/node/11273548935"
+  },
+  "detector": {
+    "available": true,
+    "detections": [
+      {
+        "xyxy": [
+          460,
+          470,
+          565,
+          568
+        ],
+        "confidence": 0.662
+      }
+    ],
+    "source": "source evidence.json/original_boxes",
+    "mode": "cached historical proposals; not rerun on classroom JPEGs"
+  },
+  "fcc": {
+    "available": true,
+    "matches": [
+      {
+        "registration": "1290644",
+        "unique_id": "2690073",
+        "status_code": "C",
+        "constructed_date": "09/08/2014",
+        "dismantled_date": "",
+        "action_date": "01/10/2026",
+        "city": "Fortuna",
+        "state": "ND",
+        "county_fips": "38023",
+        "height_structure_m": "57.9",
+        "overall_height_agl_m": "60.6",
+        "structure_type_code": "LTOWER",
+        "address": "SE corner of Hwy 85 and 99th St NW",
+        "latitude": 48.85041666666667,
+        "longitude": -103.61055555555555,
+        "coordinate_type_code": "T",
+        "organization_owner": "CTI Towers Assets, II, LLC c/o Symphony Towers Infrastructure",
+        "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2690073",
+        "distance_m": 3.2,
+        "spatial_relation": "within 100 m; possible site match",
+        "constructed_after_naip": false
+      }
+    ],
+    "search_radius_m": 1000,
+    "source_manifest": "data/tables/fcc_source_manifest.json",
+    "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+  }
+}
