@@ -1,0 +1,402 @@
+[
+  {
+    "id": "site_001",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "24a7707bffef0b582655d98917be8820df967d74f34ddd06b7efa5b29372c62d",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_001.jpg",
+    "evidence": {
+      "id": "site_001",
+      "imagery": {
+        "path": "images/site_001.jpg",
+        "date": "2025-10-13T00:00:00+00:00",
+        "resolution_m": "0.3",
+        "source_id": "m_3008438_nw_16_030_20251013",
+        "latitude": "30.443461",
+        "longitude": "-84.325828"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "antenna"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/10914579618"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              592.2120361328125,
+              421.98370361328125,
+              696.075439453125,
+              510.51141357421875
+            ],
+            "confidence": 0.41598355770111084
+          },
+          {
+            "xyxy": [
+              554.8521728515625,
+              425.14056396484375,
+              658.5380859375,
+              517.3296508789062
+            ],
+            "confidence": 0.23784776031970978
+          },
+          {
+            "xyxy": [
+              518.8328857421875,
+              430.90167236328125,
+              620.3026123046875,
+              523.8789672851562
+            ],
+            "confidence": 0.12485603988170624
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1254864",
+            "unique_id": "2654029",
+            "status_code": "C",
+            "constructed_date": "02/08/2007",
+            "dismantled_date": "",
+            "action_date": "01/23/2026",
+            "city": "Tallahasee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "42.7",
+            "overall_height_agl_m": "42.7",
+            "structure_type_code": "TOWER",
+            "address": "2373 W Tennessee St (9JK0377B)",
+            "latitude": 30.44461111111111,
+            "longitude": -84.32386111111111,
+            "coordinate_type_code": "T",
+            "organization_owner": "T-Mobile USA Tower LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2654029",
+            "distance_m": 227.8,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1241048",
+            "unique_id": "2639834",
+            "status_code": "C",
+            "constructed_date": "05/21/2004",
+            "dismantled_date": "",
+            "action_date": "01/22/2026",
+            "city": "Tallahassee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "45.7",
+            "overall_height_agl_m": "46.9",
+            "structure_type_code": "TOWER",
+            "address": "2145 W. Pensacola Street",
+            "latitude": 30.439888888888888,
+            "longitude": -84.32047222222222,
+            "coordinate_type_code": "T",
+            "organization_owner": "STC Two LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2639834",
+            "distance_m": 649.1,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1312615",
+            "unique_id": "2712399",
+            "status_code": "C",
+            "constructed_date": "01/13/2021",
+            "dismantled_date": "",
+            "action_date": "08/09/2024",
+            "city": "Tallahassee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "9.9",
+            "overall_height_agl_m": "11.1",
+            "structure_type_code": "UPOLE",
+            "address": "2825 Municipal Way",
+            "latitude": 30.43975,
+            "longitude": -84.33458333333333,
+            "coordinate_type_code": "T",
+            "organization_owner": "ALLTEL Corporation",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2712399",
+            "distance_m": 935.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          },
+          {
+            "registration": "1026901",
+            "unique_id": "127542",
+            "status_code": "C",
+            "constructed_date": "12/20/2007",
+            "dismantled_date": "",
+            "action_date": "06/10/2024",
+            "city": "Tallahassee",
+            "state": "FL",
+            "county_fips": "12073",
+            "height_structure_m": "52.7",
+            "overall_height_agl_m": "54.9",
+            "structure_type_code": "MTOWER",
+            "address": "706 Mabry Street (97157)",
+            "latitude": 30.435388888888887,
+            "longitude": -84.32875,
+            "coordinate_type_code": "T",
+            "organization_owner": "American Towers LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=127542",
+            "distance_m": 940.3,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": false
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_002",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "01592e4c038fc4243ed3593ed28fa64ab24dec8f0269df49e265b1099cf41b5c",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_002.jpg",
+    "evidence": {
+      "id": "site_002",
+      "imagery": {
+        "path": "images/site_002.jpg",
+        "date": "2025-10-30T00:00:00+00:00",
+        "resolution_m": "0.3",
+        "source_id": "m_2908153_nw_17_030_20251030",
+        "latitude": "29.23611",
+        "longitude": "-81.464148"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "antenna"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/12900195851"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              480.1181640625,
+              560.0621948242188,
+              586.0535888671875,
+              652.5020141601562
+            ],
+            "confidence": 0.14844422042369843
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_003",
+    "width": 512,
+    "height": 512,
+    "sha256": "5ce795a4c9f84fd88ac8500bdc190fe3bc1bd0746070e0e813612ce8dd6a72d8",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_003.jpg",
+    "evidence": {
+      "id": "site_003",
+      "imagery": {
+        "path": "images/site_003.jpg",
+        "date": "2024-06-26T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_3511940_se_11_060_20240626",
+        "latitude": "35.400341",
+        "longitude": "-119.018244"
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "power": "tower"
+        },
+        "snapshot": null,
+        "url": "https://www.openstreetmap.org/node/1804529370"
+      },
+      "detector": {
+        "available": true,
+        "detections": [
+          {
+            "xyxy": [
+              244.7442626953125,
+              237.24945068359375,
+              292.223388671875,
+              281.17388916015625
+            ],
+            "confidence": 0.720617949962616
+          },
+          {
+            "xyxy": [
+              213.57830810546875,
+              217.15701293945312,
+              255.32940673828125,
+              253.65542602539062
+            ],
+            "confidence": 0.13032837212085724
+          },
+          {
+            "xyxy": [
+              221.71749877929688,
+              278.2999267578125,
+              270.7882385253906,
+              338.0916748046875
+            ],
+            "confidence": 0.10486158728599548
+          }
+        ],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1304704",
+            "unique_id": "2704400",
+            "status_code": "G",
+            "constructed_date": "",
+            "dismantled_date": "",
+            "action_date": "05/03/2018",
+            "city": "Bakersfield",
+            "state": "CA",
+            "county_fips": "06029",
+            "height_structure_m": "9.1",
+            "overall_height_agl_m": "13.7",
+            "structure_type_code": "B",
+            "address": "1418 w Columbus",
+            "latitude": 35.398472222222225,
+            "longitude": -119.01655555555556,
+            "coordinate_type_code": "T",
+            "organization_owner": "ACME Commercial Properties L.L.C.",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2704400",
+            "distance_m": 258.1,
+            "spatial_relation": "within 1 km; may be another structure",
+            "constructed_after_naip": null
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_004",
+    "width": 512,
+    "height": 512,
+    "sha256": "9c917ec03e7c9f1dcf52ad70ebdf9c0c31d4dc3938cf3d08503eb952f76d84ac",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_004.jpg",
+    "evidence": {
+      "id": "site_004",
+      "imagery": {
+        "path": "images/site_004.jpg",
+        "date": "2024-08-31T00:00:00+00:00",
+        "resolution_m": 0.6,
+        "source_id": "m_4509239_ne_15_060_20240831",
+        "latitude": 45.480202,
+        "longitude": -92.165828
+      },
+      "osm": {
+        "tags": {
+          "communication:mobile_phone": "yes",
+          "man_made": "mast",
+          "tower:type": "communication"
+        },
+        "snapshot": "2026-09-21",
+        "url": "https://www.openstreetmap.org/node/13986666064"
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "source evidence.json/original_boxes",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [
+          {
+            "registration": "1326645",
+            "unique_id": "2726895",
+            "status_code": "C",
+            "constructed_date": "11/27/2024",
+            "dismantled_date": "",
+            "action_date": "09/26/2025",
+            "city": "Comstock",
+            "state": "WI",
+            "county_fips": "55095",
+            "height_structure_m": "76.2",
+            "overall_height_agl_m": "79.2",
+            "structure_type_code": "LTOWER",
+            "address": "1898 5th Street, Comstock, WI  54829",
+            "latitude": 45.48019444444444,
+            "longitude": -92.16580555555556,
+            "coordinate_type_code": "T",
+            "organization_owner": "Vertical Bridge VBTS, LLC",
+            "fcc_url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=2726895",
+            "distance_m": 1.9,
+            "spatial_relation": "within 100 m; possible site match",
+            "constructed_after_naip": true
+          }
+        ],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  },
+  {
+    "id": "site_005",
+    "width": 512,
+    "height": 512,
+    "sha256": "acdcd193a4b245f28410a1978538ed979f84389432e436757eee8e2632fc594e",
+    "image_path": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week10\\data\\challenge\\images\\site_005.jpg",
+    "evidence": {
+      "id": "site_005",
+      "imagery": {
+        "path": "images/site_005.jpg",
+        "date": "2024-07-01T00:00:00+00:00",
+        "resolution_m": "0.6",
+        "source_id": "m_4108005_NW_18_60_20240701",
+        "latitude": "41.988671179440225",
+        "longitude": "-80.44031314952872"
+      },
+      "osm": {
+        "tags": {},
+        "snapshot": null,
+        "url": ""
+      },
+      "detector": {
+        "available": true,
+        "detections": [],
+        "source": "assisted_annotation_v4/batch4_raw_predictions.json",
+        "mode": "cached historical proposals; not rerun on classroom JPEGs"
+      },
+      "fcc": {
+        "available": true,
+        "matches": [],
+        "search_radius_m": 1000,
+        "source_manifest": "data/tables/fcc_source_manifest.json",
+        "caution": "Registration does not establish cellular use. No nearby registered structure does not establish absence. Dates/status are as filed."
+      }
+    }
+  }
+]

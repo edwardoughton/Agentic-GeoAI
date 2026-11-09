@@ -1,0 +1,602 @@
+[
+  {
+    "id": "site_001",
+    "action": "no_target",
+    "confidence": 0.94,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_001:imagery"
+    ],
+    "reason": "Residential buildings, parking areas, trees and a road; no freestanding tower visible."
+  },
+  {
+    "id": "site_002",
+    "action": "no_target",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_002:imagery"
+    ],
+    "reason": "Elevated round water tank and its long shadow among buildings."
+  },
+  {
+    "id": "site_003",
+    "action": "no_target",
+    "confidence": 0.9,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_003:imagery"
+    ],
+    "reason": "Fenced basin, small utility buildings, roads and canal; no cell tower visible."
+  },
+  {
+    "id": "site_004",
+    "action": "no_target",
+    "confidence": 0.95,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_004:imagery"
+    ],
+    "reason": "Farm buildings, lawns and cultivated fields; no tower visible."
+  },
+  {
+    "id": "site_005",
+    "action": "no_target",
+    "confidence": 0.95,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_005:imagery"
+    ],
+    "reason": "Continuous forest canopy beside a road; no tower or compound visible."
+  },
+  {
+    "id": "site_006",
+    "action": "confirm",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_006:imagery"
+    ],
+    "reason": "Guyed mast with long shadow, anchor clearings and equipment compound."
+  },
+  {
+    "id": "site_007",
+    "action": "no_target",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_007:imagery"
+    ],
+    "reason": "Crop fields and a straight farm track; no tower visible."
+  },
+  {
+    "id": "site_008",
+    "action": "no_target",
+    "confidence": 0.96,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_008:imagery"
+    ],
+    "reason": "School buildings, solar panels and athletic field; no freestanding cell tower visible."
+  },
+  {
+    "id": "site_009",
+    "action": "no_target",
+    "confidence": 0.91,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_009:imagery"
+    ],
+    "reason": "Rural buildings, trailers and open ground; no tower visible."
+  },
+  {
+    "id": "site_010",
+    "action": "confirm",
+    "confidence": 0.97,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_010:imagery"
+    ],
+    "reason": "Lattice tower and equipment on a square cleared pad beside woodland."
+  },
+  {
+    "id": "site_011",
+    "action": "request_review",
+    "confidence": 0.56,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_011:imagery"
+    ],
+    "reason": "Small bright equipment clearing in dense trees; upright structure is indistinct."
+  },
+  {
+    "id": "site_012",
+    "action": "confirm",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_012:imagery"
+    ],
+    "reason": "Lattice tower, equipment pad and access lane in a field."
+  },
+  {
+    "id": "site_013",
+    "action": "no_target",
+    "confidence": 0.89,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_013:imagery"
+    ],
+    "reason": "Rural homes, sheds and fields; no distinct tower compound visible."
+  },
+  {
+    "id": "site_014",
+    "action": "no_target",
+    "confidence": 0.91,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_014:imagery"
+    ],
+    "reason": "Pasture with scattered small objects and nearby houses; no tower visible."
+  },
+  {
+    "id": "site_015",
+    "action": "confirm",
+    "confidence": 0.97,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_015:imagery"
+    ],
+    "reason": "Tower structure and equipment shelters in a gravel woodland clearing."
+  },
+  {
+    "id": "site_016",
+    "action": "request_review",
+    "confidence": 0.57,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_016:imagery"
+    ],
+    "reason": "Rectangular cleared equipment site beside trees; mast details are indistinct."
+  },
+  {
+    "id": "site_017",
+    "action": "no_target",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_017:imagery"
+    ],
+    "reason": "Large elevated water tank on multiple legs among buildings."
+  },
+  {
+    "id": "site_018",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_018:imagery"
+    ],
+    "reason": "Freestanding lattice tower with antenna tiers and fenced equipment pad."
+  },
+  {
+    "id": "site_019",
+    "action": "confirm",
+    "confidence": 0.91,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_019:imagery"
+    ],
+    "reason": "Slender mast, long narrow shadow, guy lines and small ground equipment pad."
+  },
+  {
+    "id": "site_020",
+    "action": "no_target",
+    "confidence": 0.9,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_020:imagery"
+    ],
+    "reason": "Industrial yard with machinery, material piles and buildings; no distinct cell tower visible."
+  },
+  {
+    "id": "site_021",
+    "action": "no_target",
+    "confidence": 0.93,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_021:imagery"
+    ],
+    "reason": "Athletic field, golf course and light poles; no cell tower compound visible."
+  },
+  {
+    "id": "site_022",
+    "action": "request_review",
+    "confidence": 0.59,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_022:imagery"
+    ],
+    "reason": "Small equipment clearing at the end of a wooded access track; tower details unclear."
+  },
+  {
+    "id": "site_023",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_023:imagery"
+    ],
+    "reason": "Tall antenna mast extending from a woodland equipment compound."
+  },
+  {
+    "id": "site_024",
+    "action": "confirm",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_024:imagery"
+    ],
+    "reason": "Lattice tower and equipment shelter within a square fenced clearing."
+  },
+  {
+    "id": "site_025",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_025:imagery"
+    ],
+    "reason": "Tall lattice tower with antenna tiers and ground equipment beside farm tanks."
+  },
+  {
+    "id": "site_026",
+    "action": "confirm",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_026:imagery"
+    ],
+    "reason": "Guyed mast, anchor points and equipment pad in open grass."
+  },
+  {
+    "id": "site_027",
+    "action": "no_target",
+    "confidence": 0.85,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_027:imagery"
+    ],
+    "reason": "Utility poles and small equipment clearings beside a crop field."
+  },
+  {
+    "id": "site_028",
+    "action": "confirm",
+    "confidence": 0.95,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_028:imagery"
+    ],
+    "reason": "Antenna cluster and narrow mast beside equipment shelters among trees."
+  },
+  {
+    "id": "site_029",
+    "action": "request_review",
+    "confidence": 0.59,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_029:imagery"
+    ],
+    "reason": "Small circular structure in a clearing near the highway; support details unclear."
+  },
+  {
+    "id": "site_030",
+    "action": "no_target",
+    "confidence": 0.91,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_030:imagery"
+    ],
+    "reason": "Low buildings, paved lots and utility poles; no distinct cell tower visible."
+  },
+  {
+    "id": "site_031",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_031:imagery"
+    ],
+    "reason": "Large lattice tower with antenna cluster and equipment shelter in a clearing."
+  },
+  {
+    "id": "site_032",
+    "action": "no_target",
+    "confidence": 0.96,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_032:imagery"
+    ],
+    "reason": "Forest canopy and field edge; no tower or cleared equipment site visible."
+  },
+  {
+    "id": "site_033",
+    "action": "no_target",
+    "confidence": 0.95,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_033:imagery"
+    ],
+    "reason": "Storage buildings, trailers, homes and road; no tower visible."
+  },
+  {
+    "id": "site_034",
+    "action": "no_target",
+    "confidence": 0.91,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_034:imagery"
+    ],
+    "reason": "Woodland, dirt tracks and a utility-line corridor; no cell tower compound visible."
+  },
+  {
+    "id": "site_035",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_035:imagery"
+    ],
+    "reason": "Two freestanding antenna towers with adjacent ground equipment near woodland."
+  },
+  {
+    "id": "site_036",
+    "action": "no_target",
+    "confidence": 0.93,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_036:imagery"
+    ],
+    "reason": "River, bridges, small buildings and open ground; no distinct tower visible."
+  },
+  {
+    "id": "site_037",
+    "action": "no_target",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_037:imagery"
+    ],
+    "reason": "Electrical transmission lines and pylons crossing a wooded corridor."
+  },
+  {
+    "id": "site_038",
+    "action": "confirm",
+    "confidence": 0.96,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_038:imagery"
+    ],
+    "reason": "Antenna structure within a cleared equipment compound beside a divided highway."
+  },
+  {
+    "id": "site_039",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_039:imagery"
+    ],
+    "reason": "Lattice antenna tower and equipment shelter on a fenced pad."
+  },
+  {
+    "id": "site_040",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_040:imagery"
+    ],
+    "reason": "Tower with antenna tiers, long shadow and equipment shelters in cropland."
+  },
+  {
+    "id": "site_041",
+    "action": "no_target",
+    "confidence": 0.97,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_041:imagery"
+    ],
+    "reason": "Road intersection, homes and open lots; no tower compound visible."
+  },
+  {
+    "id": "site_042",
+    "action": "no_target",
+    "confidence": 0.97,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_042:imagery"
+    ],
+    "reason": "Large building complex, rooftop equipment, parking and helipad."
+  },
+  {
+    "id": "site_043",
+    "action": "request_review",
+    "confidence": 0.57,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_043:imagery"
+    ],
+    "reason": "Bright narrow woodland clearing with a small structure; tower details unresolved."
+  },
+  {
+    "id": "site_044",
+    "action": "request_review",
+    "confidence": 0.58,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_044:imagery"
+    ],
+    "reason": "Small central equipment clearing surrounded by trees; mast is indistinct."
+  },
+  {
+    "id": "site_045",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_045:imagery"
+    ],
+    "reason": "Guyed antenna tower extending from a small fenced equipment pad in cropland."
+  },
+  {
+    "id": "site_046",
+    "action": "no_target",
+    "confidence": 0.97,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_046:imagery"
+    ],
+    "reason": "Bare terrain and shallow drainage channels; no tower visible."
+  },
+  {
+    "id": "site_047",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_047:imagery"
+    ],
+    "reason": "Lattice tower, antenna shadow and equipment in a roadside compound."
+  },
+  {
+    "id": "site_048",
+    "action": "no_target",
+    "confidence": 0.93,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_048:imagery"
+    ],
+    "reason": "Dense residential blocks and roads; no freestanding tower visible."
+  },
+  {
+    "id": "site_049",
+    "action": "no_target",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_049:imagery"
+    ],
+    "reason": "Elevated spherical water tank on legs beside playing fields."
+  },
+  {
+    "id": "site_050",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_050:imagery"
+    ],
+    "reason": "Freestanding antenna tower with shelters on a gravel pad in cropland."
+  },
+  {
+    "id": "site_051",
+    "action": "confirm",
+    "confidence": 0.93,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_051:imagery"
+    ],
+    "reason": "Guyed mast with radial lines, anchor pads and central ground equipment."
+  },
+  {
+    "id": "site_052",
+    "action": "confirm",
+    "confidence": 0.99,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_052:imagery"
+    ],
+    "reason": "Lattice antenna tower and shelter with a long detailed shadow in pasture."
+  },
+  {
+    "id": "site_053",
+    "action": "no_target",
+    "confidence": 0.95,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_053:imagery"
+    ],
+    "reason": "Homes, lawns and woodland; no tower compound visible."
+  },
+  {
+    "id": "site_054",
+    "action": "request_review",
+    "confidence": 0.63,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_054:imagery"
+    ],
+    "reason": "Fenced central pad and several separate anchor-like enclosures; upright mast unclear."
+  },
+  {
+    "id": "site_055",
+    "action": "confirm",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_055:imagery"
+    ],
+    "reason": "Lattice tower and small shelter beside a rural road."
+  },
+  {
+    "id": "site_056",
+    "action": "no_target",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_056:imagery"
+    ],
+    "reason": "Elevated round water tank among homes and small buildings."
+  },
+  {
+    "id": "site_057",
+    "action": "no_target",
+    "confidence": 0.9,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_057:imagery"
+    ],
+    "reason": "Circular tank and small utility buildings beside parking and railway."
+  },
+  {
+    "id": "site_058",
+    "action": "confirm",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_058:imagery"
+    ],
+    "reason": "Antenna mast, equipment shelters and narrow shadow in a woodland compound."
+  },
+  {
+    "id": "site_059",
+    "action": "confirm",
+    "confidence": 0.97,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_059:imagery"
+    ],
+    "reason": "Antenna structure and equipment shelter in a fenced pad beside a storage yard."
+  },
+  {
+    "id": "site_060",
+    "action": "no_target",
+    "confidence": 0.98,
+    "image_quality": "adequate",
+    "evidence_ids": [
+      "site_060:imagery"
+    ],
+    "reason": "Cultivated fields and intersecting dirt tracks; no tower visible."
+  }
+]

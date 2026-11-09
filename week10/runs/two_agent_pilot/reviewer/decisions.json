@@ -1,0 +1,42 @@
+[
+  {
+    "id": "site_001",
+    "action": "no_target",
+    "confidence": 0.94,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_001:imagery"],
+    "reason": "Residential buildings, parking areas, trees, and a central road; no freestanding cell tower visible."
+  },
+  {
+    "id": "site_002",
+    "action": "no_target",
+    "confidence": 0.97,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_002:imagery"],
+    "reason": "Elevated round water tank and its long shadow visible near the center; no separate cell tower visible."
+  },
+  {
+    "id": "site_003",
+    "action": "no_target",
+    "confidence": 0.9,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_003:imagery"],
+    "reason": "Fenced triangular grounds, small structures, roadside poles, and a canal; no cell tower visible."
+  },
+  {
+    "id": "site_004",
+    "action": "no_target",
+    "confidence": 0.94,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_004:imagery"],
+    "reason": "Fields, a narrow access lane, and farm buildings; no freestanding cell tower visible."
+  },
+  {
+    "id": "site_005",
+    "action": "no_target",
+    "confidence": 0.93,
+    "image_quality": "adequate",
+    "evidence_ids": ["site_005:imagery"],
+    "reason": "Dense tree canopy beside a diagonal road; no tower or cleared tower compound visible."
+  }
+]

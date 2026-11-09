@@ -1,0 +1,376 @@
+{
+  "_via_settings": {
+    "project": {
+      "name": "manual20-54971e4c84fc"
+    }
+  },
+  "_via_img_metadata": {
+    "site_020": {
+      "filename": "site_020.jpg",
+      "size": 132488,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 118.24204766468017,
+            "y": 69.34631147406442,
+            "width": 11.749610046368247,
+            "height": 22.431162626765143
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_020",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_001": {
+      "filename": "site_001.jpg",
+      "size": 634204,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_001",
+        "status": "negative",
+        "notes": ""
+      }
+    },
+    "site_005": {
+      "filename": "site_005.jpg",
+      "size": 141016,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_005",
+        "status": "negative",
+        "notes": ""
+      }
+    },
+    "site_011": {
+      "filename": "site_011.jpg",
+      "size": 158269,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 233.24622286790878,
+            "y": 243.09873745927445,
+            "width": 54.831707096520404,
+            "height": 35.60502246788286
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_011",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_014": {
+      "filename": "site_014.jpg",
+      "size": 101926,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_014",
+        "status": "uncertain",
+        "notes": ""
+      }
+    },
+    "site_010": {
+      "filename": "site_010.jpg",
+      "size": 590118,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 459.371349562177,
+            "y": 453.44098260018626,
+            "width": 112.51191378253975,
+            "height": 96.13345370320911
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_010",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_013": {
+      "filename": "site_013.jpg",
+      "size": 108315,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_013",
+        "status": "uncertain",
+        "notes": ""
+      }
+    },
+    "site_024": {
+      "filename": "site_024.jpg",
+      "size": 546755,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 478.5980647508359,
+            "y": 469.81925931938895,
+            "width": 94.70929558852356,
+            "height": 101.83026952207888
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_024",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_006": {
+      "filename": "site_006.jpg",
+      "size": 680500,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 423.7664187743581,
+            "y": 468.3950400846608,
+            "width": 129.6021167589784,
+            "height": 107.52708534094864
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_006",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_008": {
+      "filename": "site_008.jpg",
+      "size": 553692,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 499.24893805418014,
+            "y": 501.1516852031301,
+            "width": 81.1794573387773,
+            "height": 39.165448314617834
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_008",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_018": {
+      "filename": "site_018.jpg",
+      "size": 594560,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 462.93195876903997,
+            "y": 463.41036444317643,
+            "width": 93.99712485111684,
+            "height": 93.28510691381683
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_018",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_015": {
+      "filename": "site_015.jpg",
+      "size": 644843,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 473.6133585493301,
+            "y": 481.2127992770645,
+            "width": 119.63288771609507,
+            "height": 74.77050134252204
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_015",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_004": {
+      "filename": "site_004.jpg",
+      "size": 134033,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_004",
+        "status": "negative",
+        "notes": ""
+      }
+    },
+    "site_021": {
+      "filename": "site_021.jpg",
+      "size": 124537,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_021",
+        "status": "uncertain",
+        "notes": ""
+      }
+    },
+    "site_012": {
+      "filename": "site_012.jpg",
+      "size": 470257,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 477.8859551334718,
+            "y": 469.81925931938895,
+            "width": 85.45199280287619,
+            "height": 81.89150583609864
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_012",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_009": {
+      "filename": "site_009.jpg",
+      "size": 143576,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_009",
+        "status": "uncertain",
+        "notes": ""
+      }
+    },
+    "site_007": {
+      "filename": "site_007.jpg",
+      "size": 165869,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_007",
+        "status": "negative",
+        "notes": ""
+      }
+    },
+    "site_002": {
+      "filename": "site_002.jpg",
+      "size": 659214,
+      "regions": [],
+      "file_attributes": {
+        "id": "site_002",
+        "status": "uncertain",
+        "notes": ""
+      }
+    },
+    "site_003": {
+      "filename": "site_003.jpg",
+      "size": 126661,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 388.84012674052605,
+            "y": 291.87763504828575,
+            "width": 37.38523539125032,
+            "height": 44.86229469350894
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_003",
+        "status": "positive",
+        "notes": ""
+      }
+    },
+    "site_016": {
+      "filename": "site_016.jpg",
+      "size": 188887,
+      "regions": [
+        {
+          "shape_attributes": {
+            "name": "rect",
+            "x": 217.9360800147309,
+            "y": 239.5382810525182,
+            "width": 78.33098830929967,
+            "height": 39.521533683321195
+          },
+          "region_attributes": {
+            "class": "tower_ground_site"
+          }
+        }
+      ],
+      "file_attributes": {
+        "id": "site_016",
+        "status": "positive",
+        "notes": ""
+      }
+    }
+  },
+  "_via_attributes": {
+    "region": {
+      "class": {
+        "type": "text"
+      }
+    },
+    "file": {
+      "id": {
+        "type": "text"
+      },
+      "status": {
+        "type": "dropdown",
+        "options": {
+          "positive": "",
+          "negative": "",
+          "uncertain": "",
+          "unreviewed": ""
+        }
+      },
+      "notes": {
+        "type": "text"
+      }
+    }
+  }
+}
