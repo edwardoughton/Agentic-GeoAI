@@ -211,6 +211,11 @@ archive/
 .cursorignore
 .cursorindexingignore
 
+# Separate repository; publish through its own remote.
+/research_agent/
+# Local verification scratch directories.
+/.week5-check-*/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

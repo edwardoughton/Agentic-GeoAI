@@ -1,8 +1,12 @@
 {
-  "run_id": "exp05_sgd_e45_img640_20261103_072626_839500",
-  "checkpoint": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp05_sgd_e45_img640_20261103_072626_839500\\train\\weights\\best.pt",
+  "run_id": "exp20_ensemble_exp10_exp17_20261104_083001_817900",
+  "checkpoint": null,
   "imgsz": 640,
-  "adapter": "plain_yolo",
+  "adapter": "ensemble_yolo_two_checkpoint",
+  "ensemble": {
+    "checkpoint_a": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt",
+    "checkpoint_b": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp17_cosine_from_exp10_20261103_175752_260100\\train\\weights\\best.pt"
+  },
   "inference": {
     "conf": 0.001,
     "iou": 0.7,
@@ -12,6 +16,16 @@
   },
   "preprocessing": {
     "fit_on_training_only": true,
-    "notes": "Uses dataset and split fixed by data/demo100/manifest.json with no extra learned preprocessing."
+    "notes": "No learned preprocessing was added. Both source checkpoints were trained without extra augmentation and selected strictly on validation metrics."
+  },
+  "selection_notes": {
+    "selection_metric": "validation mAP50:95",
+    "selection_value": 0.3375000025580328,
+    "checkpoint_source_runs": [
+      "exp10_lowlr_noaug_from_exp07_20261103_124759_288000",
+      "exp17_cosine_from_exp10_20261103_175752_260100"
+    ],
+    "reviewed_through_run": "exp26_loc_tune_from_exp10_20261104_085955",
+    "status_after_latest_batch": "unchanged_best_due_to_failed_new_runs"
   }
 }

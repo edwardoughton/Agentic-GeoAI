@@ -1,0 +1,17 @@
+{
+  "run_id": "exp25_wbf_exp10_exp17_20261104_085931_482400",
+  "status": "failed",
+  "model": "ensemble-wbf",
+  "epochs": 0,
+  "imgsz": 640,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": "",
+  "recall": "",
+  "mAP50": "",
+  "mAP50_95": "",
+  "seconds": 0,
+  "checkpoint": "",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp25_wbf_exp10_exp17_20261104_085931_482400\\config.json",
+  "error": "ultralytics is required for YOLO-based adapters"
+}

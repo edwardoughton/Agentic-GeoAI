@@ -1,0 +1,17 @@
+{
+  "run_id": "exp21_conservative_from_exp10_20261104_083014_285900",
+  "status": "ok",
+  "model": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt",
+  "epochs": 18,
+  "imgsz": 640,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": 1.0,
+  "recall": 0.49317591672115013,
+  "mAP50": 0.5947318982387475,
+  "mAP50_95": 0.33050141878669276,
+  "seconds": 176.19919620000292,
+  "checkpoint": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp21_conservative_from_exp10_20261104_083014_285900\\train\\weights\\best.pt",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp21_conservative_from_exp10_20261104_083014_285900\\config.json",
+  "error": ""
+}

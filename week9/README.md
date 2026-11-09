@@ -19,6 +19,20 @@ Complete the baseline before sending the Section 7 prompt to your coding agent. 
 
 Installation and the initial yolov8n.pt download require internet. CPU works; CUDA is used when available. Baseline training needs no agent API. The optional Claude launcher requires a separate SDK installation, API key and paid API access. No agent starts automatically.
 
+## Publishing experiment results
+
+Commit scripts, notebook source, experiment summaries, and compact run records
+(`config.json`, `environment.json`, `metrics.json`, `access_log.json`, and
+`train/results.csv`). Generated run images, charts, logs, local data YAML files,
+and model weights stay local. Ignore rules do not remove historical tracked files.
+Notebook execution outputs should be cleared before committing.
+
+Saved results are evidence of local runs, not a bundled trained model. Checkpoint
+paths in historical records refer to the original machine; retrain or separately
+obtain the weights to reproduce inference. The current selected model is an
+ensemble, while `run_final_test_once.py` currently supports only a single
+checkpoint. Final-test evaluation of that ensemble requires adapter support.
+
 ## Included data
 
 `data/demo100` contains **50 training / 10 validation / 50 test** original JPEGs and 110 matching YOLO labels. The name demo100 is retained from the initial 50/50 bundle; ten validation images were added so tuning can leave test untouched. Total imagery is about 16 MiB. Selection seed is 662. Original source train/validation/test membership is retained, with sampling spread across parent scenes. Parent-scene names are disjoint across splits; geographic proximity has not been independently audited.

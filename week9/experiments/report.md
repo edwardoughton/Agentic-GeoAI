@@ -2,38 +2,36 @@
 
 ## Summary
 - Baseline run: `baseline_20261102_155320_890400`
-- Baseline validation mAP50-95: 0.000426
-- Best run: `exp05_sgd_e45_img640_20261103_072626_839500`
-- Best validation mAP50-95: 0.287415
-- Absolute improvement: 0.286989
-- Additional run budget used: 6/6 runs
-- Additional training+validation runtime: 977.9 s (16.30 min)
+- Baseline validation mAP50-95: `0.000426`
+- Current best run: `exp20_ensemble_exp10_exp17_20261104_083001_817900`
+- Current best validation mAP50-95: `0.337500`
+- Absolute improvement vs baseline: `0.337074`
+- Final-test cell/script not executed; model selection remains validation-only.
 
-## Trials and outcomes
+## Anti-test-leak safeguards active
+- `scripts/run_experiment_once.py` enforces split integrity checks against manifest and writes train/val-only `data_tuning.yaml`.
+- `scripts/run_experiment_once.py` writes per-run `access_log.json` with blocked test split metadata.
+- `scripts/run_final_test_once.py` isolates final test behind explicit `--confirm`.
+- `scripts/run_alt_method.py` and `scripts/run_val_sweep_once.py` evaluate only on validation split under the fixed protocol.
 
-| run_id | status | model | epochs | imgsz | mAP50-95 | seconds | notes |
-|---|---:|---|---:|---:|---:|---:|---|
-| `baseline_20261102_155320_890400` | ok | `yolov8n.pt` | 5 | 320 | 0.00042596022123156586 | 23.19 |  |
-| `exp01_yolov8n_e30_img640_20261102_182909_609000` | failed | `yolov8n.pt` | 30 | 640 |  | 43.31 |   Download failure for https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt. Retry limit reached. H |
-| `exp02_resume_e30_img640_20261102_183006_106300` | failed | `C:\Users\eoughton\Desktop\Github\Agentic-GeoAI\week9\runs\baseline_20261102_155320_890400\train\weights\best.pt` | 30 | 640 |  | 4.63 | [WinError 5] Access is denied |
-| `exp03_resume_e30_img640_20261102_183030_162500` | ok | `C:\Users\eoughton\Desktop\Github\Agentic-GeoAI\week9\runs\baseline_20261102_155320_890400\train\weights\best.pt` | 30 | 640 | 0.28516285304365646 | 267.84 | First successful long 640 run from baseline checkpoint. |
-| `exp04_adamw_lr003_e40_img640_20261102_183537_191100` | ok | `C:\Users\eoughton\Desktop\Github\Agentic-GeoAI\week9\runs\baseline_20261102_155320_890400\train\weights\best.pt` | 40 | 640 | 0.2621256457274855 | 302.54 | AdamW variant underperformed best SGD-like run. |
-| `exp05_sgd_e45_img640_20261103_072626_839500` | ok | `C:\Users\eoughton\Desktop\Github\Agentic-GeoAI\week9\runs\baseline_20261102_155320_890400\train\weights\best.pt` | 45 | 640 | 0.2874147020113149 | 297.47 | Best measured validation mAP50-95. |
-| `exp06_finetune_from_exp05_20261103_073614_770900` | ok | `C:\Users\eoughton\Desktop\Github\Agentic-GeoAI\week9\runs\exp05_sgd_e45_img640_20261103_072626_839500\train\weights\best.pt` | 20 | 640 | 0.26976350773278945 | 62.15 | Low-LR fine-tune from exp05 did not improve best. |
+## New experiments (`exp22`-`exp26`)
 
-## Changes tried
-- Increased image resolution from 320 to 640 and training duration from 5 epochs to 30-45 epochs.
-- Switched model initialization to local baseline checkpoint to avoid external weight downloads.
-- Compared optimizer/schedule settings (default optimizer vs AdamW, with tuned lr/lrf/weight_decay).
-- Tried a follow-on low-learning-rate fine-tune from the best checkpoint.
+| run_id | status | model | mAP50-95 | seconds | notes |
+|---|---:|---|---:|---:|---|
+| `exp22_hardneg_from_exp10_20261104_085955` | failed | `exp22_hardneg_from_exp10` | - | 0 | Could not launch YOLO run because `ultralytics` is unavailable in this execution environment. |
+| `exp23_tiled_exp10_20261104_085922_240400` | failed | `tiled` | - | 0 | Tiled YOLO adapter invocation blocked by missing `ultralytics`. |
+| `exp24_frcnn_pretrained_e2_20261104_085913_993300` | failed | `fasterrcnn` | - | 0 | Faster R-CNN adapter blocked by missing `torchvision`. |
+| `exp25_wbf_exp10_exp17_20261104_085931_482400` | failed | `ensemble-wbf` | - | 0 | WBF YOLO ensemble invocation blocked by missing `ultralytics`. |
+| `exp26_loc_tune_from_exp10_20261104_085955` | failed | `exp26_loc_tune_from_exp10` | - | 0 | Could not launch YOLO run because `ultralytics` is unavailable in this execution environment. |
 
-## Representative validation predictions (best run)
-- `runs/exp05_sgd_e45_img640_20261103_072626_839500/validation/val_batch0_pred.jpg`
-- `runs/exp05_sgd_e45_img640_20261103_072626_839500/validation/val_batch1_pred.jpg`
-- `runs/exp05_sgd_e45_img640_20261103_072626_839500/validation/val_batch2_pred.jpg`
+## Current best remains unchanged
+- Selection run: `exp20_ensemble_exp10_exp17_20261104_083001_817900`
+- Checkpoints:
+  - `runs/exp10_lowlr_noaug_from_exp07_20261103_124759_288000/train/weights/best.pt`
+  - `runs/exp17_cosine_from_exp10_20261103_175752_260100/train/weights/best.pt`
+- Inference settings: `conf=0.001`, `iou=0.7`, `max_det=300`, `augment=false`.
+
 ## Limitations
-- CPU-only training constrained search breadth and model size exploration.
-- No external pretrained weight downloads were possible due proxy/network restrictions.
-- Validation set has only 10 images, so ranking variance can be high; test set intentionally not used.
-- A second baseline row (`baseline_20261102_182515_382900`) exists from a rerun and was preserved.
-
+- This session is blocked from running planned experiments because required local dependencies (`ultralytics`, `torchvision`) are unavailable and package installation is not succeeding in the current sandboxed runtime.
+- Validation split has only 10 images, so rankings can shift with small metric differences.
+- Test split was intentionally not used for tuning or selection.

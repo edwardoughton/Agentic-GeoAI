@@ -1,0 +1,6 @@
+{
+  "python": "3.12.7",
+  "torch": "2.15.0+cpu",
+  "device": "cpu",
+  "seed": 662
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "exp13_fasterrcnn_scratch_e1_20261103_173619_711800",
+  "status": "ok",
+  "model": "fasterrcnn_resnet50_fpn_scratch",
+  "epochs": 1,
+  "imgsz": 0,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": 0.0,
+  "recall": 0.0,
+  "mAP50": 0.0,
+  "mAP50_95": 0.0,
+  "seconds": 153.82947210001294,
+  "checkpoint": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp13_fasterrcnn_scratch_e1_20261103_173619_711800\\train\\weights\\best.pt",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp13_fasterrcnn_scratch_e1_20261103_173619_711800\\config.json",
+  "error": ""
+}

@@ -1,7 +1,14 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-#runs/
-#experiments/
+# Keep compact experiment evidence; leave generated media and checkpoints local.
+/runs/*/*
+!/runs/*/config.json
+!/runs/*/environment.json
+!/runs/*/metrics.json
+!/runs/*/access_log.json
+!/runs/*/train/
+/runs/*/train/*
+!/runs/*/train/results.csv
 *.pt
 .env

@@ -1,0 +1,17 @@
+{
+  "run_id": "exp24_frcnn_pretrained_e2_20261104_085913_993300",
+  "status": "failed",
+  "model": "fasterrcnn",
+  "epochs": 2,
+  "imgsz": 0,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": "",
+  "recall": "",
+  "mAP50": "",
+  "mAP50_95": "",
+  "seconds": 0,
+  "checkpoint": "",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp24_frcnn_pretrained_e2_20261104_085913_993300\\config.json",
+  "error": "torchvision is required for Faster R-CNN adapter"
+}

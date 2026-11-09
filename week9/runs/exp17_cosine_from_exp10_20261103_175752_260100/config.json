@@ -1,0 +1,43 @@
+{
+  "model": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt",
+  "epochs": 20,
+  "imgsz": 640,
+  "batch": 4,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "evaluation": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false
+  },
+  "options": {
+    "patience": 8,
+    "plots": true,
+    "mosaic": 0,
+    "cache": false,
+    "lr0": 0.0002,
+    "lrf": 0.05,
+    "cos_lr": true,
+    "warmup_epochs": 1,
+    "weight_decay": 0.0007,
+    "fliplr": 0,
+    "flipud": 0,
+    "degrees": 0,
+    "translate": 0,
+    "scale": 0,
+    "shear": 0,
+    "perspective": 0,
+    "hsv_h": 0,
+    "hsv_s": 0,
+    "hsv_v": 0,
+    "mixup": 0,
+    "copy_paste": 0,
+    "close_mosaic": 0,
+    "cutmix": 0,
+    "bgr": 0,
+    "erasing": 0,
+    "auto_augment": "none"
+  },
+  "tuning_data_yaml": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp17_cosine_from_exp10_20261103_175752_260100\\data_tuning.yaml"
+}

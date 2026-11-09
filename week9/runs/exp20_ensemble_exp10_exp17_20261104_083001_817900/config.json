@@ -1,0 +1,14 @@
+{
+  "method": "yolo_ensemble_nms",
+  "checkpoints": [
+    "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt",
+    "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp17_cosine_from_exp10_20261103_175752_260100\\train\\weights\\best.pt"
+  ],
+  "imgsz": 640,
+  "evaluation": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "method": "val_sweep",
+  "checkpoint": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt",
+  "imgsz": 640,
+  "batch": 4,
+  "confs": [
+    0.001,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "ious": [
+    0.6,
+    0.7,
+    0.8
+  ],
+  "tuning_data_yaml": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp18_valsweep_exp10_20261103_175931_767100\\data_tuning.yaml"
+}

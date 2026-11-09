@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import csv
@@ -10,6 +10,7 @@ from pathlib import Path
 
 import torch
 import ultralytics
+import yaml
 from ultralytics import YOLO
 
 try:
@@ -53,6 +54,44 @@ def parse_options(raw: str | None, pairs: list[str] | None) -> dict:
     return parsed
 
 
+def _assert_fixed_split_integrity(data: Path) -> dict[str, list[str]]:
+    manifest = json.loads((data / "manifest.json").read_text(encoding="utf-8"))
+    split_records = {split: [r for r in manifest["records"] if r["split"] == split] for split in ("train", "val", "test")}
+
+    expected_counts = {"train": 50, "val": 10, "test": 50}
+    for split, expected in expected_counts.items():
+        if len(split_records[split]) != expected:
+            raise ValueError(f"Unexpected {split} record count: {len(split_records[split])} (expected {expected})")
+
+    listed: dict[str, list[str]] = {}
+    for split in ("train", "val", "test"):
+        images = sorted([(data / r["images"]).resolve().as_posix() for r in split_records[split]])
+        labels = sorted([(data / r["labels"]).resolve().as_posix() for r in split_records[split]])
+        actual_images = sorted([p.resolve().as_posix() for p in (data / "images" / split).glob("*.jpg")])
+        actual_labels = sorted([p.resolve().as_posix() for p in (data / "labels" / split).glob("*.txt")])
+        if images != actual_images or labels != actual_labels:
+            raise ValueError(f"{split} files differ from manifest")
+        listed[split] = sorted([Path(path).name for path in images])
+
+    if set(listed["train"]) & set(listed["test"]) or set(listed["val"]) & set(listed["test"]):
+        raise ValueError("Split overlap detected between train/val and test")
+    return listed
+
+
+def _write_tuning_yaml(data: Path, run: Path) -> Path:
+    """Create a split-sealed YAML for optimization runs (no test split reference)."""
+    source_yaml = yaml.safe_load((data / "data.yaml").read_text(encoding="utf-8"))
+    tuning_yaml = {
+        "path": str(data.resolve().as_posix()),
+        "train": source_yaml["train"],
+        "val": source_yaml["val"],
+        "names": source_yaml["names"],
+    }
+    destination = run / "data_tuning.yaml"
+    destination.write_text(yaml.safe_dump(tuning_yaml, sort_keys=False), encoding="utf-8")
+    return destination
+
+
 def run_experiment(
     root: Path,
     data: Path,
@@ -74,6 +113,16 @@ def run_experiment(
     run = root / "runs" / f"{name}_{time.strftime('%Y%m%d_%H%M%S')}_{time.time_ns() % 1000000}"
     run.mkdir(parents=True, exist_ok=False)
 
+    split_listing = _assert_fixed_split_integrity(data)
+    tuning_yaml = _write_tuning_yaml(data, run)
+    access_log = {
+        "policy": "optimization_runs_must_use_train_val_only",
+        "train_images": split_listing["train"],
+        "val_images": split_listing["val"],
+        "test_images_blocked_count": len(split_listing["test"]),
+    }
+    (run / "access_log.json").write_text(json.dumps(access_log, indent=2), encoding="utf-8")
+
     environment = dict(
         python=platform.python_version(),
         torch=torch.__version__,
@@ -92,6 +141,7 @@ def run_experiment(
         manifest_sha256=manifest_hash,
         evaluation=eval_options,
         options=options,
+        tuning_data_yaml=str(tuning_yaml),
     )
     (run / "config.json").write_text(json.dumps(config, indent=2), encoding="utf-8")
     (run / "environment.json").write_text(json.dumps(environment, indent=2), encoding="utf-8")
@@ -100,7 +150,7 @@ def run_experiment(
     try:
         detector = YOLO(model_name)
         detector.train(
-            data=str(data / "data.yaml"),
+            data=str(tuning_yaml),
             epochs=epochs,
             imgsz=imgsz,
             batch=batch,
@@ -115,7 +165,7 @@ def run_experiment(
         checkpoint = run / "train/weights/best.pt"
         fitted = YOLO(str(checkpoint))
         metrics = fitted.val(
-            data=str(data / "data.yaml"),
+            data=str(tuning_yaml),
             split="val",
             imgsz=imgsz,
             batch=batch,

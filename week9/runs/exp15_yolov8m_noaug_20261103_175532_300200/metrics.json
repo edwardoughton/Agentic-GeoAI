@@ -1,0 +1,17 @@
+{
+  "run_id": "exp15_yolov8m_noaug_20261103_175532_300200",
+  "status": "failed",
+  "model": "yolov8m.pt",
+  "epochs": 12,
+  "imgsz": 640,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": "",
+  "recall": "",
+  "mAP50": "",
+  "mAP50_95": "",
+  "seconds": 43.193022799969185,
+  "checkpoint": "",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp15_yolov8m_noaug_20261103_175532_300200\\config.json",
+  "error": "  Download failure for https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m.pt. Retry limit reached. HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /ultralytics/assets/releases/download/v8.4.0/yolov8m.pt (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))"
+}

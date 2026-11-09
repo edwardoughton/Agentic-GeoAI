@@ -1,0 +1,27 @@
+{
+  "best": {
+    "conf": 0.001,
+    "iou": 0.8,
+    "precision": 1.0,
+    "recall": 0.4937213234039433,
+    "mAP50": 0.6099191919191919,
+    "mAP50_95": 0.3347852296859689
+  },
+  "row": {
+    "run_id": "exp18_valsweep_exp10_20261103_175931_767100",
+    "status": "ok",
+    "model": "val_sweep:C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt",
+    "epochs": 0,
+    "imgsz": 640,
+    "seed": 662,
+    "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+    "precision": 1.0,
+    "recall": 0.4937213234039433,
+    "mAP50": 0.6099191919191919,
+    "mAP50_95": 0.3347852296859689,
+    "seconds": 15.666759799991269,
+    "checkpoint": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt",
+    "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp18_valsweep_exp10_20261103_175931_767100\\config.json",
+    "error": ""
+  }
+}

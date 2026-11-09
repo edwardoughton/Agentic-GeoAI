@@ -1,0 +1,12 @@
+{
+  "method": "fasterrcnn_resnet50_fpn",
+  "epochs": 1,
+  "batch": 2,
+  "lr": 0.005,
+  "evaluation": {
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false
+  }
+}

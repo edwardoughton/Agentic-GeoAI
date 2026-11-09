@@ -1,0 +1,17 @@
+{
+  "run_id": "exp20_ensemble_exp10_exp17_20261104_083001_817900",
+  "status": "ok",
+  "model": "ensemble:C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp10_lowlr_noaug_from_exp07_20261103_124759_288000\\train\\weights\\best.pt|C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp17_cosine_from_exp10_20261103_175752_260100\\train\\weights\\best.pt",
+  "epochs": 0,
+  "imgsz": 640,
+  "seed": 662,
+  "manifest_sha256": "cfea9f03440c2e0158babeaad045595d36454f179973f0fb8ab737b00efaff1a",
+  "precision": 0.0058517553843557835,
+  "recall": 0.75,
+  "mAP50": 0.658333346247673,
+  "mAP50_95": 0.3375000025580328,
+  "seconds": 0.9924518999760039,
+  "checkpoint": "",
+  "config": "C:\\Users\\eoughton\\Desktop\\Github\\Agentic-GeoAI\\week9\\runs\\exp20_ensemble_exp10_exp17_20261104_083001_817900\\config.json",
+  "error": ""
+}
